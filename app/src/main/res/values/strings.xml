@@ -102,12 +102,13 @@
     <string name="modulo1_pregunta3_subpregunta5">Sociedad comercial de responsabilidad limitada</string>
     <string name="modulo1_pregunta3_subpregunta6">Empresa individual de responsabilidad limitada</string>
 
-    <string name="modulo1_pregunta4">4.El Régimen de propiedad y control de su empresa es:</string>
+    <string name="modulo1_pregunta4">4.Régimen de Propiedad</string>
+    <string name="modulo1_pregunta41">4.1.El Régimen de propiedad y control de su empresa es:</string>
+    <string name="modulo1_pregunta42">4.2.El control de su empresa es?</string>
     <string name="modulo1_pregunta4_descripcion">(Lea y registre según corresponda)</string>
     <string name="modulo1_pregunta4_subpregunta1">Empresa privada nacional</string>
     <string name="modulo1_pregunta4_subpregunta2">Empresa privada extranjera</string>
     <string name="modulo1_pregunta4_subpregunta3">Empresa mixta</string>
-    <string name="modulo1_pregunta4_adicional_control">El control de su empresa es? </string>
 
 
     <string name="modulo1_pregunta5">5.Su empresa ¿pertenece a algún grupo u organización empresarial? </string>
