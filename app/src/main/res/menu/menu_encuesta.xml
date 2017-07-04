@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="Carátula"
+            android:id="@+id/opcion_1"
+            android:checked="false"
+            />
+        <item android:title="Visitas"
+            android:id="@+id/opcion_2"
+            android:checked="false"
+            />
+        <item android:title="Inicio Encuesta"
+            android:id="@+id/opcion_3"
+            android:checked="false"
+            />
+        <item android:title="Modulo I"
+            android:id="@+id/opcion_4"
+            android:checked="false"
+            />
+        <item android:title="Modulo II"
+            android:id="@+id/opcion_5"
+            android:checked="false"
+            />
+        <item android:title="Modulo III"
+            android:id="@+id/opcion_6"
+            android:checked="false"
+            />
+        <item android:title="Modulo IV"
+            android:id="@+id/opcion_7"
+            android:checked="false"
+            />
+        <item android:title="Modulo V"
+            android:id="@+id/opcion_8"
+            android:checked="false"
+            />
+        <item android:title="Modulo VI"
+            android:id="@+id/opcion_9"
+            android:checked="false"
+            />
+        <item android:title="Modulo VII"
+            android:id="@+id/opcion_10"
+            android:checked="false"
+            />
+        <item android:title="Modulo VIII"
+            android:id="@+id/opcion_11"
+            android:checked="false"
+            />
+        <item android:title="Modulo IX"
+            android:id="@+id/opcion_12"
+            android:checked="false"
+            />
+    </group>
+</menu>

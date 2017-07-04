@@ -1,0 +1,194 @@
+<resources>
+    <string name="app_name">Encuesta Habilidades</string>
+    <string name="titulo_encuesta">ENCUESTA “HABILIDADES AL TRABAJO EN EL PERÚ”</string>
+    <!--CARATULA-->
+    <string name="caratula_loc">LOCALIZACIÓN DE LA EMPRESA</string>
+    <string name="caratula_loc_ubicacion_geo">A.UBICACIÓN GEOGRÁFICA</string>
+    <string name="caratula_loc_ubicacion_geo_departamento">1.Departamento</string>
+    <string name="caratula_loc_ubicacion_geo_provincia">2.Provincia</string>
+    <string name="caratula_loc_ubicacion_geo_distrito">3.Distrito</string>
+
+    <string name="caratula_loc_coordenadas">B.COORDENADAS DEL PUNTO GPS</string>
+    <string name="caratula_loc_coordenadas_gps_latitud">4.GPS LATITUD</string>
+    <string name="caratula_loc_coordenadas_gps_altitud">4.GPS ALTITUD</string>
+    <string name="caratula_loc_coordenadas_gps_longitud">4.GPS LONGITUD</string>
+
+    <string name="caratula_loc_ubicacion_muestral">C.UBICACIÓN MUESTRAL</string>
+    <string name="caratula_loc_ubicacion_muestral_sector">5.Sector de Trabajo</string>
+    <string name="caratula_loc_ubicacion_muestral_area">6.Área de Trabajo</string>
+    <string name="caratula_loc_ubicacion_muestral_zona">7.Zona</string>
+    <string name="caratula_loc_ubicacion_muestral_manzana">8.Manzana</string>
+    <string name="caratula_loc_ubicacion_muestral_frente">9.Frente</string>
+
+    <string name="caratula_loc_direccion">10.Dirección </string>
+    <string name="caratula_loc_direccion_nombre">Nombre de:</string>
+    <string name="caratula_loc_direccion_nombre_avenida">Avenida</string>
+    <string name="caratula_loc_direccion_nombre_jiron">Jirón</string>
+    <string name="caratula_loc_direccion_nombre_calle">Calle</string>
+    <string name="caratula_loc_direccion_nombre_pasaje">Pasaje</string>
+    <string name="caratula_loc_direccion_nombre_carretera">Carretera</string>
+    <string name="caratula_loc_direccion_nombre_prolongacion">Prolongación</string>
+
+    <string name="caratula_loc_direccion_npuerta">Nº puerta</string>
+    <string name="caratula_loc_direccion_block">Block</string>
+    <string name="caratula_loc_direccion_interior">Interior</string>
+    <string name="caratula_loc_direccion_piso">Piso</string>
+    <string name="caratula_loc_direccion_manzana">Manzana</string>
+    <string name="caratula_loc_direccion_lote">Lote</string>
+    <string name="caratula_loc_direccion_km">Km.</string>
+    <string name="caratula_loc_direccion_referencia">11.Referencia de la dirección</string>
+
+
+    <string name="caratula_datos">DATOS DE LA ENTREVISTA</string>
+    <string name="caratula_datos_operador">Operador de empresas</string>
+    <string name="caratula_datos_jefe">Jefe de Equipo</string>
+    <string name="caratula_datos_supervisor">Supervisor Nacional</string>
+    <string name="caratula_datos_dni">DNI</string>
+    <string name="caratula_datos_nombres">Nombres y Apellidos</string>
+
+    <string name="caratula_identificacion">IDENTIFICACIÓN DE LA EMPRESA Y CONDUCTOR DE LA EMPRESA</string>
+    <string name="caratula_identificacion_ruc">1.Nº de RUC</string>
+    <string name="caratula_identificacion_razon_social">2.Razón social o apellidos y nombres del propietario</string>
+    <string name="caratula_identificacion_nombre_comercial">3.Nombre comercial de la empresa</string>
+    <string name="caratula_identificacion_anio_fundacion">4.Año de fundación de la empresa</string>
+    <string name="caratula_identificacion_pagina_web">5.Página web</string>
+    <string name="caratula_identificacion_correo">6.Correo electrónico</string>
+    <string name="caratula_identificacion_telefono_fijo">7.Teléfono fijo</string>
+    <string name="caratula_identificacion_telefono_movil">8.Teléfono móvil</string>
+    <string name="caratula_identificacion_telefono_anio_inicio_func">9.Año inicio de funcionamiento</string>
+
+    <string name="caratula_identificacion_conductor_informante">DEL CONDUCTOR E INFORMANTE</string>
+    <string name="caratula_identificacion_conductor_informante_apellidos">10.Apellidos y nombres del conductor o responsable de la gestión de la empresa (o gerente general)</string>
+    <string name="caratula_identificacion_conductor_informante_sexo">11.Sexo</string>
+    <string name="caratula_identificacion_conductor_informante_edad">12.Edad</string>
+    <string name="nivel_estudios">13.Último nivel de estudios alcanzado</string>
+    <string name="nivel_estudios_sin">Sin nivel</string>
+    <string name="nivel_estudios_inicial">Inicial</string>
+    <string name="nivel_estudios_prim_inc">Primaria incompleta</string>
+    <string name="nivel_estudios_prim_com">Primaria completa</string>
+    <string name="nivel_estudios_sec_inc">Secundaria incompleta</string>
+    <string name="nivel_estudios_sec_com">Secundaria completa</string>
+    <string name="nivel_estudios_nouniv_inc">Superior no univ. incompleta</string>
+    <string name="nivel_estudios_nouniv_com">Superior no univ. completa</string>
+    <string name="nivel_estudios_univ_inc">Superior univ. incompleta</string>
+    <string name="nivel_estudios_univ_com">Superior univ. completa</string>
+    <string name="nivel_estudios_postgrado">Post grado</string>
+    <string name="caratula_identificacion_conductor_informante_cargo">14.Cargo</string>
+
+    <!--MODULO-->
+    <string name="modulo1_nombre">MÓDULO  I. CARACTERÍSTICAS DE LA EMPRESA</string>
+    <string name="modulo2_nombre">MÓDULO II. EMPLEO</string>
+    <string name="modulo3_nombre">MÓDULO III. ACTIVIDADES DE LA EMPRESA</string>
+    <string name="modulo4_nombre">MÓDULO IV. ESTRATEGIA DE PRODUCTOS Y HABILIDADES</string>
+    <string name="modulo5_nombre">MÓDULO V. VACANTES Y CONTRATACIÓN </string>
+    <string name="modulo6_nombre">MÓDULO VI. HABILIDADES Y COMPETENCIAS</string>
+    <string name="modulo7_nombre">MÓDULO VII. CAPACITACIÓN Y DESARROLLO PERSONAL</string>
+    <string name="modulo8_nombre">MÓDULO VIII. INNOVACIÓN Y NUEVAS TECNOLOGÍAS</string>
+    <string name="modulo9_nombre">MÓDULO IX. PREGUNTAS FINALES</string>
+
+    <!--PREGUNTAS-->
+    <string name="modulo1_pregunta1">1.Actividad económica principal de la empresa</string>
+    <string name="modulo1_pregunta1_descripcion">(Describa la principal actividad que realiza la empresa y registre el código CIIU Rev. 4 que corresponda)</string>
+
+    <string name="modulo1_pregunta2">2.Actividades económicas secundarias de la empresa</string>
+    <string name="modulo1_pregunta2_descripcion">(Describa la(s) actividad(es) secundaria(s) que realiza la empresa y registre el código CIIU Rev. 4 que corresponda)</string>
+
+    <string name="modulo1_pregunta3">3.Organización de la empresa:</string>
+    <string name="modulo1_pregunta3_descripcion">(Seleccione la alternativa que corresponda)</string>
+    <string name="modulo1_pregunta3_subpregunta1">Persona natural</string>
+    <string name="modulo1_pregunta3_subpregunta2">Sociedad anónima</string>
+    <string name="modulo1_pregunta3_subpregunta3">Sociedad anónima abierta</string>
+    <string name="modulo1_pregunta3_subpregunta4">Sociedad anónima cerrada</string>
+    <string name="modulo1_pregunta3_subpregunta5">Sociedad comercial de responsabilidad limitada</string>
+    <string name="modulo1_pregunta3_subpregunta6">Empresa individual de responsabilidad limitada</string>
+
+    <string name="modulo1_pregunta4">4.El Régimen de propiedad y control de su empresa es:</string>
+    <string name="modulo1_pregunta4_descripcion">(Lea y registre según corresponda)</string>
+    <string name="modulo1_pregunta4_subpregunta1">Empresa privada nacional</string>
+    <string name="modulo1_pregunta4_subpregunta2">Empresa privada extranjera</string>
+    <string name="modulo1_pregunta4_subpregunta3">Empresa mixta</string>
+    <string name="modulo1_pregunta4_adicional_control">El control de su empresa es? </string>
+
+
+    <string name="modulo1_pregunta5">5.Su empresa ¿pertenece a algún grupo u organización empresarial? </string>
+    <string name="modulo1_pregunta5_descripcion">(Seleccione la alternativa que corresponda)</string>
+
+    <string name="modulo1_pregunta6">6.¿En qué país se encuentra la sede administrativa principal del grupo u organización empresarial a la cual pertenece su empresa?</string>
+    <string name="modulo1_pregunta6_descripcion">(Seleccione la alternativa que corresponda)</string>
+    <string name="modulo1_pregunta6_subpregunta1">Perú</string>
+    <string name="modulo1_pregunta6_subpregunta2">Estados Unidos</string>
+    <string name="modulo1_pregunta6_subpregunta3">China</string>
+    <string name="modulo1_pregunta6_subpregunta4">Japón</string>
+    <string name="modulo1_pregunta6_subpregunta5">Corea</string>
+    <string name="modulo1_pregunta6_subpregunta6">Otros países de América del Sur</string>
+    <string name="modulo1_pregunta6_subpregunta7">Europa</string>
+
+
+    <string name="modulo1_pregunta7">7.La empresa, ¿cuenta con áreas o departamentos de:</string>
+    <string name="modulo1_pregunta7_descripcion">(Lea y seleccione una o más alternativas según corresponda)</string>
+    <string name="modulo1_pregunta7_subpregunta1">Investigación y desarrollo</string>
+    <string name="modulo1_pregunta7_subpregunta2">Recursos humanos</string>
+    <string name="modulo1_pregunta7_adicional_1">Área o departamento?</string>
+    <string name="modulo1_pregunta7_adicional_2">Personal exclusivo?</string>
+
+    <string name="modulo1_pregunta8">8.Este establecimiento, ¿qué categoría tiene…</string>
+    <string name="modulo1_pregunta8_descripcion">Se refiere a esta ubicación en particular, aún si contempla más de un edificio o local)(Lea y seleccione la alternativa que corresponda)</string>
+    <string name="modulo1_pregunta8_subpregunta1">Único de la empresa?</string>
+    <string name="modulo1_pregunta8_subpregunta2">Principal (matriz)?</string>
+    <string name="modulo1_pregunta8_subpregunta3">Sucursal?</string>
+    <string name="modulo1_pregunta8_subpregunta4">Auxiliar?</string>
+
+    <string name="modulo1_pregunta9">9.Su empresa ¿cuántos establecimientos tiene?</string>
+    <string name="modulo1_pregunta9_descripcion">(Registre en números enteros) </string>
+    <string name="modulo1_pregunta9_subpregunta1">N° de establecimientos</string>
+
+    <string name="modulo1_pregunta10">10.Este establecimiento ¿es la sede central de la empresa?</string>
+    <string name="modulo1_pregunta10_descripcion">(Seleccione la alternativa que corresponda) </string>
+
+    <string name="modulo1_pregunta11">11.¿Cuánto tiempo lleva operando su empresa en la ubicación actual?</string>
+    <string name="modulo1_pregunta11_subpregunta1">Más de 1 año</string>
+    <string name="modulo1_pregunta11_subpregunta2">Menos de 1 año</string>
+
+    <string name="modulo1_pregunta12">12.¿Dónde estaba ubicada su empresa antes de llegar a la ubicación actual?</string>
+
+    <string name="modulo1_pregunta12_subpregunta1">Tipo de vía</string>
+    <string name="modulo1_pregunta12_subpregunta1_1">Avenida</string>
+    <string name="modulo1_pregunta12_subpregunta1_2">Jirón</string>
+    <string name="modulo1_pregunta12_subpregunta1_3">Calle</string>
+    <string name="modulo1_pregunta12_subpregunta1_4">Pasaje</string>
+    <string name="modulo1_pregunta12_subpregunta1_5">Carretera</string>
+    <string name="modulo1_pregunta12_subpregunta1_6">Prolongación</string>
+
+    <string name="modulo1_pregunta12_subpregunta2">Nombre de vía</string>
+    <string name="modulo1_pregunta12_subpregunta3">Nº puerta</string>
+    <string name="modulo1_pregunta12_subpregunta4">Block</string>
+    <string name="modulo1_pregunta12_subpregunta5">Interior</string>
+    <string name="modulo1_pregunta12_subpregunta6">Piso</string>
+    <string name="modulo1_pregunta12_subpregunta7">Manzana</string>
+    <string name="modulo1_pregunta12_subpregunta8">Lote</string>
+    <string name="modulo1_pregunta12_subpregunta9">Km.</string>
+    <string name="modulo1_pregunta12_subpregunta10">Distrito</string>
+    <string name="modulo1_pregunta12_subpregunta11">Provincia</string>
+    <string name="modulo1_pregunta12_subpregunta12">Departamento</string>
+
+
+    <!--GENERICOS-->
+    <string name="nombre_informante">Apellidos y nombres del informante</string>
+    <string name="mismo_informante">Mismo informante</string>
+    <string name="cargo_informante">Cargo del informante </string>
+    <string name="cargo_conductor">Conductor</string>
+    <string name="cargo_administrador">Administrador</string>
+    <string name="cargo_gerente">Gerente</string>
+
+    <string name="otro">Otro</string>
+    <string name="especifique">Especifique</string>
+    <string name="codigo_ciiu">CODIGO CIIU</string>
+
+    <string name="si">SI</string>
+    <string name="no">NO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+</resources>
