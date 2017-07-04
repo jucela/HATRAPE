@@ -240,37 +240,65 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:textColor="@color/icons"
-                android:text="@string/caratula_identificacion_telefono_movil"/>
+                android:text="@string/caratula_identificacion_conductor_informante_edad"/>
             <TextView
-                android:layout_weight="1"
+                android:layout_weight="3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:textColor="@color/icons"
-                android:text="@string/caratula_identificacion_telefono_anio_inicio_func"/>
+                android:text="@string/nivel_estudios"/>
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <EditText
-                android:id="@+id/caratula_txtFijo"
+                android:id="@+id/caratula_txtSexo"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:background="@drawable/cajas_de_texto"/>
             <EditText
-                android:id="@+id/caratula_txtMovil"
+                android:id="@+id/caratula_txtEdad"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:background="@drawable/cajas_de_texto"/>
-            <EditText
-                android:id="@+id/caratula_txtAnioFuncionamiento"
-                android:layout_weight="1"
+            <LinearLayout
+                android:layout_weight="3"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
-                android:background="@drawable/cajas_de_texto"/>
+                android:background="@drawable/cajas_de_texto">
+                <Spinner
+                    android:id="@+id/caratula_spEstudios"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/fab_margin"
+            android:layout_marginBottom="@dimen/margin5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/icons"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:padding="@dimen/margin5dp"
+                android:text="@string/caratula_identificacion_conductor_informante_cargo"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/cajas_de_texto">
+                <Spinner
+                    android:id="@+id/caratula_spCargo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

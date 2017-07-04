@@ -1,13 +1,45 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="pe.gob.inei.encuestahabilidades.fragments.Modulo1Fragment1">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:text="@string/modulo1_nombre"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/icons"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="@dimen/fab_margin"/>
 
-</FrameLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin">
+        <LinearLayout
+            android:layout_marginBottom="@dimen/margin5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+            <TextView
+                android:textColor="@color/icons"
+                android:gravity="center_vertical"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:paddingLeft="@dimen/fab_margin"/>
+            <EditText
+                android:id="@+id/modulo1_txtInformante"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/cajas_de_texto" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
