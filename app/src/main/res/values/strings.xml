@@ -125,6 +125,7 @@
 
 
     <string name="modulo1_pregunta7">7.La empresa, ¿cuenta con áreas o departamentos de:</string>
+
     <string name="modulo1_pregunta7_descripcion">(Lea y seleccione una o más alternativas según corresponda)</string>
     <string name="modulo1_pregunta7_subpregunta1">Investigación y desarrollo</string>
     <string name="modulo1_pregunta7_subpregunta2">Recursos humanos</string>
