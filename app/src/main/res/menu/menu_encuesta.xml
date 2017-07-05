@@ -13,40 +13,20 @@
             android:id="@+id/opcion_3"
             android:checked="false"
             />
-        <item android:title="Modulo I"
+        <item android:title="ModuloI_P1-P4"
             android:id="@+id/opcion_4"
             android:checked="false"
             />
-        <item android:title="Modulo II"
+        <item android:title="ModuloI_P5-P8"
             android:id="@+id/opcion_5"
             android:checked="false"
             />
-        <item android:title="Modulo III"
+        <item android:title="ModuloI_P9-P12"
             android:id="@+id/opcion_6"
             android:checked="false"
             />
-        <item android:title="Modulo IV"
+        <item android:title="Modulo II"
             android:id="@+id/opcion_7"
-            android:checked="false"
-            />
-        <item android:title="Modulo V"
-            android:id="@+id/opcion_8"
-            android:checked="false"
-            />
-        <item android:title="Modulo VI"
-            android:id="@+id/opcion_9"
-            android:checked="false"
-            />
-        <item android:title="Modulo VII"
-            android:id="@+id/opcion_10"
-            android:checked="false"
-            />
-        <item android:title="Modulo VIII"
-            android:id="@+id/opcion_11"
-            android:checked="false"
-            />
-        <item android:title="Modulo IX"
-            android:id="@+id/opcion_12"
             android:checked="false"
             />
     </group>

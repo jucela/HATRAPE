@@ -58,7 +58,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/fab_margin"
-        android:padding="@dimen/fab_margin"
+        android:padding="@dimen/margin15dp"
         android:background="@drawable/borde_layout_preguntas">
         <TextView
             android:layout_width="match_parent"
@@ -79,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/codigo_ciiu"
                 android:textColor="@color/primary_text"
-                android:layout_marginRight="@dimen/margin5dp"/>
+                android:layout_marginRight="@dimen/margin15dp"/>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
@@ -91,7 +91,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/fab_margin"
-        android:padding="@dimen/fab_margin"
+        android:padding="@dimen/margin15dp"
         android:background="@drawable/borde_layout_preguntas">
         <TextView
             android:layout_width="match_parent"
@@ -112,7 +112,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/codigo_ciiu"
                 android:textColor="@color/primary_text"
-                android:layout_marginRight="@dimen/margin5dp"/>
+                android:layout_marginRight="@dimen/margin15dp"/>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
@@ -125,7 +125,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/fab_margin"
-        android:padding="@dimen/fab_margin"
+        android:padding="@dimen/margin15dp"
         android:background="@drawable/borde_layout_preguntas">
         <TextView
             android:layout_width="match_parent"
@@ -166,13 +166,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
+            android:layout_marginBottom="@dimen/margin5dp"
             android:text="@string/otro"/>
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/margin10dp"
-            android:layout_marginRight="@dimen/margin10dp">
+            android:layout_marginRight="@dimen/margin10dp"
+            android:padding="@dimen/margin10dp"
+            android:background="@drawable/border_layout_subpreguntas">
             <TextView
                 android:layout_gravity="center_vertical"
                 android:layout_width="wrap_content"
@@ -193,29 +196,60 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/fab_margin"
-        android:padding="@dimen/fab_margin"
+        android:padding="@dimen/margin15dp"
         android:background="@drawable/borde_layout_preguntas">
         <TextView
             android:text="@string/modulo1_pregunta4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/fab_margin"/>
-        <RadioGroup
+        <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <RadioButton
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_layout_subpreguntas"
+            android:layout_margin="@dimen/fab_margin"
+            android:padding="@dimen/fab_margin">
+            <TextView
+                android:text="@string/modulo1_pregunta41"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/modulo1_pregunta4_subpregunta1"/>
-            <RadioButton
+                android:layout_marginBottom="@dimen/fab_margin"/>
+            <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/modulo1_pregunta4_subpregunta2"/>
-            <RadioButton
+                android:layout_marginBottom="@dimen/fab_margin">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/modulo1_pregunta4_subpregunta1"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/modulo1_pregunta4_subpregunta2"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/modulo1_pregunta4_subpregunta3"/>
+            </RadioGroup>
+            <TextView
+                android:text="@string/modulo1_pregunta42"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/modulo1_pregunta4_subpregunta3"/>
-        </RadioGroup>
+                android:layout_marginBottom="@dimen/fab_margin"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/modulo1_pregunta42_subpregunta1"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/modulo1_pregunta42_subpregunta2"/>
+            </RadioGroup>
+        </LinearLayout>
     </LinearLayout>
 
 

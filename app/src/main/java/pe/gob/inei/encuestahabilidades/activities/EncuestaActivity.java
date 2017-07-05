@@ -17,6 +17,8 @@ import pe.gob.inei.encuestahabilidades.fragments.CaratulaFragment;
 import pe.gob.inei.encuestahabilidades.fragments.InicioFragment;
 import pe.gob.inei.encuestahabilidades.fragments.Modulo1Fragment1;
 import pe.gob.inei.encuestahabilidades.fragments.Modulo1Fragment2;
+import pe.gob.inei.encuestahabilidades.fragments.Modulo1Fragment3;
+import pe.gob.inei.encuestahabilidades.fragments.Modulo2Fragment1;
 import pe.gob.inei.encuestahabilidades.fragments.VisitaFragment;
 
 public class EncuestaActivity extends AppCompatActivity {
@@ -56,25 +58,10 @@ public class EncuestaActivity extends AppCompatActivity {
                         setFragment(4);
                         break;
                     case R.id.opcion_6:
-                        setFragment(4);
+                        setFragment(5);
                         break;
                     case R.id.opcion_7:
-                        setFragment(4);
-                        break;
-                    case R.id.opcion_8:
-                        setFragment(4);
-                        break;
-                    case R.id.opcion_9:
-                        setFragment(4);
-                        break;
-                    case R.id.opcion_10:
-                        setFragment(4);
-                        break;
-                    case R.id.opcion_11:
-                        setFragment(4);
-                        break;
-                    case R.id.opcion_12:
-                        setFragment(4);
+                        setFragment(6);
                         break;
                 }
                 return false;
@@ -119,6 +106,14 @@ public class EncuestaActivity extends AppCompatActivity {
             case 4:
                 Modulo1Fragment2 modulo1Fragment2= new Modulo1Fragment2();
                 fragmentTransaction.replace(R.id.container_encuesta, modulo1Fragment2);
+                break;
+            case 5:
+                Modulo1Fragment3 modulo1Fragment3= new Modulo1Fragment3();
+                fragmentTransaction.replace(R.id.container_encuesta, modulo1Fragment3);
+                break;
+            case 6:
+                Modulo2Fragment1 modulo2Fragment1= new Modulo2Fragment1();
+                fragmentTransaction.replace(R.id.container_encuesta, modulo2Fragment1);
                 break;
         }
         fragmentTransaction.commit();
