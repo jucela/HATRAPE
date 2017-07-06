@@ -25,8 +25,12 @@
             android:id="@+id/opcion_6"
             android:checked="false"
             />
-        <item android:title="Modulo II"
+        <item android:title="Modulo II_P1-P5"
             android:id="@+id/opcion_7"
+            android:checked="false"
+            />
+        <item android:title="Modulo II_P6-P10"
+            android:id="@+id/opcion_8"
             android:checked="false"
             />
     </group>

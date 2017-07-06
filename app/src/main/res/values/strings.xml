@@ -174,6 +174,131 @@
     <string name="modulo1_pregunta12_subpregunta12">Departamento</string>
 
 
+    <!--MODULO 2-->
+    <string name="mod2_p1">1.  Actualmente, ¿cuántas personas en total trabajan en su empresa?</string>
+
+    <string name="mod2_p2">2. Actualmente, ¿cuál es el número de trabajadoras mujeres en su empresa?</string>
+
+    <string name="mod2_p3">3. Actualmente, ¿cuántas personas trabajan a tiempo parcial en su empresa?</string>
+
+    <string name="mod2_p4">4. Actualmente, ¿cuántos trabajadores tienen contratos temporales o a plazo fijo en su empresa?</string>
+
+    <string name="mod2_p5">5. Actualmente, del total de sus trabajadores, según periodo de contrato ¿cuántos han estado empleados…</string>
+    <string name="mod2_p5_sp1">Menos de un año?</string>
+    <string name="mod2_p5_sp2">Un año o más, pero menos de cinco años?</string>
+    <string name="mod2_p5_sp3">Cinco años o más, pero menos de 10 años?</string>
+    <string name="mod2_p5_sp4">Diez años o más?</string>
+
+    <string name="mod2_p6">6. En los últimos 12 meses, su empresa ¿contrató trabajadores?</string>
+
+    <string name="mod2_p7">7. En los últimos 12 meses, ¿cuántos trabajadores ha contratado su empresa?</string>
+
+    <string name="mod2_p8">8. De los contratos suscritos en los últimos 12 meses, ¿cuántos fueron a tiempo parcial y cuántos a tiempo completo?</string>
+    <string name="mod2_p8_sp1">A tiempo completo</string>
+    <string name="mod2_p8_sp2">A tiempo parcial</string>
+
+    <string name="mod2_p9">9. De los contratos suscritos en los últimos 12 meses, ¿cuántos fueron…?</string>
+    <string name="mod2_p9_sp1">Contratos por tiempo indeterminado o indefinido (permanente)</string>
+    <string name="mod2_p9_sp2">Contratos a plazo fijo o determinado(temporales)</string>
+    <string name="mod2_p9_sp3">Servicios no personales (SNP)/ Recibos por honorarios</string>
+    <string name="mod2_p9_sp5">No usé contratos</string>
+
+
+    <string name="mod2_p10">10. Uno de los tipos de contrato más usado por las empresas en el último año es el contrato permanente, ¿indique por qué razones usó contratos permanentes?</string>
+    <string name="mod2_p10_sp1">No usé esta modalidad contractual</string>
+    <string name="mod2_p10_sp2">Mejor ambiente laboral en la empresa</string>
+    <string name="mod2_p10_sp3">Mejores condiciones laborales para los trabajadores</string>
+    <string name="mod2_p10_sp4">Mayor compromiso de los trabajadores</string>
+    <string name="mod2_p10_sp5">Porque la ley así lo manda </string>
+
+    <string name="mod2_p11">11. Uno de los tipos de contrato más usado por las empresas en el último año es el contrato temporal, ¿indique por qué razones usó contratos temporales?         </string>
+    <string name="mod2_p11_sp1">No usé esta modalidad contractual</string>
+    <string name="mod2_p11_sp2">Son trabajadores que se necesitan sólo por un tiempo</string>
+    <string name="mod2_p11_sp3">Posibilidad de poner a prueba al trabajador por un periodo corto de tiempo</string>
+    <string name="mod2_p11_sp4">Son contratos más sencillos de administrar</string>
+    <string name="mod2_p11_sp5">Es mejor que el trabajador conozca hasta cuándo va a llegar la relación laboral </string>
+    <string name="mod2_p11_sp6">Es muy costoso terminar un contrato permanente</string>
+
+    <string name="mod2_p12">12. ¿Por qué considera costoso terminar un contrato permanente?                                                                                        </string>
+    <string name="mod2_p12_sp1">Se debe pagar una alta indemnización</string>
+    <string name="mod2_p12_sp2">Existe el riesgo de que un juez ordene la reposición del trabajador</string>
+
+    <string name="mod2_p13">13. Uno de los tipos de contratos más usados por las empresas en el último año es la de servicios no personales (SNP) / recibos por honorarios, ¿indique por qué razones usó contratos de SNP/ recibos por honorarios?</string>
+    <string name="mod2_p13_sp1">No usé esta modalidad contractual</string>
+    <string name="mod2_p13_sp2">Son trabajadores que no realizan las tareas principales de la empresa</string>
+    <string name="mod2_p13_sp3">Son contratos más sencillos de administrar</string>
+    <string name="mod2_p13_sp4">Facilidad para resolver el contrato</string>
+    <string name="mod2_p13_sp5">Ahorro en costos salariales (gratificaciones, CTS, etc.) </string>
+    <string name="mod2_p13_sp6">Ahorro en costos no salariales (vacaciones, seguros, pensiones, etc.) </string>
+
+    <string name="mod2_p14">14.En (V_MES) del 2017 ¿cuántos trabajadores tenía en su empresa en total?</string>
+
+    <string name="mod2_p15">15. En su empresa ¿cuáles han sido las razones principales para este aumento en el número total de trabajadores?</string>
+    <string name="mod2_p15_1">Aumento en el volumen de negocios/presupuestos </string>
+    <string name="mod2_p15_2">Aumento en ganancias </string>
+    <string name="mod2_p15_3">Apertura hacia nuevos mercados </string>
+    <string name="mod2_p15_4">Cambios en las funciones y/o organización en la empresa y/o los procesos y/o la manera de trabajar</string>
+    <string name="mod2_p15_5">Introducción de nuevas tecnologías </string>
+
+    <string name="mod2_p16">16. En su empresa ¿cuáles han sido las razones principales para esta disminución en el número total de trabajadores?</string>
+    <string name="mod2_p16_sp1">Disminución en el volumen de negocios/presupuesto</string>
+    <string name="mod2_p16_sp2">Disminución en ganancia</string>
+    <string name="mod2_p16_sp3">Retiro de mercados </string>
+    <string name="mod2_p16_sp4">Cambios en las funciones y/o organización en la empresa y/o los procesos y/o la manera de trabajar</string>
+    <string name="mod2_p16_sp5">Introducción de nuevas tecnologías </string>
+
+    <string name="mod2_p17">17. En los próximos 12 meses, en su empresa ¿usted espera que el empleo …</string>
+    <string name="mod2_p17_sp1">Aumente mucho?</string>
+    <string name="mod2_p17_sp2">Aumente poco?</string>
+    <string name="mod2_p17_sp3">Se mantenga igual?</string>
+    <string name="mod2_p17_sp4">Disminuya poco?</string>
+    <string name="mod2_p17_sp5">Disminuya mucho?</string>
+
+
+    <string name="mod2_p18">18. ¿Cuál de los siguientes aspectos considera usted más restrictivos al momento de decidir la contratación de un trabajador?</string>
+    <string name="mod2_p18_sp1">El valor del salario mínimo</string>
+    <string name="mod2_p18_sp2">Contribuciones a pensiones y salud</string>
+    <string name="mod2_p18_sp3">Compensación por tiempo de servicio (CTS)</string>
+    <string name="mod2_p18_sp4">Gratificaciones, vacaciones, escolaridad</string>
+    <string name="mod2_p18_sp5">Las indemnizaciones de un eventual despido</string>
+    <string name="mod2_p18_sp6">Riesgo que sea repuesto por un juez (ej. del Tribunal Constitucional)</string>
+
+    <string name="mod2_p19">19. ¿Cuál de los siguientes aspectos considera usted más restrictivos al momento de decidir el despedido de un trabajador?</string>
+    <string name="mod2_p19_sp1">Costos legales (abogados, juicios, etc.)</string>
+    <string name="mod2_p19_sp2">Indemnización por despido</string>
+    <string name="mod2_p19_sp3">Riesgo de que sea repuesto por un juez</string>
+    <string name="mod2_p19_sp4">Reputación empresarial</string>
+
+    <string name="mod2_p20">20. De acuerdo a su experiencia, ¿cuál de las siguientes políticas o programas podrían ayudar a incrementar el número de contratos permanentes?                                                                                                                          </string>
+    <string name="mod2_p20_sp1">Programas de capacitación</string>
+    <string name="mod2_p20_sp2">Reducción de costos no salariales (vacaciones seguro, pensiones, etc) </string>
+    <string name="mod2_p20_sp3">Reducción de costos salariales (gratificaciones, CTS, etc)</string>
+    <string name="mod2_p20_sp4">Subsidios a las contrataciones</string>
+    <string name="mod2_p20_sp5">Reducción de impuesto a la renta</string>
+    <string name="mod2_p20_sp6">Reducción del IGV</string>
+    <string name="mod2_p20_sp7">Reducción de los costos de despido</string>
+
+    <string name="mod2_p21">21. ¿Está usted enterado de los fallos del Tribunal Constitucional que promueven la reposición de un trabajador en caso de despido?</string>
+
+    <string name="mod2_p22">22.  ¿Cuál de los siguientes regímenes laborales especiales usa su empresa actualmente y qué porcentaje de sus trabajadores, se encuentran en cada uno de ellos?</string>
+    <string name="mod2_p22_sp1">MyPE</string>
+    <string name="mod2_p22_sp2">Personal de confianza</string>
+    <string name="mod2_p22_sp3">Exportación no tradicional</string>
+    <string name="mod2_p22_sp4">Practicantes</string>
+    <string name="mod2_p22_sp5">Agro exportación</string>
+
+    <string name="mod2_p23">23.  ¿Considera que la contratación de trabajadores se ve afectada por la ubicación física actual de su empresa? </string>
+
+    <string name="mod2_p24">24. ¿Considera que sus trabajadores actuales enfrentan dificultades para trasladarse a la empresa por barreras en accesos a medios de transporte o por el tiempo que les lleva llegar? </string>
+    <string name="mod2_p24_sp1">Los trabajadores no enfrentan dificultades</string>
+    <string name="mod2_p24_sp2">Los trabajadores enfrentan dificultades por falta de acceso a medios de transporte</string>
+    <string name="mod2_p24_sp3">Los trabajadores enfrentan dificultades por la duración  de su tiempo de viaje </string>
+    <string name="mod2_p24_sp4">Los trabajadores enfrentan dificultades por ambas razones (2) y (3).</string>
+
+    <string name="mod2_p25">25.  ¿La empresa tiene personal con algún tipo de discapacidad?   </string>
+
+    <string name="OBS_MOD_II">Observaciones Modulo II</string>
+
     <!--GENERICOS-->
     <string name="nombre_informante">Apellidos y nombres del informante</string>
     <string name="mismo_informante">Mismo informante</string>
@@ -184,6 +309,12 @@
 
     <string name="otro">Otro</string>
     <string name="especifique">Especifique</string>
+    <string name="total">Total</string>
+    <string name="no_sabe">No Sabe</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="cuantos">¿Cuántos?</string>
+
     <string name="codigo_ciiu">CODIGO CIIU</string>
 
     <string name="si">SI</string>
@@ -201,4 +332,11 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="soles">SOLES</string>
+    <string name="porcentaje">PORCENTAJE</string>
+    <string name="ntrab">N° total de trabajadores</string>
+    <string name="ntrab_mujeres">N° de trabajadores mujeres</string>
+    <string name="ntrab_tiempoparcial">N° de trabajadores a tiempo parcial</string>
+    <string name="ntrab_cont_temp">N° de trabajdores con contratos temporales o a plazo fijo</string>
+    <string name="ntrba_contratados">N° de trabajadores contratados</string>
 </resources>
