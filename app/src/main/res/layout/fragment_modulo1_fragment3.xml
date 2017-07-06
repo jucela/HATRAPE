@@ -76,90 +76,92 @@
         </RadioGroup>
     </LinearLayout>
 
-    <!--<LinearLayout-->
-        <!--android:orientation="vertical"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_margin="@dimen/fab_margin"-->
-        <!--android:padding="@dimen/fab_margin"-->
-        <!--android:background="@drawable/borde_layout_preguntas">-->
-        <!--<TextView-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:text="@string/modulo1_pregunta11"-->
-            <!--android:layout_marginBottom="@dimen/fab_margin" />-->
-        <!--<LinearLayout-->
-            <!--android:orientation="horizontal"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:padding="@dimen/margin10dp"-->
-            <!--android:gravity="center_vertical"-->
-            <!--android:layout_marginRight="@dimen/margin10dp"-->
-            <!--android:layout_marginLeft="@dimen/margin10dp">-->
-            <!--<TextView-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_marginRight="@dimen/margin15dp"-->
-                <!--android:text="¿Menos de un año?"/>-->
-            <!--<RadioGroup-->
-                <!--android:orientation="horizontal"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content">-->
-                <!--<RadioButton-->
-                    <!--android:layout_marginRight="@dimen/margin15dp"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:text="SI"/>-->
-                <!--<RadioButton-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:text="NO"/>-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:padding="@dimen/fab_margin"
+        android:background="@drawable/borde_layout_preguntas">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo1_pregunta11"
+            android:layout_marginBottom="@dimen/fab_margin" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin10dp"
+            android:gravity="center_vertical"
+            android:layout_marginRight="@dimen/margin10dp"
+            android:layout_marginLeft="@dimen/margin10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin15dp"
+                android:text="¿Menos de un año?"/>
+            <RadioGroup
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_marginRight="@dimen/margin15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SI"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NO"/>
 
-            <!--</RadioGroup>-->
-        <!--</LinearLayout>-->
-        <!--<LinearLayout-->
-            <!--android:orientation="horizontal"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_marginLeft="@dimen/margin10dp"-->
-            <!--android:layout_marginRight="@dimen/margin10dp"-->
-            <!--android:padding="@dimen/margin10dp"-->
-            <!--android:background="@drawable/border_layout_subpreguntas">-->
-            <!--<TextView-->
-                <!--android:layout_gravity="center_vertical"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="¿Cuánto tiempo en años?"-->
-                <!--android:textColor="@color/primary_text"-->
-                <!--android:layout_marginRight="@dimen/margin10dp"/>-->
-            <!--<EditText-->
-                <!--android:layout_weight="1"-->
-                <!--android:layout_width="0dp"-->
-                <!--android:layout_height="30dp"-->
-                <!--android:background="@drawable/cajas_de_texto"/>-->
-        <!--</LinearLayout>-->
-        <!--<LinearLayout-->
-            <!--android:orientation="horizontal"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_marginLeft="@dimen/margin10dp"-->
-            <!--android:layout_marginRight="@dimen/margin10dp"-->
-            <!--android:padding="@dimen/margin10dp"-->
-            <!--android:background="@drawable/border_layout_subpreguntas">-->
-            <!--<TextView-->
-                <!--android:layout_gravity="center_vertical"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="¿Cuánto tiempo en meses?"-->
-                <!--android:textColor="@color/primary_text"-->
-                <!--android:layout_marginRight="@dimen/margin10dp"/>-->
-            <!--<EditText-->
-                <!--android:layout_weight="1"-->
-                <!--android:layout_width="0dp"-->
-                <!--android:layout_height="30dp"-->
-                <!--android:background="@drawable/cajas_de_texto"/>-->
-        <!--</LinearLayout>-->
-    <!--</LinearLayout>-->
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin10dp"
+            android:layout_marginRight="@dimen/margin10dp"
+            android:layout_marginBottom="@dimen/margin10dp"
+            android:padding="@dimen/margin10dp"
+            android:background="@drawable/border_layout_subpreguntas">
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Cuánto tiempo en años?"
+                android:textColor="@color/primary_text"
+                android:layout_marginRight="@dimen/margin10dp"/>
+            <EditText
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:background="@drawable/cajas_de_texto"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin10dp"
+            android:layout_marginRight="@dimen/margin10dp"
+            android:layout_marginBottom="@dimen/margin10dp"
+            android:padding="@dimen/margin10dp"
+            android:background="@drawable/border_layout_subpreguntas">
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Cuánto tiempo en meses?"
+                android:textColor="@color/primary_text"
+                android:layout_marginRight="@dimen/margin10dp"/>
+            <EditText
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:background="@drawable/cajas_de_texto"/>
+        </LinearLayout>
+    </LinearLayout>
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -181,8 +183,7 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:layout_marginLeft="@dimen/margin10dp"
-                android:layout_marginRight="@dimen/margin10dp">
+                android:layout_margin="@dimen/margin5dp">
                 <TextView
                     android:gravity="center_vertical"
                     android:layout_width="160dp"
@@ -206,8 +207,7 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:layout_marginLeft="@dimen/margin10dp"
-                android:layout_marginRight="@dimen/margin10dp">
+                android:layout_margin="@dimen/margin5dp">
                 <TextView
                     android:gravity="center_vertical"
                     android:layout_width="160dp"
@@ -227,8 +227,7 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:layout_marginLeft="@dimen/margin10dp"
-                android:layout_marginRight="@dimen/margin10dp">
+                android:layout_margin="@dimen/margin5dp">
                 <TextView
                     android:gravity="center_vertical"
                     android:layout_width="160dp"
@@ -248,8 +247,7 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:layout_marginLeft="@dimen/margin10dp"
-                android:layout_marginRight="@dimen/margin10dp">
+                android:layout_margin="@dimen/margin5dp">
                 <TextView
                     android:gravity="center_vertical"
                     android:layout_width="160dp"
@@ -269,8 +267,7 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:layout_marginLeft="@dimen/margin10dp"
-                android:layout_marginRight="@dimen/margin10dp">
+                android:layout_margin="@dimen/margin5dp">
                 <TextView
                     android:gravity="center_vertical"
                     android:layout_width="160dp"
@@ -290,8 +287,7 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:layout_marginLeft="@dimen/margin10dp"
-                android:layout_marginRight="@dimen/margin10dp">
+                android:layout_margin="@dimen/margin5dp">
                 <TextView
                     android:gravity="center_vertical"
                     android:layout_width="160dp"
@@ -311,8 +307,7 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:layout_marginLeft="@dimen/margin10dp"
-                android:layout_marginRight="@dimen/margin10dp">
+                android:layout_margin="@dimen/margin5dp">
                 <TextView
                     android:gravity="center_vertical"
                     android:layout_width="160dp"
@@ -332,8 +327,7 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:layout_marginLeft="@dimen/margin10dp"
-                android:layout_marginRight="@dimen/margin10dp">
+                android:layout_margin="@dimen/margin5dp">
                 <TextView
                     android:gravity="center_vertical"
                     android:layout_width="160dp"
@@ -353,8 +347,7 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:layout_marginLeft="@dimen/margin10dp"
-                android:layout_marginRight="@dimen/margin10dp">
+                android:layout_margin="@dimen/margin5dp">
                 <TextView
                     android:gravity="center_vertical"
                     android:layout_width="160dp"
@@ -374,8 +367,7 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:layout_marginLeft="@dimen/margin10dp"
-                android:layout_marginRight="@dimen/margin10dp">
+                android:layout_margin="@dimen/margin5dp">
                 <TextView
                     android:gravity="center_vertical"
                     android:layout_width="160dp"
@@ -395,8 +387,7 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:layout_marginLeft="@dimen/margin10dp"
-                android:layout_marginRight="@dimen/margin10dp">
+                android:layout_margin="@dimen/margin5dp">
                 <TextView
                     android:gravity="center_vertical"
                     android:layout_width="160dp"
@@ -416,8 +407,7 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:layout_marginLeft="@dimen/margin10dp"
-                android:layout_marginRight="@dimen/margin10dp">
+                android:layout_margin="@dimen/margin5dp">
                 <TextView
                     android:gravity="center_vertical"
                     android:layout_width="160dp"

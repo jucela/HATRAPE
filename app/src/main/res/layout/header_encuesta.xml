@@ -4,6 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="140dp"
+    android:focusableInTouchMode="true"
     android:background="@drawable/fondo_login"
     android:gravity="bottom">
     <LinearLayout
@@ -26,7 +27,7 @@
             android:layout_marginLeft="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ENCUESTA SOBRE VICTIMIZACION 2017"
+            android:text="HABILIDADES AL TRABAJO EN EL PERU"
             android:textSize="@dimen/textoSmall"/>
     </LinearLayout>
 </LinearLayout>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Encuesta Habilidades</string>
+    <string name="app_name">ENHATRAPE</string>
     <string name="titulo_encuesta">ENCUESTA “HABILIDADES AL TRABAJO EN EL PERÚ”</string>
     <!--CARATULA-->
     <string name="caratula_loc">LOCALIZACIÓN DE LA EMPRESA</string>

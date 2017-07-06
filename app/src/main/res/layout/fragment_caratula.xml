@@ -54,7 +54,8 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:background="@drawable/cajas_de_texto" />
+                    android:background="@drawable/cajas_de_texto"
+                    android:imeOptions="flagNoExtractUi" />
             </LinearLayout>
             <LinearLayout
                 android:layout_marginBottom="@dimen/margin5dp"

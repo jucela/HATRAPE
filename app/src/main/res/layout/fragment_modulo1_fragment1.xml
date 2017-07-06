@@ -53,6 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="30dp"/>
     </LinearLayout>
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -190,7 +191,6 @@
                 android:background="@drawable/cajas_de_texto"/>
         </LinearLayout>
     </LinearLayout>
-
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
