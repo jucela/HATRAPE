@@ -1,13 +1,13 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="pe.gob.inei.encuestahabilidades.fragments.Modulo2Fragment5">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <include layout="@layout/modulo2_pregunta14"/>
+    <include layout="@layout/modulo2_pregunta15"/>
+    <include layout="@layout/modulo2_pregunta16"/>
+    <include layout="@layout/modulo2_pregunta17"/>
 
-</FrameLayout>
+</LinearLayout>

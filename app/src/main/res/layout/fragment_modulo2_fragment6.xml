@@ -3,10 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="pe.gob.inei.encuestahabilidades.fragments.Modulo2Fragment4">
+    tools:context="pe.gob.inei.encuestahabilidades.fragments.Modulo2Fragment6">
 
-    <include layout="@layout/modulo2_pregunta11"/>
-    <include layout="@layout/modulo2_pregunta12"/>
-    <include layout="@layout/modulo2_pregunta13"/>
-
+    <include layout="@layout/modulo2_pregunta18"/>
+    <include layout="@layout/modulo2_pregunta19"/>
+    <include layout="@layout/modulo2_pregunta20"/>
 </LinearLayout>

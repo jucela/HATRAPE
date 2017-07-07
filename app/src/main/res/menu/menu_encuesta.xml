@@ -33,5 +33,29 @@
             android:id="@+id/opcion_8"
             android:checked="false"
             />
+        <item android:title="Modulo II_P10-P12"
+            android:id="@+id/opcion_9"
+            android:checked="false"
+            />
+        <item android:title="Modulo II_P11-P13"
+            android:id="@+id/opcion_10"
+            android:checked="false"
+            />
+        <item android:title="Modulo II_P14-P17"
+            android:id="@+id/opcion_11"
+            android:checked="false"
+            />
+        <item android:title="Modulo II_P18-P20"
+            android:id="@+id/opcion_12"
+            android:checked="false"
+            />
+        <item android:title="Modulo II_P6-P10"
+            android:id="@+id/opcion_13"
+            android:checked="false"
+            />
+        <item android:title="Modulo II_P21-P25"
+            android:id="@+id/opcion_14"
+            android:checked="false"
+            />
     </group>
 </menu>

@@ -234,11 +234,11 @@
     <string name="mod2_p14">14.En (V_MES) del 2017 ¿cuántos trabajadores tenía en su empresa en total?</string>
 
     <string name="mod2_p15">15. En su empresa ¿cuáles han sido las razones principales para este aumento en el número total de trabajadores?</string>
-    <string name="mod2_p15_1">Aumento en el volumen de negocios/presupuestos </string>
-    <string name="mod2_p15_2">Aumento en ganancias </string>
-    <string name="mod2_p15_3">Apertura hacia nuevos mercados </string>
-    <string name="mod2_p15_4">Cambios en las funciones y/o organización en la empresa y/o los procesos y/o la manera de trabajar</string>
-    <string name="mod2_p15_5">Introducción de nuevas tecnologías </string>
+    <string name="mod2_p15_sp1">Aumento en el volumen de negocios/presupuestos </string>
+    <string name="mod2_p15_sp2">Aumento en ganancias </string>
+    <string name="mod2_p15_sp3">Apertura hacia nuevos mercados </string>
+    <string name="mod2_p15_sp4">Cambios en las funciones y/o organización en la empresa y/o los procesos y/o la manera de trabajar</string>
+    <string name="mod2_p15_sp5">Introducción de nuevas tecnologías </string>
 
     <string name="mod2_p16">16. En su empresa ¿cuáles han sido las razones principales para esta disminución en el número total de trabajadores?</string>
     <string name="mod2_p16_sp1">Disminución en el volumen de negocios/presupuesto</string>

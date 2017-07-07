@@ -16,8 +16,9 @@
         android:textStyle="bold"
         android:padding="@dimen/fab_margin"/>
 
-
-
-
+    <include layout="@layout/modulo1_pregunta9"/>
+    <include layout="@layout/modulo1_pregunta10"/>
+    <include layout="@layout/modulo1_pregunta11"/>
+    <include layout="@layout/modulo1_pregunta12"/>
 
 </LinearLayout>
