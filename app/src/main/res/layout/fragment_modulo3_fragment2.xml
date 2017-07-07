@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pe.gob.inei.encuestahabilidades.fragments.Modulo3Fragment2">
+
+    <include layout="@layout/modulo3_pregunta7"/>
+    <include layout="@layout/modulo3_pregunta8"/>
+    <include layout="@layout/modulo3_pregunta9"/>
+    <include layout="@layout/modulo3_pregunta10"/>
+</LinearLayout>

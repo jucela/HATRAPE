@@ -37,7 +37,6 @@
             android:id="@+id/modulo1_txtInformante"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:paddingLeft="@dimen/margin10dp"
             android:background="@drawable/cajas_de_texto"
             android:layout_marginBottom="@dimen/fab_margin"/>
         <TextView
@@ -48,30 +47,17 @@
             android:background="@color/colorAccent"
             android:padding="@dimen/margin5dp"
             android:text="@string/cargo_informante"/>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:background="@drawable/cajas_de_texto">
-            <Spinner
-                android:id="@+id/modulo1_spCargoInformante"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:drawSelectorOnTop="true"
-                android:entries="@array/cargos"
-                />
-        </LinearLayout>
-        <EditText
-            android:id="@+id/modulo1_txtEspecifiqueCargo"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:hint="@string/especifique"
-            android:paddingLeft="@dimen/margin10dp"
+        <Spinner
+            android:id="@+id/modulo1_spCargoInformante"
             android:background="@drawable/cajas_de_texto"
-            android:layout_marginBottom="@dimen/fab_margin"/>
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
     </LinearLayout>
 
-    <include layout="@layout/modulo1_pregunta1"/>
-    <include layout="@layout/modulo1_pregunta2"/>
-    <include layout="@layout/modulo1_pregunta3"/>
-    <include layout="@layout/modulo1_pregunta4"/>
+    <include layout="@layout/modulo3_pregunta1"/>
+    <include layout="@layout/modulo3_pregunta2"/>
+    <include layout="@layout/modulo3_pregunta3"/>
+    <include layout="@layout/modulo3_pregunta4"/>
+    <include layout="@layout/modulo3_pregunta5"/>
+    <include layout="@layout/modulo3_pregunta6"/>
 </LinearLayout>

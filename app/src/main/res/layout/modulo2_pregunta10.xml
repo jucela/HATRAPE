@@ -162,17 +162,25 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin5dp"
             android:gravity="center_vertical">
-            <CheckBox
-                android:layout_width="80dp"
-                android:layout_height="wrap_content"
-                android:text="@string/otro"/>
-            <EditText
-                android:inputType="text"
-                android:layout_weight="3"
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="4"
                 android:layout_width="0dp"
-                android:layout_height="30dp"
-                android:background="@drawable/cajas_de_texto"
-                />
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/otro"/>
+                <EditText
+                    android:paddingLeft="@dimen/margin5dp"
+                    android:hint="@string/especifique"
+                    android:inputType="text"
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/cajas_de_texto"
+                    />
+            </LinearLayout>
             <LinearLayout
                 android:layout_weight="1"
                 android:layout_width="0dp"

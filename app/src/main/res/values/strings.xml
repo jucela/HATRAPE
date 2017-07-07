@@ -299,9 +299,155 @@
 
     <string name="OBS_MOD_II">Observaciones Modulo II</string>
 
+    <!--MODULO 3-->
+    <string name="mod3_p1">1. En los últimos 12 meses, su empresa ¿produjo bienes o servicios finales para consumo o uso directo?</string>
+
+    <string name="mod3_p2">2. En el año 2016, ¿Qué monto de ventas netas anuales obtuvo?</string>
+
+    <string name="mod3_p3">3. En el año 2016, su empresa ¿realizó exportaciones?</string>
+
+    <string name="mod3_p4">4. ¿Aproximadamente qué porcentaje de sus ventas netas anuales fue por exportación?</string>
+
+    <string name="mod3_p5">5. Durante el año 2016, en su empresa, ¿sus ventas netas anuales ….</string>
+    <string name="mod3_p5_sp">¿Que porcentaje %?</string>
+    <string name="mod3_p5_sp1">Aumentaron?</string>
+    <string name="mod3_p5_sp2">Se mantuvieron en el mismo nivel? </string>
+    <string name="mod3_p5_sp3">Disminuyó? </string>
+
+    <string name="mod3_p6">6.- Durante el año 2016, en su empresa ¿a cuánto asciende el excedente bruto de operación? </string>
+
+    <string name="mod3_p7">7. La mayor parte de los clientes de su empresa ¿están en el mercado:</string>
+    <string name="mod3_p7_sp1">Local (en este municipio) </string>
+    <string name="mod3_p7_sp2">Regional (en toda esta región o provincia)</string>
+    <string name="mod3_p7_sp3">Nacional (todo el Perú)</string>
+    <string name="mod3_p7_sp4"> América del sur (en todo América del Sur) </string>
+    <string name="mod3_p7_sp5">Internacional (fuera de América del Sur)</string>
+
+    <string name="mod3_p8">8. En su opinión, para su principal producto o servicio ¿cuántos competidores importantes tiene su empresa…</string>
+    <string name="mod3_p8_sp1">Ningún competidor importante?</string>
+    <string name="mod3_p8_sp2">Pocos competidores importantes?  </string>
+    <string name="mod3_p8_sp3">Muchos competidores importantes?</string>
+    <string name="mod3_p8_sp4">NO SABE / NO CONOCE</string>
+
+    <string name="mod3_p9">9. En su opinión, para su principal producto o servicio ¿cómo evaluaría el grado de competencia de precios en el mercado?</string>
+    <string name="mod3_p9_sp1">Muy alto</string>
+    <string name="mod3_p9_sp2">Relativamente alto</string>
+    <string name="mod3_p9_sp3">Relativamente bajo</string>
+    <string name="mod3_p9_sp4">Muy bajo</string>
+    <string name="mod3_p9_sp5">NO SABE</string>
+
+    <string name="mod3_p10">10. Para su empresa ¿qué tan importante es el financiamiento del sector público como fuente de ingresos…</string>
+    <string name="mod3_p10_sp1">Altamente importante?</string>
+    <string name="mod3_p10_sp2">Bastante importante?</string>
+    <string name="mod3_p10_sp3">Poco importante?</string>
+    <string name="mod3_p10_sp4">Escasamente importante?</string>
+    <string name="mod3_p10_sp5">NO SABE/NO OPINA</string>
+
+    <string name="mod3_p11">11. En su opinión, con los equipos y pedidos actuales, ¿considera que su empresa está operando…</string>
+    <string name="mod3_p11_sp1">Sobrecargada (con dificultad para atender la demanda)? </string>
+    <string name="mod3_p11_sp2">Justo según su capacidad?</string>
+    <string name="mod3_p11_sp3">Un poco por debajo de su plena capacidad?</string>
+    <string name="mod3_p11_sp4">Muy por debajo de plena capacidad?</string>
+    <string name="mod3_p11_sp5">NO SABE/ NO OPINA</string>
+
+    <string name="mod3_p12">12. En los próximos 12 meses, ¿usted espera que las ventas en su empresa…</string>
+    <string name="mod3_p12_sp1">Aumente mucho?</string>
+    <string name="mod3_p12_sp2">Aumente poco? </string>
+    <string name="mod3_p12_sp3">Se mantenga igual? </string>
+    <string name="mod3_p12_sp4">Disminuya poco? </string>
+    <string name="mod3_p12_sp5">Disminuya mucho?</string>
+
+    <string name="OBS_MOD_III">Observaciones Modulo III</string>
+
+    <!--MODULO 4-->
+
+    <string name="mod4_p1">1.  ¿Cómo calificaría el tamaño de su oferta de productos o servicios, comparado con otras empresas de su industria?</string>
+    <string name="mod4_p1_sp1">¿Gran escala?</string>
+    <string name="mod4_p1_sp2">¿Mediana escala?</string>
+    <string name="mod4_p1_sp3">¿Pequeña escala?</string>
+    <string name="mod4_p1_sp4">¿Micro escala?</string>
+    <string name="mod4_p1_sp5">¿Muy baja escala?</string>
+
+    <string name="mod4_p2">2. ¿Cómo calificaría el grado de complejidad de los productos o servicios que provee, en comparación con otras empresas de su industria?</string>
+    <string name="mod4_p2_sp1">¿Muy complejo?</string>
+    <string name="mod4_p2_sp2">¿Complejo?</string>
+    <string name="mod4_p2_sp3">¿Poco complejo?</string>
+    <string name="mod4_p2_sp4">¿Simple?</string>
+    <string name="mod4_p2_sp5">¿Muy simple?</string>
+
+    <string name="mod4_p3">3. ¿Cómo calificaría la estrategia de poner mejores precios para atraer clientes a su empresa?</string>
+    <string name="mod4_p3_sp1">¿No depende en absoluto de los precios?</string>
+    <string name="mod4_p3_sp2">¿Depende muy poco de los precios?</string>
+    <string name="mod4_p3_sp3">¿Depende poco de los precios?</string>
+    <string name="mod4_p3_sp4">¿Depende medianamente de los precios?</string>
+    <string name="mod4_p3_sp5">¿Depende completamente de los precios?</string>
+
+    <string name="mod4_p4">4. Usando una escala del 1 al 5, siendo 1 calidad superior y 5 calidad básica estándar, ¿cómo calificaría la calidad de los productos o servicios que ofrece su empresa en comparación con otras empresas de su industria?</string>
+    <string name="mod4_p4_sp1">¿Calidad superior?</string>
+    <string name="mod4_p4_sp2">¿Calidad muy buena?</string>
+    <string name="mod4_p4_sp3">¿Calidad buena?</string>
+    <string name="mod4_p4_sp4">¿Calidad aceptable?</string>
+    <string name="mod4_p4_sp5">¿Calidad básica estándar?</string>
+
+    <string name="mod4_p5">5. ¿Cómo calificaría la estrategia de mejorar la calidad de los productos o servicios para atraer clientes a su empresa?</string>
+    <string name="mod4_p5_sp1">¿La calidad es muy importante?</string>
+    <string name="mod4_p5_sp2">¿La calidad es importante?</string>
+    <string name="mod4_p5_sp3">¿La calidad es poco importante?</string>
+    <string name="mod4_p5_sp4">¿La calidad puede ser importante?</string>
+    <string name="mod4_p5_sp5">¿La calidad no es importante?</string>
+
+    <string name="mod4_p6">6. ¿En qué medida el hecho que la fuerza laboral no esté preparada adecuadamente es un obstáculo para las operaciones actuales de su empresa?</string>
+    <string name="mod4_p6_sp1">No es un obstáculo</string>
+    <string name="mod4_p6_sp2">Es un obstáculo menor</string>
+    <string name="mod4_p6_sp3">Es un obstáculo moderado</string>
+    <string name="mod4_p6_sp4">Es un obstáculo grave</string>
+    <string name="mod4_p6_sp5">Es un obstáculo muy grave</string>
+
+    <string name="mod4_p7">7. ¿En qué medida el hecho que la fuerza laboral no esté preparada adecuadamente es un obstáculo para la innovación en su empresa?</string>
+    <string name="mod4_p7_sp1">No es un obstáculo</string>
+    <string name="mod4_p7_sp2">Es un obstáculo menor</string>
+    <string name="mod4_p7_sp3">Es un obstáculo moderado</string>
+    <string name="mod4_p7_sp4">Es un obstáculo grave</string>
+    <string name="mod4_p7_sp5">Es un obstáculo muy grave</string>
+
+    <string name="mod4_p8">8. Para su empresa ¿cuáles de estos obstáculos son los que más afectan su operación?</string>
+    <string name="mod4_p8_sp1">Acceso a financiamiento</string>
+    <string name="mod4_p8_sp2">Acceso a terrenos</string>
+    <string name="mod4_p8_sp3">Licencias de operación y permisos comerciales</string>
+    <string name="mod4_p8_sp4">Corrupción </string>
+    <string name="mod4_p8_sp5">Tribunales de justicia</string>
+    <string name="mod4_p8_sp6">Delitos, robo y desorden </string>
+    <string name="mod4_p8_sp7">Regulaciones aduaneras y comercio exterior</string>
+    <string name="mod4_p8_sp8">Energía (eléctrica.solar, entre otros)</string>
+    <string name="mod4_p8_sp9">Fuerza laboral con educación inadecuada</string>
+    <string name="mod4_p8_sp10">Regulaciones laborales</string>
+    <string name="mod4_p8_sp11">Inestabilidad política </string>
+    <string name="mod4_p8_sp12">Prácticas de los competidores en el sector informal</string>
+    <string name="mod4_p8_sp13">Administración de impuestos </string>
+    <string name="mod4_p8_sp14">Tasas impositivas</string>
+    <string name="mod4_p8_sp15">Transporte y logística de productos y/o insumos</string>
+    <string name="mod4_p8_sp16">Acceso en transporte de clientes y trabajadores al establecimiento</string>
+    <string name="mod4_p8_sp18">Ninguno de los anteriores  </string>
+
+    <string name="mod4_p9">9. Durante los últimos tres años, en su empresa ¿se han hecho innovaciones o mejoras en: </string>
+    <string name="mod4_p9_sp1">Métodos o tecnologías para fabricar productos u ofrecer servicios?</string>
+    <string name="mod4_p9_sp2">Procesos de distribución, logística o entrega?</string>
+    <string name="mod4_p9_sp3">Organización de la empresa y/o gestión del personal?</string>
+
+    <string name="mod4_p10">10. Durante los últimos tres años, en su empresa ¿se han introducido productos o servicios nuevos o considerablemente mejorados?</string>
+    <string name="OBS_MOD_IV">Observaciones Modulo IV</string>
+
+
     <!--GENERICOS-->
     <string name="nombre_informante">Apellidos y nombres del informante</string>
     <string name="mismo_informante">Mismo informante</string>
+    <string-array name="cargos">
+        <item>Seleccione cargo</item>
+        <item>Conductor</item>
+        <item>Administrador</item>
+        <item>Gerente</item>
+        <item>Otro</item>
+    </string-array>
     <string name="cargo_informante">Cargo del informante </string>
     <string name="cargo_conductor">Conductor</string>
     <string name="cargo_administrador">Administrador</string>
