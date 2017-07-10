@@ -34,7 +34,7 @@
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/otro"
+                android:text="@string/mod2_p12_sp3"
                 android:layout_marginRight="@dimen/margin15dp"
                 />
             <EditText

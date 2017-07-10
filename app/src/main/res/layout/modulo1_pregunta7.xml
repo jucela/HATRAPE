@@ -11,10 +11,9 @@
         android:layout_height="wrap_content"
         android:text="@string/modulo1_pregunta7"
         android:layout_marginBottom="@dimen/fab_margin" />
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/modulo1_pregunta7_subpregunta1"/>
+
+
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="wrap_content"
@@ -22,13 +21,12 @@
         android:padding="@dimen/margin10dp"
         android:gravity="center_vertical"
         android:layout_marginRight="@dimen/margin10dp"
-        android:layout_marginLeft="@dimen/margin10dp"
-        android:background="@drawable/border_layout_subpreguntas">
+        android:layout_marginLeft="@dimen/margin10dp">
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="@dimen/margin15dp"
-            android:text="@string/modulo1_pregunta7_adicional_2"/>
+            android:text="@string/modulo1_pregunta7_subpregunta1"/>
         <RadioGroup
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -45,10 +43,6 @@
 
         </RadioGroup>
     </LinearLayout>
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/modulo1_pregunta7_subpregunta2"/>
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="wrap_content"
@@ -59,7 +53,7 @@
         android:layout_marginLeft="@dimen/margin10dp"
         android:background="@drawable/border_layout_subpreguntas">
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="@dimen/margin15dp"
             android:text="@string/modulo1_pregunta7_adicional_2"/>
@@ -76,7 +70,64 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="NO"/>
+        </RadioGroup>
+    </LinearLayout>
 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin10dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="@dimen/margin10dp"
+        android:layout_marginLeft="@dimen/margin10dp">
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin15dp"
+            android:text="@string/modulo1_pregunta7_subpregunta2"/>
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_marginRight="@dimen/margin15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SI"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO"/>
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin10dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="@dimen/margin10dp"
+        android:layout_marginLeft="@dimen/margin10dp"
+        android:background="@drawable/border_layout_subpreguntas">
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin15dp"
+            android:text="@string/modulo1_pregunta7_adicional_2"/>
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_marginRight="@dimen/margin15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SI"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO"/>
         </RadioGroup>
     </LinearLayout>
 </LinearLayout>

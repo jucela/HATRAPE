@@ -19,17 +19,26 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="80dp"
             android:layout_margin="@dimen/margin5dp">
-            <View
+            <TextView
+                android:gravity="center"
                 android:layout_weight="4"
                 android:layout_width="0dp"
-                android:layout_height="1dp"/>
+                android:textColor="@color/icons"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+                android:text="Régimen Laboral Especial"
+                android:background="@drawable/cabecera"/>
             <TextView
                 android:layout_weight="1"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_height="match_parent"
                 android:textAlignment="center"
+                android:textColor="@color/icons"
+                android:textStyle="bold"
+                android:background="@drawable/cabecera"
                 android:text="¿Para que porcentaje de sus trabajadores?"/>
         </LinearLayout>
         <LinearLayout
@@ -49,6 +58,7 @@
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_marginLeft="@dimen/margin15dp"
+                android:inputType="number"
                 android:background="@drawable/caja_texto_redonda"/>
         </LinearLayout>
         <LinearLayout
@@ -68,6 +78,7 @@
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_marginLeft="@dimen/margin15dp"
+                android:inputType="number"
                 android:background="@drawable/caja_texto_redonda"/>
         </LinearLayout>
         <LinearLayout
@@ -87,6 +98,7 @@
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_marginLeft="@dimen/margin15dp"
+                android:inputType="number"
                 android:background="@drawable/caja_texto_redonda"/>
         </LinearLayout>
         <LinearLayout
@@ -106,6 +118,7 @@
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_marginLeft="@dimen/margin15dp"
+                android:inputType="number"
                 android:background="@drawable/caja_texto_redonda"/>
         </LinearLayout>
 
@@ -126,6 +139,7 @@
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_marginLeft="@dimen/margin15dp"
+                android:inputType="number"
                 android:background="@drawable/caja_texto_redonda"/>
         </LinearLayout>
 
@@ -142,7 +156,7 @@
                 <CheckBox
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
-                    android:text="@string/otro"/>
+                    android:text="@string/mod2_p22_sp6"/>
                 <EditText
                     android:paddingLeft="@dimen/margin5dp"
                     android:hint="@string/especifique"
@@ -158,6 +172,7 @@
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_marginLeft="@dimen/margin15dp"
+                android:inputType="number"
                 android:background="@drawable/caja_texto_redonda"/>
         </LinearLayout>
     </LinearLayout>

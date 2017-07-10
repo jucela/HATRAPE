@@ -95,12 +95,13 @@
 
     <string name="modulo1_pregunta3">3.Organización de la empresa:</string>
     <string name="modulo1_pregunta3_descripcion">(Seleccione la alternativa que corresponda)</string>
-    <string name="modulo1_pregunta3_subpregunta1">Persona natural</string>
-    <string name="modulo1_pregunta3_subpregunta2">Sociedad anónima</string>
-    <string name="modulo1_pregunta3_subpregunta3">Sociedad anónima abierta</string>
-    <string name="modulo1_pregunta3_subpregunta4">Sociedad anónima cerrada</string>
-    <string name="modulo1_pregunta3_subpregunta5">Sociedad comercial de responsabilidad limitada</string>
-    <string name="modulo1_pregunta3_subpregunta6">Empresa individual de responsabilidad limitada</string>
+    <string name="modulo1_pregunta3_subpregunta1">1.Persona natural</string>
+    <string name="modulo1_pregunta3_subpregunta2">2.Sociedad anónima</string>
+    <string name="modulo1_pregunta3_subpregunta3">3.Sociedad anónima abierta</string>
+    <string name="modulo1_pregunta3_subpregunta4">4.Sociedad anónima cerrada</string>
+    <string name="modulo1_pregunta3_subpregunta5">5.Sociedad comercial de responsabilidad limitada</string>
+    <string name="modulo1_pregunta3_subpregunta6">6.Empresa individual de responsabilidad limitada</string>
+    <string name="modulo1_pregunta3_subpregunta7">7.Otra</string>
 
     <string name="modulo1_pregunta4">4.Régimen de Propiedad</string>
     <string name="modulo1_pregunta41">4.1.El Régimen de propiedad y control de su empresa es:</string>
@@ -131,14 +132,15 @@
     <string name="modulo1_pregunta7_subpregunta1">Investigación y desarrollo</string>
     <string name="modulo1_pregunta7_subpregunta2">Recursos humanos</string>
     <string name="modulo1_pregunta7_adicional_1">Área o departamento?</string>
-    <string name="modulo1_pregunta7_adicional_2">Personal exclusivo?</string>
+    <string name="modulo1_pregunta7_adicional_2">¿Cuenta con personal exclusivo?</string>
 
-    <string name="modulo1_pregunta8">8.Este establecimiento, ¿qué categoría tiene…</string>
+    <string name="modulo1_pregunta8">8.Este establecimiento, ¿qué categoría tiene?</string>
     <string name="modulo1_pregunta8_descripcion">Se refiere a esta ubicación en particular, aún si contempla más de un edificio o local)(Lea y seleccione la alternativa que corresponda)</string>
-    <string name="modulo1_pregunta8_subpregunta1">Único de la empresa?</string>
-    <string name="modulo1_pregunta8_subpregunta2">Principal (matriz)?</string>
-    <string name="modulo1_pregunta8_subpregunta3">Sucursal?</string>
-    <string name="modulo1_pregunta8_subpregunta4">Auxiliar?</string>
+    <string name="modulo1_pregunta8_encabezado">Categoría del Establecimiento</string>
+    <string name="modulo1_pregunta8_subpregunta1">1.Único de la empresa</string>
+    <string name="modulo1_pregunta8_subpregunta2">2.Principal (matriz)</string>
+    <string name="modulo1_pregunta8_subpregunta3">3.Sucursal</string>
+    <string name="modulo1_pregunta8_subpregunta4">4.Auxiliar</string>
 
     <string name="modulo1_pregunta9">9.Su empresa ¿cuántos establecimientos tiene?</string>
     <string name="modulo1_pregunta9_descripcion">(Registre en números enteros) </string>
@@ -198,102 +200,112 @@
     <string name="mod2_p8_sp2">A tiempo parcial</string>
 
     <string name="mod2_p9">9. De los contratos suscritos en los últimos 12 meses, ¿cuántos fueron…?</string>
-    <string name="mod2_p9_sp1">Contratos por tiempo indeterminado o indefinido (permanente)</string>
-    <string name="mod2_p9_sp2">Contratos a plazo fijo o determinado(temporales)</string>
-    <string name="mod2_p9_sp3">Servicios no personales (SNP)/ Recibos por honorarios</string>
-    <string name="mod2_p9_sp5">No usé contratos</string>
-
+    <string name="mod2_p9_sp1">1.Contratos por tiempo indeterminado o indefinido (permanente)</string>
+    <string name="mod2_p9_sp2">2.Contratos a plazo fijo o determinado(temporales)</string>
+    <string name="mod2_p9_sp3">3.Servicios no personales (SNP)/ Recibos por honorarios</string>
+    <string name="mod2_p9_sp4">4.Otros</string>
+    <string name="mod2_p9_sp5">5.No usé contratos</string>
 
     <string name="mod2_p10">10. Uno de los tipos de contrato más usado por las empresas en el último año es el contrato permanente, ¿indique por qué razones usó contratos permanentes?</string>
-    <string name="mod2_p10_sp1">No usé esta modalidad contractual</string>
-    <string name="mod2_p10_sp2">Mejor ambiente laboral en la empresa</string>
-    <string name="mod2_p10_sp3">Mejores condiciones laborales para los trabajadores</string>
-    <string name="mod2_p10_sp4">Mayor compromiso de los trabajadores</string>
-    <string name="mod2_p10_sp5">Porque la ley así lo manda </string>
+    <string name="mod2_p10_sp1">1.No usé esta modalidad contractual</string>
+    <string name="mod2_p10_sp2">2.Mejor ambiente laboral en la empresa</string>
+    <string name="mod2_p10_sp3">3.Mejores condiciones laborales para los trabajadores</string>
+    <string name="mod2_p10_sp4">4.Mayor compromiso de los trabajadores</string>
+    <string name="mod2_p10_sp5">5.Porque la ley así lo manda </string>
+    <string name="mod2_p10_sp6">6.Otras</string>
 
     <string name="mod2_p11">11. Uno de los tipos de contrato más usado por las empresas en el último año es el contrato temporal, ¿indique por qué razones usó contratos temporales?         </string>
-    <string name="mod2_p11_sp1">No usé esta modalidad contractual</string>
-    <string name="mod2_p11_sp2">Son trabajadores que se necesitan sólo por un tiempo</string>
-    <string name="mod2_p11_sp3">Posibilidad de poner a prueba al trabajador por un periodo corto de tiempo</string>
-    <string name="mod2_p11_sp4">Son contratos más sencillos de administrar</string>
-    <string name="mod2_p11_sp5">Es mejor que el trabajador conozca hasta cuándo va a llegar la relación laboral </string>
-    <string name="mod2_p11_sp6">Es muy costoso terminar un contrato permanente</string>
+    <string name="mod2_p11_sp1">1.No usé esta modalidad contractual</string>
+    <string name="mod2_p11_sp2">2.Son trabajadores que se necesitan sólo por un tiempo</string>
+    <string name="mod2_p11_sp3">3.Posibilidad de poner a prueba al trabajador por un periodo corto de tiempo</string>
+    <string name="mod2_p11_sp4">4.Son contratos más sencillos de administrar</string>
+    <string name="mod2_p11_sp5">5.Es mejor que el trabajador conozca hasta cuándo va a llegar la relación laboral </string>
+    <string name="mod2_p11_sp6">6.Es muy costoso terminar un contrato permanente</string>
+    <string name="mod2_p11_sp7">7.Otra</string>
 
     <string name="mod2_p12">12. ¿Por qué considera costoso terminar un contrato permanente?                                                                                        </string>
-    <string name="mod2_p12_sp1">Se debe pagar una alta indemnización</string>
-    <string name="mod2_p12_sp2">Existe el riesgo de que un juez ordene la reposición del trabajador</string>
+    <string name="mod2_p12_sp1">1.Se debe pagar una alta indemnización</string>
+    <string name="mod2_p12_sp2">2.Existe el riesgo de que un juez ordene la reposición del trabajador</string>
+    <string name="mod2_p12_sp3">3.Otra</string>
 
     <string name="mod2_p13">13. Uno de los tipos de contratos más usados por las empresas en el último año es la de servicios no personales (SNP) / recibos por honorarios, ¿indique por qué razones usó contratos de SNP/ recibos por honorarios?</string>
-    <string name="mod2_p13_sp1">No usé esta modalidad contractual</string>
-    <string name="mod2_p13_sp2">Son trabajadores que no realizan las tareas principales de la empresa</string>
-    <string name="mod2_p13_sp3">Son contratos más sencillos de administrar</string>
-    <string name="mod2_p13_sp4">Facilidad para resolver el contrato</string>
-    <string name="mod2_p13_sp5">Ahorro en costos salariales (gratificaciones, CTS, etc.) </string>
-    <string name="mod2_p13_sp6">Ahorro en costos no salariales (vacaciones, seguros, pensiones, etc.) </string>
+    <string name="mod2_p13_sp1">1.No usé esta modalidad contractual</string>
+    <string name="mod2_p13_sp2">2.Son trabajadores que no realizan las tareas principales de la empresa</string>
+    <string name="mod2_p13_sp3">3.Son contratos más sencillos de administrar</string>
+    <string name="mod2_p13_sp4">4.Facilidad para resolver el contrato</string>
+    <string name="mod2_p13_sp5">5.Ahorro en costos salariales (gratificaciones, CTS, etc.)</string>
+    <string name="mod2_p13_sp6">6.Ahorro en costos no salariales (vacaciones, seguros, pensiones, etc.)</string>
+    <string name="mod2_p13_sp7">7.Otra</string>
 
     <string name="mod2_p14">14.En (V_MES) del 2017 ¿cuántos trabajadores tenía en su empresa en total?</string>
 
     <string name="mod2_p15">15. En su empresa ¿cuáles han sido las razones principales para este aumento en el número total de trabajadores?</string>
-    <string name="mod2_p15_sp1">Aumento en el volumen de negocios/presupuestos </string>
-    <string name="mod2_p15_sp2">Aumento en ganancias </string>
-    <string name="mod2_p15_sp3">Apertura hacia nuevos mercados </string>
-    <string name="mod2_p15_sp4">Cambios en las funciones y/o organización en la empresa y/o los procesos y/o la manera de trabajar</string>
-    <string name="mod2_p15_sp5">Introducción de nuevas tecnologías </string>
+    <string name="mod2_p15_sp1">1.Aumento en el volumen de negocios/presupuestos </string>
+    <string name="mod2_p15_sp2">2.Aumento en ganancias </string>
+    <string name="mod2_p15_sp3">3.Apertura hacia nuevos mercados</string>
+    <string name="mod2_p15_sp4">4.Cambios en las funciones y/o organización en la empresa y/o los procesos y/o la manera de trabajar</string>
+    <string name="mod2_p15_sp5">5.Introducción de nuevas tecnologías</string>
+    <string name="mod2_p15_sp6">6.Otro</string>
 
     <string name="mod2_p16">16. En su empresa ¿cuáles han sido las razones principales para esta disminución en el número total de trabajadores?</string>
-    <string name="mod2_p16_sp1">Disminución en el volumen de negocios/presupuesto</string>
-    <string name="mod2_p16_sp2">Disminución en ganancia</string>
-    <string name="mod2_p16_sp3">Retiro de mercados </string>
-    <string name="mod2_p16_sp4">Cambios en las funciones y/o organización en la empresa y/o los procesos y/o la manera de trabajar</string>
-    <string name="mod2_p16_sp5">Introducción de nuevas tecnologías </string>
+    <string name="mod2_p16_sp1">1.Disminución en el volumen de negocios/presupuesto</string>
+    <string name="mod2_p16_sp2">2.Disminución en ganancia</string>
+    <string name="mod2_p16_sp3">3.Retiro de mercados </string>
+    <string name="mod2_p16_sp4">4.Cambios en las funciones y/o organización en la empresa y/o los procesos y/o la manera de trabajar</string>
+    <string name="mod2_p16_sp5">5.Introducción de nuevas tecnologías</string>
+    <string name="mod2_p16_sp6">6.Otro</string>
 
     <string name="mod2_p17">17. En los próximos 12 meses, en su empresa ¿usted espera que el empleo …</string>
-    <string name="mod2_p17_sp1">Aumente mucho?</string>
-    <string name="mod2_p17_sp2">Aumente poco?</string>
-    <string name="mod2_p17_sp3">Se mantenga igual?</string>
-    <string name="mod2_p17_sp4">Disminuya poco?</string>
-    <string name="mod2_p17_sp5">Disminuya mucho?</string>
+    <string name="mod2_p17_sp1">1.Aumente mucho?</string>
+    <string name="mod2_p17_sp2">2.Aumente poco?</string>
+    <string name="mod2_p17_sp3">3.Se mantenga igual?</string>
+    <string name="mod2_p17_sp4">4.Disminuya poco?</string>
+    <string name="mod2_p17_sp5">5.Disminuya mucho?</string>
 
 
     <string name="mod2_p18">18. ¿Cuál de los siguientes aspectos considera usted más restrictivos al momento de decidir la contratación de un trabajador?</string>
-    <string name="mod2_p18_sp1">El valor del salario mínimo</string>
-    <string name="mod2_p18_sp2">Contribuciones a pensiones y salud</string>
-    <string name="mod2_p18_sp3">Compensación por tiempo de servicio (CTS)</string>
-    <string name="mod2_p18_sp4">Gratificaciones, vacaciones, escolaridad</string>
-    <string name="mod2_p18_sp5">Las indemnizaciones de un eventual despido</string>
-    <string name="mod2_p18_sp6">Riesgo que sea repuesto por un juez (ej. del Tribunal Constitucional)</string>
+    <string name="mod2_p18_sp1">1.El valor del salario mínimo</string>
+    <string name="mod2_p18_sp2">2.Contribuciones a pensiones y salud</string>
+    <string name="mod2_p18_sp3">3.Compensación por tiempo de servicio (CTS)</string>
+    <string name="mod2_p18_sp4">4.Gratificaciones, vacaciones, escolaridad</string>
+    <string name="mod2_p18_sp5">5.Las indemnizaciones de un eventual despido</string>
+    <string name="mod2_p18_sp6">6.Riesgo que sea repuesto por un juez (ej. del Tribunal Constitucional)</string>
+    <string name="mod2_p18_sp7">7.Otro</string>
 
     <string name="mod2_p19">19. ¿Cuál de los siguientes aspectos considera usted más restrictivos al momento de decidir el despedido de un trabajador?</string>
-    <string name="mod2_p19_sp1">Costos legales (abogados, juicios, etc.)</string>
-    <string name="mod2_p19_sp2">Indemnización por despido</string>
-    <string name="mod2_p19_sp3">Riesgo de que sea repuesto por un juez</string>
-    <string name="mod2_p19_sp4">Reputación empresarial</string>
+    <string name="mod2_p19_sp1">1.Costos legales (abogados, juicios, etc.)</string>
+    <string name="mod2_p19_sp2">2.Indemnización por despido</string>
+    <string name="mod2_p19_sp3">3.Riesgo de que sea repuesto por un juez</string>
+    <string name="mod2_p19_sp4">4.Reputación empresarial</string>
+    <string name="mod2_p19_sp5">5.Otro</string>
 
     <string name="mod2_p20">20. De acuerdo a su experiencia, ¿cuál de las siguientes políticas o programas podrían ayudar a incrementar el número de contratos permanentes?                                                                                                                          </string>
-    <string name="mod2_p20_sp1">Programas de capacitación</string>
-    <string name="mod2_p20_sp2">Reducción de costos no salariales (vacaciones seguro, pensiones, etc) </string>
-    <string name="mod2_p20_sp3">Reducción de costos salariales (gratificaciones, CTS, etc)</string>
-    <string name="mod2_p20_sp4">Subsidios a las contrataciones</string>
-    <string name="mod2_p20_sp5">Reducción de impuesto a la renta</string>
-    <string name="mod2_p20_sp6">Reducción del IGV</string>
-    <string name="mod2_p20_sp7">Reducción de los costos de despido</string>
+    <string name="mod2_p20_sp1">1.Programas de capacitación</string>
+    <string name="mod2_p20_sp2">2.Reducción de costos no salariales (vacaciones seguro, pensiones, etc) </string>
+    <string name="mod2_p20_sp3">3.Reducción de costos salariales (gratificaciones, CTS, etc)</string>
+    <string name="mod2_p20_sp4">4.Subsidios a las contrataciones</string>
+    <string name="mod2_p20_sp5">5.Reducción de impuesto a la renta</string>
+    <string name="mod2_p20_sp6">6.Reducción del IGV</string>
+    <string name="mod2_p20_sp7">7.Reducción de los costos de despido</string>
+    <string name="mod2_p20_sp8">8.Otro</string>
 
     <string name="mod2_p21">21. ¿Está usted enterado de los fallos del Tribunal Constitucional que promueven la reposición de un trabajador en caso de despido?</string>
 
     <string name="mod2_p22">22.  ¿Cuál de los siguientes regímenes laborales especiales usa su empresa actualmente y qué porcentaje de sus trabajadores, se encuentran en cada uno de ellos?</string>
-    <string name="mod2_p22_sp1">MyPE</string>
-    <string name="mod2_p22_sp2">Personal de confianza</string>
-    <string name="mod2_p22_sp3">Exportación no tradicional</string>
-    <string name="mod2_p22_sp4">Practicantes</string>
-    <string name="mod2_p22_sp5">Agro exportación</string>
+    <string name="mod2_p22_sp1">1.MyPE</string>
+    <string name="mod2_p22_sp2">2.Personal de confianza</string>
+    <string name="mod2_p22_sp3">3.Exportación no tradicional</string>
+    <string name="mod2_p22_sp4">4.Practicantes</string>
+    <string name="mod2_p22_sp5">5.Agro exportación</string>
+    <string name="mod2_p22_sp6">6.Otro</string>
 
     <string name="mod2_p23">23.  ¿Considera que la contratación de trabajadores se ve afectada por la ubicación física actual de su empresa? </string>
 
     <string name="mod2_p24">24. ¿Considera que sus trabajadores actuales enfrentan dificultades para trasladarse a la empresa por barreras en accesos a medios de transporte o por el tiempo que les lleva llegar? </string>
-    <string name="mod2_p24_sp1">Los trabajadores no enfrentan dificultades</string>
-    <string name="mod2_p24_sp2">Los trabajadores enfrentan dificultades por falta de acceso a medios de transporte</string>
-    <string name="mod2_p24_sp3">Los trabajadores enfrentan dificultades por la duración  de su tiempo de viaje </string>
-    <string name="mod2_p24_sp4">Los trabajadores enfrentan dificultades por ambas razones (2) y (3).</string>
+    <string name="mod2_p24_sp1">1.Los trabajadores no enfrentan dificultades</string>
+    <string name="mod2_p24_sp2">2.Los trabajadores enfrentan dificultades por falta de acceso a medios de transporte</string>
+    <string name="mod2_p24_sp3">3.Los trabajadores enfrentan dificultades por la duración  de su tiempo de viaje </string>
+    <string name="mod2_p24_sp4">4.Los trabajadores enfrentan dificultades por ambas razones (2) y (3).</string>
 
     <string name="mod2_p25">25.  ¿La empresa tiene personal con algún tipo de discapacidad?   </string>
 
@@ -310,132 +322,349 @@
 
     <string name="mod3_p5">5. Durante el año 2016, en su empresa, ¿sus ventas netas anuales ….</string>
     <string name="mod3_p5_sp">¿Que porcentaje %?</string>
-    <string name="mod3_p5_sp1">Aumentaron?</string>
-    <string name="mod3_p5_sp2">Se mantuvieron en el mismo nivel? </string>
-    <string name="mod3_p5_sp3">Disminuyó? </string>
+    <string name="mod3_p5_sp1">1.Aumentaron?</string>
+    <string name="mod3_p5_sp2">2.Se mantuvieron en el mismo nivel? </string>
+    <string name="mod3_p5_sp3">3.Disminuyó? </string>
 
-    <string name="mod3_p6">6.- Durante el año 2016, en su empresa ¿a cuánto asciende el excedente bruto de operación? </string>
+    <string name="mod3_p6">6. Durante el año 2016, en su empresa ¿a cuánto asciende el excedente bruto de operación? </string>
 
     <string name="mod3_p7">7. La mayor parte de los clientes de su empresa ¿están en el mercado:</string>
-    <string name="mod3_p7_sp1">Local (en este municipio) </string>
-    <string name="mod3_p7_sp2">Regional (en toda esta región o provincia)</string>
-    <string name="mod3_p7_sp3">Nacional (todo el Perú)</string>
-    <string name="mod3_p7_sp4"> América del sur (en todo América del Sur) </string>
-    <string name="mod3_p7_sp5">Internacional (fuera de América del Sur)</string>
+    <string name="mod3_p7_sp1">1.Local (en este municipio) </string>
+    <string name="mod3_p7_sp2">2.Regional (en toda esta región o provincia)</string>
+    <string name="mod3_p7_sp3">3.Nacional (todo el Perú)</string>
+    <string name="mod3_p7_sp4">4.América del sur (en todo América del Sur) </string>
+    <string name="mod3_p7_sp5">5.Internacional (fuera de América del Sur)</string>
 
     <string name="mod3_p8">8. En su opinión, para su principal producto o servicio ¿cuántos competidores importantes tiene su empresa…</string>
-    <string name="mod3_p8_sp1">Ningún competidor importante?</string>
-    <string name="mod3_p8_sp2">Pocos competidores importantes?  </string>
-    <string name="mod3_p8_sp3">Muchos competidores importantes?</string>
-    <string name="mod3_p8_sp4">NO SABE / NO CONOCE</string>
+    <string name="mod3_p8_sp1">1.Ningún competidor importante?</string>
+    <string name="mod3_p8_sp2">2.Pocos competidores importantes?  </string>
+    <string name="mod3_p8_sp3">3.Muchos competidores importantes?</string>
+    <string name="mod3_p8_sp4">4.NO SABE/NO CONOCE</string>
 
     <string name="mod3_p9">9. En su opinión, para su principal producto o servicio ¿cómo evaluaría el grado de competencia de precios en el mercado?</string>
-    <string name="mod3_p9_sp1">Muy alto</string>
-    <string name="mod3_p9_sp2">Relativamente alto</string>
-    <string name="mod3_p9_sp3">Relativamente bajo</string>
-    <string name="mod3_p9_sp4">Muy bajo</string>
-    <string name="mod3_p9_sp5">NO SABE</string>
+    <string name="mod3_p9_sp1">1.Muy alto</string>
+    <string name="mod3_p9_sp2">2.Relativamente alto</string>
+    <string name="mod3_p9_sp3">3.Relativamente bajo</string>
+    <string name="mod3_p9_sp4">4.Muy bajo</string>
+    <string name="mod3_p9_sp5">5.NO SABE</string>
 
     <string name="mod3_p10">10. Para su empresa ¿qué tan importante es el financiamiento del sector público como fuente de ingresos…</string>
-    <string name="mod3_p10_sp1">Altamente importante?</string>
-    <string name="mod3_p10_sp2">Bastante importante?</string>
-    <string name="mod3_p10_sp3">Poco importante?</string>
-    <string name="mod3_p10_sp4">Escasamente importante?</string>
-    <string name="mod3_p10_sp5">NO SABE/NO OPINA</string>
+    <string name="mod3_p10_sp1">1.Altamente importante?</string>
+    <string name="mod3_p10_sp2">2.Bastante importante?</string>
+    <string name="mod3_p10_sp3">3.Poco importante?</string>
+    <string name="mod3_p10_sp4">4.Escasamente importante?</string>
+    <string name="mod3_p10_sp5">5.NO SABE/NO OPINA</string>
 
     <string name="mod3_p11">11. En su opinión, con los equipos y pedidos actuales, ¿considera que su empresa está operando…</string>
-    <string name="mod3_p11_sp1">Sobrecargada (con dificultad para atender la demanda)? </string>
-    <string name="mod3_p11_sp2">Justo según su capacidad?</string>
-    <string name="mod3_p11_sp3">Un poco por debajo de su plena capacidad?</string>
-    <string name="mod3_p11_sp4">Muy por debajo de plena capacidad?</string>
-    <string name="mod3_p11_sp5">NO SABE/ NO OPINA</string>
+    <string name="mod3_p11_sp1">1.Sobrecargada (con dificultad para atender la demanda)? </string>
+    <string name="mod3_p11_sp2">2.Justo según su capacidad?</string>
+    <string name="mod3_p11_sp3">3.Un poco por debajo de su plena capacidad?</string>
+    <string name="mod3_p11_sp4">4.Muy por debajo de plena capacidad?</string>
+    <string name="mod3_p11_sp5">5.NO SABE/NO OPINA</string>
 
     <string name="mod3_p12">12. En los próximos 12 meses, ¿usted espera que las ventas en su empresa…</string>
-    <string name="mod3_p12_sp1">Aumente mucho?</string>
-    <string name="mod3_p12_sp2">Aumente poco? </string>
-    <string name="mod3_p12_sp3">Se mantenga igual? </string>
-    <string name="mod3_p12_sp4">Disminuya poco? </string>
-    <string name="mod3_p12_sp5">Disminuya mucho?</string>
+    <string name="mod3_p12_sp1">1.Aumente mucho?</string>
+    <string name="mod3_p12_sp2">2.Aumente poco? </string>
+    <string name="mod3_p12_sp3">3.Se mantenga igual? </string>
+    <string name="mod3_p12_sp4">4.Disminuya poco? </string>
+    <string name="mod3_p12_sp5">5.Disminuya mucho?</string>
 
     <string name="OBS_MOD_III">Observaciones Modulo III</string>
 
     <!--MODULO 4-->
 
     <string name="mod4_p1">1.  ¿Cómo calificaría el tamaño de su oferta de productos o servicios, comparado con otras empresas de su industria?</string>
-    <string name="mod4_p1_sp1">¿Gran escala?</string>
-    <string name="mod4_p1_sp2">¿Mediana escala?</string>
-    <string name="mod4_p1_sp3">¿Pequeña escala?</string>
-    <string name="mod4_p1_sp4">¿Micro escala?</string>
-    <string name="mod4_p1_sp5">¿Muy baja escala?</string>
+    <string name="mod4_p1_sp1">1.¿Gran escala?</string>
+    <string name="mod4_p1_sp2">2.¿Mediana escala?</string>
+    <string name="mod4_p1_sp3">3.¿Pequeña escala?</string>
+    <string name="mod4_p1_sp4">4.¿Micro escala?</string>
+    <string name="mod4_p1_sp5">5.¿Muy baja escala?</string>
 
     <string name="mod4_p2">2. ¿Cómo calificaría el grado de complejidad de los productos o servicios que provee, en comparación con otras empresas de su industria?</string>
-    <string name="mod4_p2_sp1">¿Muy complejo?</string>
-    <string name="mod4_p2_sp2">¿Complejo?</string>
-    <string name="mod4_p2_sp3">¿Poco complejo?</string>
-    <string name="mod4_p2_sp4">¿Simple?</string>
-    <string name="mod4_p2_sp5">¿Muy simple?</string>
+    <string name="mod4_p2_sp1">1.¿Muy complejo?</string>
+    <string name="mod4_p2_sp2">2.¿Complejo?</string>
+    <string name="mod4_p2_sp3">3.¿Poco complejo?</string>
+    <string name="mod4_p2_sp4">4.¿Simple?</string>
+    <string name="mod4_p2_sp5">5.¿Muy simple?</string>
 
     <string name="mod4_p3">3. ¿Cómo calificaría la estrategia de poner mejores precios para atraer clientes a su empresa?</string>
-    <string name="mod4_p3_sp1">¿No depende en absoluto de los precios?</string>
-    <string name="mod4_p3_sp2">¿Depende muy poco de los precios?</string>
-    <string name="mod4_p3_sp3">¿Depende poco de los precios?</string>
-    <string name="mod4_p3_sp4">¿Depende medianamente de los precios?</string>
-    <string name="mod4_p3_sp5">¿Depende completamente de los precios?</string>
+    <string name="mod4_p3_sp1">1.¿No depende en absoluto de los precios?</string>
+    <string name="mod4_p3_sp2">2.¿Depende muy poco de los precios?</string>
+    <string name="mod4_p3_sp3">3.¿Depende poco de los precios?</string>
+    <string name="mod4_p3_sp4">4.¿Depende medianamente de los precios?</string>
+    <string name="mod4_p3_sp5">5.¿Depende completamente de los precios?</string>
 
     <string name="mod4_p4">4. Usando una escala del 1 al 5, siendo 1 calidad superior y 5 calidad básica estándar, ¿cómo calificaría la calidad de los productos o servicios que ofrece su empresa en comparación con otras empresas de su industria?</string>
-    <string name="mod4_p4_sp1">¿Calidad superior?</string>
-    <string name="mod4_p4_sp2">¿Calidad muy buena?</string>
-    <string name="mod4_p4_sp3">¿Calidad buena?</string>
-    <string name="mod4_p4_sp4">¿Calidad aceptable?</string>
-    <string name="mod4_p4_sp5">¿Calidad básica estándar?</string>
+    <string name="mod4_p4_sp1">1.¿Calidad superior?</string>
+    <string name="mod4_p4_sp2">2.¿Calidad muy buena?</string>
+    <string name="mod4_p4_sp3">3.¿Calidad buena?</string>
+    <string name="mod4_p4_sp4">4.¿Calidad aceptable?</string>
+    <string name="mod4_p4_sp5">5.¿Calidad básica estándar?</string>
 
     <string name="mod4_p5">5. ¿Cómo calificaría la estrategia de mejorar la calidad de los productos o servicios para atraer clientes a su empresa?</string>
-    <string name="mod4_p5_sp1">¿La calidad es muy importante?</string>
-    <string name="mod4_p5_sp2">¿La calidad es importante?</string>
-    <string name="mod4_p5_sp3">¿La calidad es poco importante?</string>
-    <string name="mod4_p5_sp4">¿La calidad puede ser importante?</string>
-    <string name="mod4_p5_sp5">¿La calidad no es importante?</string>
+    <string name="mod4_p5_sp1">1.¿La calidad es muy importante?</string>
+    <string name="mod4_p5_sp2">2.¿La calidad es importante?</string>
+    <string name="mod4_p5_sp3">3.¿La calidad es poco importante?</string>
+    <string name="mod4_p5_sp4">4.¿La calidad puede ser importante?</string>
+    <string name="mod4_p5_sp5">5.¿La calidad no es importante?</string>
 
     <string name="mod4_p6">6. ¿En qué medida el hecho que la fuerza laboral no esté preparada adecuadamente es un obstáculo para las operaciones actuales de su empresa?</string>
-    <string name="mod4_p6_sp1">No es un obstáculo</string>
-    <string name="mod4_p6_sp2">Es un obstáculo menor</string>
-    <string name="mod4_p6_sp3">Es un obstáculo moderado</string>
-    <string name="mod4_p6_sp4">Es un obstáculo grave</string>
-    <string name="mod4_p6_sp5">Es un obstáculo muy grave</string>
+    <string name="mod4_p6_sp1">1.No es un obstáculo</string>
+    <string name="mod4_p6_sp2">2.Es un obstáculo menor</string>
+    <string name="mod4_p6_sp3">3.Es un obstáculo moderado</string>
+    <string name="mod4_p6_sp4">4.Es un obstáculo grave</string>
+    <string name="mod4_p6_sp5">5.Es un obstáculo muy grave</string>
 
     <string name="mod4_p7">7. ¿En qué medida el hecho que la fuerza laboral no esté preparada adecuadamente es un obstáculo para la innovación en su empresa?</string>
-    <string name="mod4_p7_sp1">No es un obstáculo</string>
-    <string name="mod4_p7_sp2">Es un obstáculo menor</string>
-    <string name="mod4_p7_sp3">Es un obstáculo moderado</string>
-    <string name="mod4_p7_sp4">Es un obstáculo grave</string>
-    <string name="mod4_p7_sp5">Es un obstáculo muy grave</string>
+    <string name="mod4_p7_sp1">1.No es un obstáculo</string>
+    <string name="mod4_p7_sp2">2.Es un obstáculo menor</string>
+    <string name="mod4_p7_sp3">3.Es un obstáculo moderado</string>
+    <string name="mod4_p7_sp4">4.Es un obstáculo grave</string>
+    <string name="mod4_p7_sp5">5.Es un obstáculo muy grave</string>
 
     <string name="mod4_p8">8. Para su empresa ¿cuáles de estos obstáculos son los que más afectan su operación?</string>
-    <string name="mod4_p8_sp1">Acceso a financiamiento</string>
-    <string name="mod4_p8_sp2">Acceso a terrenos</string>
-    <string name="mod4_p8_sp3">Licencias de operación y permisos comerciales</string>
-    <string name="mod4_p8_sp4">Corrupción </string>
-    <string name="mod4_p8_sp5">Tribunales de justicia</string>
-    <string name="mod4_p8_sp6">Delitos, robo y desorden </string>
-    <string name="mod4_p8_sp7">Regulaciones aduaneras y comercio exterior</string>
-    <string name="mod4_p8_sp8">Energía (eléctrica.solar, entre otros)</string>
-    <string name="mod4_p8_sp9">Fuerza laboral con educación inadecuada</string>
-    <string name="mod4_p8_sp10">Regulaciones laborales</string>
-    <string name="mod4_p8_sp11">Inestabilidad política </string>
-    <string name="mod4_p8_sp12">Prácticas de los competidores en el sector informal</string>
-    <string name="mod4_p8_sp13">Administración de impuestos </string>
-    <string name="mod4_p8_sp14">Tasas impositivas</string>
-    <string name="mod4_p8_sp15">Transporte y logística de productos y/o insumos</string>
-    <string name="mod4_p8_sp16">Acceso en transporte de clientes y trabajadores al establecimiento</string>
-    <string name="mod4_p8_sp18">Ninguno de los anteriores  </string>
+    <string name="mod4_p8_sp1">1.Acceso a financiamiento</string>
+    <string name="mod4_p8_sp2">2.Acceso a terrenos</string>
+    <string name="mod4_p8_sp3">3.Licencias de operación y permisos comerciales</string>
+    <string name="mod4_p8_sp4">4.Corrupción </string>
+    <string name="mod4_p8_sp5">5.Tribunales de justicia</string>
+    <string name="mod4_p8_sp6">6.Delitos, robo y desorden </string>
+    <string name="mod4_p8_sp7">7.Regulaciones aduaneras y comercio exterior</string>
+    <string name="mod4_p8_sp8">8.Energía (eléctrica.solar, entre otros)</string>
+    <string name="mod4_p8_sp9">9.Fuerza laboral con educación inadecuada</string>
+    <string name="mod4_p8_sp10">10.Regulaciones laborales</string>
+    <string name="mod4_p8_sp11">11.Inestabilidad política </string>
+    <string name="mod4_p8_sp12">12.Prácticas de los competidores en el sector informal</string>
+    <string name="mod4_p8_sp13">13.Administración de impuestos </string>
+    <string name="mod4_p8_sp14">14.Tasas impositivas</string>
+    <string name="mod4_p8_sp15">15.Transporte y logística de productos y/o insumos</string>
+    <string name="mod4_p8_sp16">16.Acceso en transporte de clientes y trabajadores al establecimiento</string>
+    <string name="mod4_p8_sp17">17.Otro</string>
+    <string name="mod4_p8_sp18">18.Ninguno de los anteriores</string>
 
     <string name="mod4_p9">9. Durante los últimos tres años, en su empresa ¿se han hecho innovaciones o mejoras en: </string>
-    <string name="mod4_p9_sp1">Métodos o tecnologías para fabricar productos u ofrecer servicios?</string>
-    <string name="mod4_p9_sp2">Procesos de distribución, logística o entrega?</string>
-    <string name="mod4_p9_sp3">Organización de la empresa y/o gestión del personal?</string>
+    <string name="mod4_p9_sp1">1.Métodos o tecnologías para fabricar productos u ofrecer servicios?</string>
+    <string name="mod4_p9_sp2">2.Procesos de distribución, logística o entrega?</string>
+    <string name="mod4_p9_sp3">3.Organización de la empresa y/o gestión del personal?</string>
 
     <string name="mod4_p10">10. Durante los últimos tres años, en su empresa ¿se han introducido productos o servicios nuevos o considerablemente mejorados?</string>
     <string name="OBS_MOD_IV">Observaciones Modulo IV</string>
+
+    <!--MODULO 5-->
+
+    <string name="mod5_p1">1. En su empresa ¿cuántos trabajadores (o qué porcentaje en caso no sepa el número exacto) están empleados como…</string>
+    <string name="mod5_p1_sp1">1.Gerentes</string>
+    <string name="mod5_p1_sp1_desc">Los gerentes participan en la planificación, dirección y coordinación de las actividades generales de empresas,
+        gobiernos y otras organizaciones. Se trata de trabajos de alto nivel y altamente especializados</string>
+    <string name="mod5_p1_sp2">2.Profesionales</string>
+    <string name="mod5_p1_sp2_desc">Los profesionales son empleados altamente calificados que ofrecen a las organizaciones una gama de servicios de conocimiento especializado.
+        Incluyen profesionales de la tecnología e información, contadores, químicos e investigadores científicos, economistas, arquitectos, actuarios, doctores, ingenieros, etc.</string>
+    <string name="mod5_p1_sp3">3.Técnicos y profesionales de nivel medio</string>
+    <string name="mod5_p1_sp3_desc">Los profesionales de nivel medio llevan a cabo la mayoría de las tareas técnicas y relacionadas que se vinculan a las investigaciones y la aplicación de conceptos y métodos operativos,
+        científicos o artísticos. Como ejemplo de ellos se incluye a técnicos delas ciencias y la ingeniería, técnicos de laboratorio, técnico de la tecnología e información, técnicos de contabilidad, etc.</string>
+    <string name="mod5_p1_sp4">4.Personal de apoyo administrativo</string>
+    <string name="mod5_p1_sp4_desc">El personal de apoyo administrativo registra, organiza, almacena, calcula y recupera información administrativa,
+        y lleva a cabo una serie de tareas administrativas, como oficinistas, secretarias, etc.</string>
+    <string name="mod5_p1_sp5">5.Personal de servicios y vendedores</string>
+    <string name="mod5_p1_sp5_desc">Los trabajadores de servicios y vendedores proveen servicios personales y de protección relacionados a viajes,
+        tareas domésticas, abastecimiento de comida y bebida, cuidado persona, venta de bienes al por mayor o en comercios minoristas y empresas similares.</string>
+    <string name="mod5_p1_sp6">6.Trabajadores calificados agropecuarios, forestales y pesqueros</string>
+    <string name="mod5_p1_sp6_desc">El personal especializado agrícola, forestal y pesquero cultiva y cosecha campos o plantaciones de árboles
+        y arbustos; recoge frutos y plantas silvestres; cría, cuida o caza animales; produce una variedad de productos ganaderos; cultiva, conserva
+        y explota bosques, etc.</string>
+    <string name="mod5_p1_sp7">7.Oficiales, operarios y artesanos de artes mecánicas y de otros oficios</string>
+    <string name="mod5_p1_sp7_desc">Los oficiales y artesanos de artes mecánicas y de otros oficios son empleados calificados que aplican su conocimiento y habilidades
+        especificas en los campos de la construcción y mantención de edificios, formación de metales, erección de estructuras metálicas, preparación de herramientas metálicas, o bien, hacen, adaptan, mantienen y reparan maquinaria, etc.
+        Estos trabajos incluyen mecánicos de vehículos y oficiales y operarios de la construcción.</string>
+    <string name="mod5_p1_sp8">8.Operadores de instalaciones y máquinas y ensambladores</string>
+    <string name="mod5_p1_sp8_desc">Los operadores de instalaciones y máquinas y los ensambladores operan y monitorean maquinaria y equipos
+        industriales y agrícolas, o ensamblan productos a partir de piezas de componentes de acuerdo con especificaciones y procedimientos
+        específicos. El nivel de destreza es bajo, e incluye trabajos tales como ensambladores y conductores.</string>
+    <string name="mod5_p1_sp9">9.Ocupaciones elementales</string>
+    <string name="mod5_p1_sp9_desc">Las ocupaciones elementales comprenden la realización de tareas sencillas y rutinarias que pueden requerir
+        el uso de herramientas manuales y esfuerzo físico considerable.</string>
+
+    <string name="mod5_p2">2. En los últimos 12 meses, ¿cuántas personas contrató (o qué porcentaje en caso no sepa el número exacto) según la categoría ocupacional?</string>
+    <string name="mod5_p2_sp1">1.Gerentes</string>
+    <string name="mod5_p2_sp2">2.Profesionales</string>
+    <string name="mod5_p2_sp3">3.Técnicos y profesionales de nivel medio</string>
+    <string name="mod5_p2_sp4">4.Personal de apoyo administrativo</string>
+    <string name="mod5_p2_sp5">5.Personal de servicios y vendedores</string>
+    <string name="mod5_p2_sp6">6.Trabajadores calificados agropecuarios, forestales y pesqueros</string>
+    <string name="mod5_p2_sp7">7.Oficiales, operarios y artesanos de artes mecánicas y de otros oficios</string>
+    <string name="mod5_p2_sp8">8.Operadores de instalaciones y máquinas y ensambladores</string>
+    <string name="mod5_p2_sp9">9.Ocupaciones elementales</string>
+    <string name="mod5_p2_sp10">10.Total</string>
+
+    <string name="mod5_p3">3. ¿En los últimos 12 meses, en su empresa ¿cuáles fueron los dos medios de contratación de personal más importantes que utilizó? Bolsa de trabajo del Ministerio de Trabajo y Promoción del Empleo (MTPE)/ Centros de empleo</string>
+    <string name="mod5_p3_sp1">1.Bolsa de trabajo de Ministerio de Trabajo y Promoción del Empleo (MTPE)/ Centros de Empleo</string>
+    <string name="mod5_p3_sp2">2.Bolsa de trabajo de Municipalidades</string>
+    <string name="mod5_p3_sp3">3.Anuncios en medios de comunicación (periódicos, revistas, radio, televisión)</string>
+    <string name="mod5_p3_sp4">4.Bolsas de trabajo de universidades y de otras instituciones educativas y centros de formación </string>
+    <string name="mod5_p3_sp5">5.Bolsas de trabajo de organizaciones sociales (iglesias, ONG)</string>
+    <string name="mod5_p3_sp6">6.Headhunters (Cazatalentos)/Bolsas de empleo privadas (ejemplo: boomerang, trabajo.com)</string>
+    <string name="mod5_p3_sp7">7.Bases de datos/registros propios o sistemas de la empresa</string>
+    <string name="mod5_p3_sp8">8.Sitios web de Empleos Perú del Ministerio de Trabajo y Promoción del Empleo</string>
+    <string name="mod5_p3_sp9">9.Otros sitios web privados / Redes sociales (LinkedIn, Facebook, etc.)</string>
+    <string name="mod5_p3_sp10">10.Redes informales (amigos/colegas/conocidos o sus propios trabajadores)</string>
+    <string name="mod5_p3_sp11">11.Feria de empleos privadas</string>
+    <string name="mod5_p3_sp12">12.Otros no especificados anteriormente:</string>
+    <string name="mod5_p3_sp13">13.Otro?  (Especifique)</string>
+
+
+    <string name="mod5_p4">4. ¿Cuáles son las dos razones principales por las que usó estos medios de contratación de personal?</string>
+    <string name="mod5_p4_sp1">1.Son confiables</string>
+    <string name="mod5_p4_sp2">2.Aplican filtros para asegurar el perfil del solicitante</string>
+    <string name="mod5_p4_sp3">3.Ofrecen muchos tipos de perfiles de candidatos </string>
+    <string name="mod5_p4_sp4">4.Tienen una amplia disponibilidad de candidatos</string>
+    <string name="mod5_p4_sp5">5.Son gratuitos</string>
+    <string name="mod5_p4_sp6">6.Son baratos</string>
+    <string name="mod5_p4_sp7">7.Tienen cobertura nacional</string>
+    <string name="mod5_p4_sp8">8.Son simples y rápidos </string>
+
+    <string name="mod5_p5">5. Indique, ¿por qué no usó el servicio de intermediación de la Bolsa de Trabajo / (Centro de Empleos) del Ministerio de Trabajo y Promoción del Empleo como una de las principales estrategias para contratar personal?</string>
+    <string name="mod5_p5_sp1">1.No conocia de su existencia </string>
+    <string name="mod5_p5_sp2">2.A pesar de saber que existe, no sabe cómo acceder a él</string>
+    <string name="mod5_p5_sp3">3.Se usó en el pasado y los candidatos que ofrecieron no tenían los perfiles adecuados para el puesto</string>
+    <string name="mod5_p5_sp4">4.No tienen una amplia disponibilidad de candidatos</string>
+    <string name="mod5_p5_sp5">5.Es muy lento</string>
+    <string name="mod5_p5_sp6">6.Utilizó el servicio, pero no como estrategia principal</string>
+
+    <string name="mod5_p6">6. ¿Alguno de sus trabajadores ha sido incorporado a través de la “Ley de Modalidades Formativas Laborales”?</string>
+
+    <string name="mod5_p7">7. Su empresa ¿qué tipo de modalidad formativa laboral utilizó?</string>
+    <string name="mod5_p7_sp1">1.Convenios de aprendizaje con Predominio en la Empresa</string>
+    <string name="mod5_p7_sp2">2.Convenios de Aprendizaje con Predominio en Centro de Formación Profesional- Practicas Pre-Profesionales</string>
+    <string name="mod5_p7_sp3">3.Convenio de Practicas Pre-Profesionales</string>
+    <string name="mod5_p7_sp4">4.Convenios de Capacitación Laboral Juvenil </string>
+    <string name="mod5_p7_sp5">5.Otro</string>
+    <string name="mod5_p7_op1">No conoce esta opción </string>
+    <string name="mod5_p7_op2">No es necesaria</string>
+    <string name="mod5_p7_op3">Se requieren demasiados procedimientos engorrosos para usarlos </string>
+    <string name="mod5_p7_op4">La usamos anteriormente y no me satisfizo las condiciones que imponía la modalidad formativa </string>
+    <string name="mod5_p7_op5">La usamos anteriormente pero las personas no llegan con la formación mínima requerida por la empresa </string>
+    <string name="mod5_p7_op6">Otra (especificar)</string>
+    <string name="mod5_p7_op7">7. No Sabe </string>
+
+    <string name="mod5_p8">8. Actualmente, su empresa, ¿cuántas vacantes tiene?</string>
+
+    <string name="mod5_p9">9. Actualmente, su empresa ¿para cuáles ocupaciones tiene vacantes, descríbalas y cuantos trabajadores requiere?</string>
+    <string name="mod5_p9_sp1">0Ocupación</string>
+    <string name="mod5_p9_sp2">Ocupación Especifica</string>
+    <string name="mod5_p9_sp3">Cantidad que requiere</string>
+
+    <string name="mod5_p10">10. ¿Cuántas de las vacantes corresponden a empleos temporales (contrato a corto plazo a término fijo) y cuantas a empleos permanentes (contrato a término indefinido)?</string>
+    <string name="mod5_p10_sp1">N° Contrato Fijo</string>
+    <string name="mod5_p10_sp2">N° Contrato Indefinido</string>
+
+    <string name="mod5_p11">11. ¿Cuántas de las vacantes corresponden a empleos de tiempo completo y cuantas a tiempo parcial?</string>
+    <string name="mod5_p11_sp1">Tiempo Completo</string>
+    <string name="mod5_p11_sp2">Tiempo Parcial</string>
+
+    <string name="mod5_p12">12. Actualmente, de las vacantes que tiene su empresa ¿cuáles son difíciles de cubrir?</string>
+
+
+    <string name="mod5_p13">13. ¿Cuántas vacantes difíciles de cubrir tiene su empresa para…?</string>
+    <string name="mod5_p13_sp1">Cantidad Ocupacion vacante dificil</string>
+
+    <string name="mod5_p14">14. ¿Cuánto tiempo cree usted que le tomaría en promedio a su empresa encontrar una persona idónea para cubrir ese puesto de trabajo?</string>
+    <string name="mod5_p14_sp14">Ocupacion 01</string>
+
+    <string name="mod5_p15">15. ¿Cuánto tiempo ha tenido su empresa una vacante difícil de cubrir para…</string>
+    <string name="mod5_p15_sp1">Ocupacion 01</string>
+
+    <string name="mod5_p16">16. ¿Ha usado la ayuda de los Centros de Empleo del Ministerio de Trabajo y Promoción de Empleo para cubrir está vacante?</string>
+    <string name="mod5_p16_sp1">Ocupacion 01</string>
+
+    <string name="mod5_p17">17. ¿Qué habilidades o cualidades particulares ha encontrado difícil de obtener de los postulantes para….(Ocupación difícil de cubrir)</string>
+    <string name="mod5_p17_sp1">1.Habilidad de lectura y escritura (en Español)</string>
+    <string name="mod5_p17_sp2">2.Habilidades de cálculo y numérica</string>
+    <string name="mod5_p17_sp3">3.Conocimiento (hablar, lectura y escritura) de Inglés </string>
+    <string name="mod5_p17_sp4">4.Conocimiento (hablar, lectura y escritura) de otro idioma extranjero (ej. Francés, Chino, etc.) </string>
+    <string name="mod5_p17_sp5">5.Habilidades técnicas específicas de la ocupación</string>
+    <string name="mod5_p17_sp6">6.Habilidad de comunicación </string>
+    <string name="mod5_p17_sp7">7.Habilidad de liderazgo</string>
+    <string name="mod5_p17_sp8">8.Habilidad de trabajar en equipo </string>
+    <string name="mod5_p17_sp9">9.Habilidad de pensamiento creativo y crítico </string>
+    <string name="mod5_p17_sp10">10.Habilidad de resolución de problemas (en los que llegar a una buena solución tome al menos 30 minutos de pensar)</string>
+    <string name="mod5_p17_sp11">11.Habilidad de trabajar independientemente </string>
+    <string name="mod5_p17_sp12">12.Habilidad de manejo de tiempo </string>
+    <string name="mod5_p17_sp13">13.Responsabilidad (hacer un trabajo consciente, ser trabajador, hacer el trabajo eficientemente) </string>
+    <string name="mod5_p17_sp14">14.Estabilidad Emocional (ser sereno y manejar bien la presión, no perder el control fácilmente) </string>
+    <string name="mod5_p17_sp15">15.Amabilidad (ser considerado, amable, cortés) </string>
+    <string name="mod5_p17_sp16">16.Extroversión (ser comunicador, sociable) </string>
+    <string name="mod5_p17_sp17">17.Apertura a la Experiencia (ser original, tener una imaginación activa)</string>
+    <string name="mod5_p17_sp18">18.Conocimiento de informática \ uso de computadoras </string>
+    <string name="mod5_p17_sp19">19.Otra </string>
+
+    <string name="mod5_p18">18. ¿Contrataría a alguien que tuviera las habilidades técnicas específicas que desea para ocupar la vacante difícil de cubrir, aunque no tuviera las habilidades socioemocionales requeridas?</string>
+
+    <string name="mod5_p19">19. ¿Cuál es el nivel educativo mínimo que se solicita a los postulantes para la… (ocupación con vacante difícil de cubrir)</string>
+
+    <string name="mod5_p20">20. ¿Cuáles son los años mínimos de experiencia que se solicitan a los postulantes para … (ocupación difícil de cubrir)</string>
+
+    <string name="mod5_p21">21. ¿Cuáles son las causas principales de tener una vacante difícil de cubrir para -------(Ocupación con vacantes difíciles de cubrir)?</string>
+    <string name="mod5_p21_sp1">1.Competimos con muchos empleadores</string>
+    <string name="mod5_p21_sp2">2.La empresa no paga lo suficiente</string>
+    <string name="mod5_p21_sp3">3.A pesar de que el sueldo es bueno, las condiciones de este trabajo no son atractivas por aspectos como la distancia /horarios/riesgos</string>
+    <string name="mod5_p21_sp4">4.Los postulantes no cuentan con la experiencia laboral requerida por la empresa</string>
+    <string name="mod5_p21_sp5">5.Los postulantes no cuentan con las calificaciones o formación académica/técnica requeridas por la empresa</string>
+    <string name="mod5_p21_sp6">6.Los postulantes no cuentan con las habilidades personales y de comportamiento requeridas por la empresa</string>
+    <string name="mod5_p21_sp7">7.Otros</string>
+
+    <string name="mod5_p22">22. ¿Cuál es la remuneración y tiempo pagado, que se ofrecen en las vacantes difíciles de cubrir…</string>
+    <string name="mod5_p22_sp1">Remuneración  (Soles)</string>
+    <string name="mod5_p22_sp2">Tiempo pagado</string>
+
+    <string name="mod5_p23">23. ¿La dificultad para llenar vacantes en………………… (ocupación difícil de cubrir), qué problemas está ocasionando para la empresa?</string>
+    <string name="mod5_p23_sp1">1.Está perdiendo negocios o pedidos </string>
+    <string name="mod5_p23_sp2">2.Se está retrasando en el desarrollo de nuevos productos o servicios</string>
+    <string name="mod5_p23_sp3">3.Ha renunciado a ofrecer ciertos productos o servicios </string>
+    <string name="mod5_p23_sp4">4.Está teniendo dificultades en la atención al cliente </string>
+    <string name="mod5_p23_sp5">5.Está teniendo dificultades para ofrecer sus productos o servicios con la calidad requerida</string>
+    <string name="mod5_p23_sp6">6.Se han incrementado los costos del negocio</string>
+    <string name="mod5_p23_sp7">7.Está teniendo dificultades para introducir nuevas tecnologías</string>
+    <string name="mod5_p23_sp8">8.Están teniendo dificultades para introducir mejoras y gestión, de administración o de organización del negocio</string>
+    <string name="mod5_p23_sp9">9.Otros</string>
+
+    <string name="mod5_p24">24. ¿Qué medidas o acciones está tomando la empresa a partir de la dificultad para llenar vacantes que son difíciles de cubrir?</string>
+    <string name="mod5_p24_sp1">1.Aumentar la remuneración para hacer la vacante más atractiva</string>
+    <string name="mod5_p24_sp2">2.Capacitar a los trabajadores actuales para que puedan cumplir funciones que estaban asignadas a esa vacante</string>
+    <string name="mod5_p24_sp3">3.Reasignar / redefinir los puestos de trabajo existentes</string>
+    <string name="mod5_p24_sp4">4.Utilizar tecnología o maquinaria para sustituir el trabajo de la vacante</string>
+    <string name="mod5_p24_sp5">5.Comisionar el trabajo por fuera de la empresa (outsourcing)</string>
+    <string name="mod5_p24_sp6">6.Incorporar trabajadores temporales a través de agencias</string>
+    <string name="mod5_p24_sp7">7.Redefinir el perfil y características de la vacante</string>
+    <string name="mod5_p24_sp8">8.Aumentar los esfuerzos en el reclutamiento (mas divulgación de la vacante, más bolsas de empleo)</string>
+    <string name="mod5_p24_sp9">9.Buscar contratar en el extranjero</string>
+    <string name="mod5_p24_sp10">10.Ninguna de las anteriores</string>
+
+    <string name="mod5_p25">25. ¿Cuáles fueron los motivos para no intentar aumentar la remuneración para hacer más atractiva la vacante…</string>
+    <string name="mod5_p25_sp1">Ocupaciones</string>
+
+    <string name="mod5_p26">26. Diga usted ¿cuáles fueron los motivos para no capacitar a los trabajadores para que puedan cumplir las funciones que estaba asignada a esa vacante?</string>
+    <string name="mod5_p26_sp1">Ocupaciones</string>
+
+    <string name="mod5_p27">27. Responda cada una de las preguntas:</string>
+    <string name="mod5_p27_sp1">1.Perdida de negocios o pedidos</string>
+    <string name="mod5_p27_sp2">2.Retraso en el desarrollo de productos o servicios </string>
+    <string name="mod5_p27_sp3">3.Renuncia a ofrecer ciertos productos o servicios</string>
+    <string name="mod5_p27_sp4">4.Dificultades en la atención al cliente </string>
+    <string name="mod5_p27_sp5">5.Dificultada para ofrecer sus productos o servicios con la calidad requerida </string>
+    <string name="mod5_p27_sp6">6.Incremento en los costos del negocio </string>
+    <string name="mod5_p27_sp7">7.Dificultades para introducir tecnologías </string>
+    <string name="mod5_p27_sp8">8.Dificultades para introducir mejoras y gestión, de administración o de organización del negocio  </string>
+    <string name="mod5_p27_sp9">9.Sin problemas de reclutamiento del personal/ no se anticipan problemas de reclutamiento de personal </string>
+    <string name="mod5_p27_sp10">10.Perdida de negocios o pedidos</string>
+    <string name="mod5_p27_sp11">11.Retraso en el desarrollo de productos o servicios </string>
+    <string name="mod5_p27_sp12">12.Renuncia a ofrecer ciertos productos o servicios </string>
+    <string name="mod5_p27_sp13">13.Dificultades en la atención al cliente</string>
+    <string name="mod5_p27_sp14">14.Dificultada para ofrecer sus productos o servicios con la calidad requerida</string>
+    <string name="mod5_p27_sp15">15.Incremento en los costos del negocio </string>
+    <string name="mod5_p27_sp16">16.Dificultades para introducir tecnologías </string>
+    <string name="mod5_p27_sp17">17.Dificultades para introducir mejoras y gestión, de administración o de organización del negocio  </string>
+    <string name="mod5_p27_sp18">18.Sin problemas de reclutamiento del personal/ no se anticipan problemas de reclutamiento de personal </string>
+    <string name="OBS_MOD_V">Observaciones Modulo IV</string>
 
 
     <!--GENERICOS-->
@@ -485,4 +714,260 @@
     <string name="ntrab_tiempoparcial">N° de trabajadores a tiempo parcial</string>
     <string name="ntrab_cont_temp">N° de trabajdores con contratos temporales o a plazo fijo</string>
     <string name="ntrba_contratados">N° de trabajadores contratados</string>
+
+    <string-array name="paises">
+        <item>Afganistán</item>
+        <item>Albania</item>
+        <item>Alemania</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguila</item>
+        <item>Antártida</item>
+        <item>Antigua y Barbuda</item>
+        <item>Arabia Saudí</item>
+        <item>Argelia</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaiyán</item>
+        <item>Bahamas</item>
+        <item>Bangladés</item>
+        <item>Barbados</item>
+        <item>Baréin</item>
+        <item>Bélgica</item>
+        <item>Belice</item>
+        <item>Benín</item>
+        <item>Bermudas</item>
+        <item>Bielorrusia</item>
+        <item>Bolivia</item>
+        <item>Bosnia-Herzegovina</item>
+        <item>Botsuana</item>
+        <item>Brasil</item>
+        <item>Brunéi</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Bután</item>
+        <item>Cabo Verde</item>
+        <item>Camboya</item>
+        <item>Camerún</item>
+        <item>Canadá</item>
+        <item>Caribe neerlandés</item>
+        <item>Catar</item>
+        <item>Ceuta y Melilla</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Chipre</item>
+        <item>Ciudad del Vaticano</item>
+        <item>Colombia</item>
+        <item>Comoras</item>
+        <item>Corea del Norte</item>
+        <item>Corea del Sur</item>
+        <item>Costa de Marfil</item>
+        <item>Costa Rica</item>
+        <item>Croacia</item>
+        <item>Cuba</item>
+        <item>Curazao</item>
+        <item>Diego García</item>
+        <item>Dinamarca</item>
+        <item>Dominica</item>
+        <item>Ecuador</item>
+        <item>Egipto</item>
+        <item>El Salvador</item>
+        <item>Emiratos Árabes Unidos</item>
+        <item>Eritrea</item>
+        <item>Eslovaquia</item>
+        <item>Eslovenia</item>
+        <item>España</item>
+        <item>Estados Unidos</item>
+        <item>Estonia</item>
+        <item>Etiopía</item>
+        <item>Filipinas</item>
+        <item>Finlandia</item>
+        <item>Fiyi</item>
+        <item>Francia</item>
+        <item>Gabón</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Granada</item>
+        <item>Grecia</item>
+        <item>Groenlandia</item>
+        <item>Guadalupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guayana Francesa</item>
+        <item>Guernesey</item>
+        <item>Guinea</item>
+        <item>Guinea Ecuatorial</item>
+        <item>Guinea-Bisáu</item>
+        <item>Guyana</item>
+        <item>Haití</item>
+        <item>Honduras</item>
+        <item>Hungría</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Irán</item>
+        <item>Iraq</item>
+        <item>Irlanda</item>
+        <item>Isla Christmas</item>
+        <item>Isla de la Ascensión</item>
+        <item>Isla de Man</item>
+        <item>Isla Niue</item>
+        <item>Isla Norfolk</item>
+        <item>Islandia</item>
+        <item>Islas Åland</item>
+        <item>Islas Caimán</item>
+        <item>islas Canarias</item>
+        <item>Islas Cocos</item>
+        <item>Islas Cook</item>
+        <item>Islas Feroe</item>
+        <item>Islas Georgia del Sur y Sandwich del Sur</item>
+        <item>Islas Malvinas</item>
+        <item>Islas Marianas del Norte</item>
+        <item>Islas Marshall</item>
+        <item>Islas menores alejadas de EE. UU.</item>
+        <item>Islas Pitcairn</item>
+        <item>Islas Salomón</item>
+        <item>Islas Turcas y Caicos</item>
+        <item>Islas Vírgenes Británicas</item>
+        <item>Islas Vírgenes de EE. UU.</item>
+        <item>Israel</item>
+        <item>Italia</item>
+        <item>Jamaica</item>
+        <item>Japón</item>
+        <item>Jersey</item>
+        <item>Jordania</item>
+        <item>Kazajistán</item>
+        <item>Kenia</item>
+        <item>Kirguistán</item>
+        <item>Kiribati</item>
+        <item>Kosovo</item>
+        <item>Kuwait</item>
+        <item>Laos</item>
+        <item>Lesoto</item>
+        <item>Letonia</item>
+        <item>Líbano</item>
+        <item>Liberia</item>
+        <item>Libia</item>
+        <item>Liechtenstein</item>
+        <item>Lituania</item>
+        <item>Luxemburgo</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malasia</item>
+        <item>Malaui</item>
+        <item>Maldivas</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marruecos</item>
+        <item>Martinica</item>
+        <item>Mauricio</item>
+        <item>Mauritania</item>
+        <item>Mayotte</item>
+        <item>México</item>
+        <item>Micronesia</item>
+        <item>Moldavia</item>
+        <item>Mónaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Nicaragua</item>
+        <item>Níger</item>
+        <item>Nigeria</item>
+        <item>Noruega</item>
+        <item>Nueva Caledonia</item>
+        <item>Nueva Zelanda</item>
+        <item>Omán</item>
+        <item>Países Bajos</item>
+        <item>Pakistán</item>
+        <item>Palau</item>
+        <item>Panamá</item>
+        <item>Papúa Nueva Guinea</item>
+        <item>Paraguay</item>
+        <item>Perú</item>
+        <item>Polinesia Francesa</item>
+        <item>Polonia</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>RAE de Hong Kong</item>
+        <item>RAE de Macao</item>
+        <item>Reino Unido</item>
+        <item>República Centroafricana</item>
+        <item>República Checa</item>
+        <item>República del Congo</item>
+        <item>República Democrática del Congo</item>
+        <item>República Dominicana</item>
+        <item>Reunión</item>
+        <item>Ruanda</item>
+        <item>Rumanía</item>
+        <item>Rusia</item>
+        <item>Sáhara Occidental</item>
+        <item>Samoa</item>
+        <item>Samoa Americana</item>
+        <item>San Bartolomé</item>
+        <item>San Cristóbal y Nieves</item>
+        <item>San Marino</item>
+        <item>San Martín</item>
+        <item>San Pedro y Miquelón</item>
+        <item>San Vicente y las Granadinas</item>
+        <item>Santa Elena</item>
+        <item>Santa Lucía</item>
+        <item>Santo Tomé y Príncipe</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leona</item>
+        <item>Singapur</item>
+        <item>Sint Maarten</item>
+        <item>Siria</item>
+        <item>Somalia</item>
+        <item>Sri Lanka</item>
+        <item>Suazilandia</item>
+        <item>Sudáfrica</item>
+        <item>Sudán</item>
+        <item>Sudán del Sur</item>
+        <item>Suecia</item>
+        <item>Suiza</item>
+        <item>Surinam</item>
+        <item>Svalbard y Jan Mayen</item>
+        <item>Tailandia</item>
+        <item>Taiwán</item>
+        <item>Tanzania</item>
+        <item>Tayikistán</item>
+        <item>Territorio Británico del Océano Índico</item>
+        <item>Territorios Australes Franceses</item>
+        <item>Territorios Palestinos</item>
+        <item>Timor Oriental</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad y Tobago</item>
+        <item>Tristán da Cunha</item>
+        <item>Túnez</item>
+        <item>Turkmenistán</item>
+        <item>Turquía</item>
+        <item>Tuvalu</item>
+        <item>Ucrania</item>
+        <item>Uganda</item>
+        <item>Uruguay</item>
+        <item>Uzbekistán</item>
+        <item>Vanuatu</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wallis y Futuna</item>
+        <item>Yemen</item>
+        <item>Yibuti</item>
+        <item>Zambia</item>
+        <item>Zimbabue</item>
+    </string-array>
 </resources>

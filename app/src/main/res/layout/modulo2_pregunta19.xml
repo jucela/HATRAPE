@@ -20,16 +20,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin5dp">
-            <View
-                android:layout_weight="4"
-                android:layout_width="0dp"
-                android:layout_height="1dp"/>
+
             <TextView
-                android:layout_weight="1"
+                android:id="@+id/textView1"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:text="Orden de Importancia"/>
+                android:layout_height="50dp"
+                android:layout_weight="5"
+                android:background="@drawable/cabecera"
+                android:gravity="center"
+                android:text="Aspectos Restrictivos"
+                android:textColor="@color/icons"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="2"
+                android:background="@drawable/cabecera"
+                android:gravity="center"
+                android:text="Orden de importancia"
+                android:textColor="@color/icons"
+                android:textStyle="bold" />
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
@@ -38,13 +50,13 @@
             android:layout_margin="@dimen/margin5dp"
             android:gravity="center_vertical">
             <CheckBox
-                android:layout_weight="4"
+                android:layout_weight="5"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin10dp"
                 android:text="@string/mod2_p19_sp1"/>
             <LinearLayout
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:background="@drawable/caja_texto_redonda">
@@ -63,13 +75,13 @@
             android:layout_margin="@dimen/margin5dp"
             android:gravity="center_vertical">
             <CheckBox
-                android:layout_weight="4"
+                android:layout_weight="5"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin10dp"
                 android:text="@string/mod2_p19_sp2"/>
             <LinearLayout
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:background="@drawable/caja_texto_redonda">
@@ -88,13 +100,13 @@
             android:layout_margin="@dimen/margin5dp"
             android:gravity="center_vertical">
             <CheckBox
-                android:layout_weight="4"
+                android:layout_weight="5"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin10dp"
                 android:text="@string/mod2_p19_sp3"/>
             <LinearLayout
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:background="@drawable/caja_texto_redonda">
@@ -113,13 +125,13 @@
             android:layout_margin="@dimen/margin5dp"
             android:gravity="center_vertical">
             <CheckBox
-                android:layout_weight="4"
+                android:layout_weight="5"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin10dp"
                 android:text="@string/mod2_p19_sp4"/>
             <LinearLayout
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:background="@drawable/caja_texto_redonda">
@@ -131,7 +143,6 @@
                     android:text="Orden de Importancia"/>
             </LinearLayout>
         </LinearLayout>
-
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -140,13 +151,13 @@
             android:gravity="center_vertical">
             <LinearLayout
                 android:orientation="horizontal"
-                android:layout_weight="4"
+                android:layout_weight="5"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content">
                 <CheckBox
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
-                    android:text="@string/otro"/>
+                    android:text="@string/mod2_p19_sp5"/>
                 <EditText
                     android:paddingLeft="@dimen/margin5dp"
                     android:hint="@string/especifique"
@@ -158,7 +169,7 @@
                     />
             </LinearLayout>
             <LinearLayout
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_marginLeft="@dimen/margin15dp"

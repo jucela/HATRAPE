@@ -13,6 +13,7 @@
         android:text="@string/modulo1_pregunta2"
         android:layout_marginBottom="@dimen/fab_margin"/>
     <EditText
+        android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:background="@drawable/cajas_de_texto"
@@ -28,6 +29,7 @@
             android:textColor="@color/primary_text"
             android:layout_marginRight="@dimen/margin15dp"/>
         <EditText
+            android:inputType="text"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:background="@drawable/cajas_de_texto"/>

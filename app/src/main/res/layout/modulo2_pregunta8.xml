@@ -24,6 +24,34 @@
             android:layout_marginRight="@dimen/margin10dp"
             android:layout_marginBottom="@dimen/margin5dp">
             <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Jornada de Trabajo"
+                android:textColor="@color/icons"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="@dimen/margin10dp"
+                android:background="@drawable/cabecera"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/margin5dp"
+                android:text="Número"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="@color/icons"
+                android:background="@drawable/cabecera"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="@dimen/margin10dp"
+            android:layout_marginRight="@dimen/margin10dp"
+            android:layout_marginBottom="@dimen/margin5dp">
+            <TextView
                 android:layout_gravity="center_vertical"
                 android:layout_width="0dp"
                 android:layout_weight="1"
@@ -32,7 +60,7 @@
                 android:textColor="@color/icons"
                 android:textStyle="bold"
                 android:padding="@dimen/margin10dp"
-                android:background="@color/accent"/>
+                android:background="@drawable/cajas_de_texto"/>
             <EditText
                 android:inputType="number"
                 android:layout_width="100dp"
@@ -56,7 +84,7 @@
                 android:textColor="@color/icons"
                 android:textStyle="bold"
                 android:padding="@dimen/margin10dp"
-                android:background="@color/accent"/>
+                android:background="@drawable/cajas_de_texto"/>
             <EditText
                 android:inputType="number"
                 android:layout_width="100dp"

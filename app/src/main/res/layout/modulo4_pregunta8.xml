@@ -18,18 +18,26 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_margin="@dimen/margin5dp">
-            <View
+            <TextView
                 android:layout_weight="4"
                 android:layout_width="0dp"
-                android:layout_height="1dp"/>
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Obstáculos"
+                android:textStyle="bold"
+                android:textColor="@color/icons"
+                android:background="@drawable/cabecera"/>
             <TextView
                 android:layout_weight="1"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:text="Orden de Importancia"/>
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Orden de Importancia"
+                android:textColor="@color/icons"
+                android:textStyle="bold"
+                android:background="@drawable/cabecera"/>
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
@@ -458,7 +466,7 @@
                 <CheckBox
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
-                    android:text="@string/otro"/>
+                    android:text="@string/mod4_p8_sp17"/>
                 <EditText
                     android:paddingLeft="@dimen/margin5dp"
                     android:hint="@string/especifique"

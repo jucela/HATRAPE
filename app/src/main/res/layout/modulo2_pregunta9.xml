@@ -104,7 +104,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="@string/otro"
+                    android:text="@string/mod2_p9_sp4"
                     android:textColor="@color/icons"
                     android:textStyle="bold"
                     android:padding="@dimen/margin10dp"

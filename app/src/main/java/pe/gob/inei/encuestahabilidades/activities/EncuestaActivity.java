@@ -31,6 +31,7 @@ import pe.gob.inei.encuestahabilidades.fragments.Modulo3Fragment3;
 import pe.gob.inei.encuestahabilidades.fragments.Modulo4Fragment1;
 import pe.gob.inei.encuestahabilidades.fragments.Modulo4Fragment2;
 import pe.gob.inei.encuestahabilidades.fragments.Modulo4Fragment3;
+import pe.gob.inei.encuestahabilidades.fragments.Modulo5Fragment1;
 import pe.gob.inei.encuestahabilidades.fragments.VisitaFragment;
 
 public class EncuestaActivity extends AppCompatActivity {
@@ -110,6 +111,9 @@ public class EncuestaActivity extends AppCompatActivity {
                         break;
                     case R.id.opcion_19:
                         setFragment(18);
+                        break;
+                    case R.id.opcion_20:
+                        setFragment(19);
                         break;
                 }
                 return false;
@@ -210,6 +214,10 @@ public class EncuestaActivity extends AppCompatActivity {
             case 18:
                 Modulo4Fragment3 modulo4Fragment3 = new Modulo4Fragment3();
                 fragmentTransaction.replace(R.id.container_encuesta, modulo4Fragment3);
+                break;
+            case 19:
+                Modulo5Fragment1 modulo5Fragment1 = new Modulo5Fragment1();
+                fragmentTransaction.replace(R.id.container_encuesta, modulo5Fragment1);
                 break;
         }
         fragmentTransaction.commit();

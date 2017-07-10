@@ -11,104 +11,20 @@
         android:layout_height="wrap_content"
         android:text="@string/modulo1_pregunta6"
         android:layout_marginBottom="@dimen/fab_margin" />
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/modulo1_pregunta6_subpregunta1"/>
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/modulo1_pregunta6_subpregunta2"/>
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/modulo1_pregunta6_subpregunta3"/>
-
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/modulo1_pregunta6_subpregunta4"/>
-
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/modulo1_pregunta6_subpregunta5"/>
-
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/modulo1_pregunta6_subpregunta6"/>
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/margin10dp"
-        android:layout_marginRight="@dimen/margin10dp"
-        android:padding="@dimen/margin10dp"
-        android:background="@drawable/border_layout_subpreguntas">
-        <TextView
-            android:layout_gravity="center_vertical"
-            android:layout_width="wrap_content"
+        android:padding="16dp">
+        <AutoCompleteTextView
+            android:id="@+id/autotxtPaises"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/especifique"
-            android:textColor="@color/primary_text"
-            android:layout_marginRight="@dimen/margin10dp"/>
-        <EditText
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:background="@drawable/cajas_de_texto"/>
-    </LinearLayout>
-
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/modulo1_pregunta6_subpregunta7"/>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/margin10dp"
-        android:layout_marginRight="@dimen/margin10dp"
-        android:padding="@dimen/margin10dp"
-        android:background="@drawable/border_layout_subpreguntas">
+            android:completionThreshold="1"/>
         <TextView
-            android:layout_gravity="center_vertical"
-            android:layout_width="wrap_content"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/especifique"
-            android:textColor="@color/primary_text"
-            android:layout_marginRight="@dimen/margin10dp"/>
-        <EditText
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:background="@drawable/cajas_de_texto"/>
-    </LinearLayout>
-
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/otro"/>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/margin10dp"
-        android:layout_marginRight="@dimen/margin10dp"
-        android:padding="@dimen/margin10dp"
-        android:background="@drawable/border_layout_subpreguntas">
-        <TextView
-            android:layout_gravity="center_vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/especifique"
-            android:textColor="@color/primary_text"
-            android:layout_marginRight="@dimen/margin10dp"/>
-        <EditText
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="30dp"
-            android:background="@drawable/cajas_de_texto"/>
+            android:text="Escriba un país. Por ejemplo: Argentina"/>
     </LinearLayout>
 </LinearLayout>
