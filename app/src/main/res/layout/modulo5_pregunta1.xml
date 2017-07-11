@@ -24,21 +24,12 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_weight="5"
-            android:background="@color/accent"
-            android:gravity="center"
-            android:text="Grandes grupos ocupacionales según CNO 2015"
-            android:textColor="@color/icons"
-            android:textStyle="bold" />
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="@dimen/margin10dp"
+            android:layout_marginTop="1dp"
             android:background="@drawable/cajas_de_texto">
             <CheckBox
                 android:layout_width="wrap_content"
@@ -56,7 +47,7 @@
                 android:layout_marginLeft="30dp"
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"
+                android:layout_height="60dp"
                 android:background="@drawable/caja_texto_redonda"
                 android:gravity="center_vertical"
                 android:padding="@dimen/margin10dp">
@@ -91,6 +82,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="@dimen/margin10dp"
+            android:layout_marginTop="1dp"
             android:background="@drawable/cajas_de_texto">
             <CheckBox
                 android:layout_width="wrap_content"
@@ -108,7 +100,7 @@
                 android:layout_marginLeft="30dp"
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"
+                android:layout_height="60dp"
                 android:background="@drawable/caja_texto_redonda"
                 android:gravity="center_vertical"
                 android:padding="@dimen/margin10dp">
@@ -143,6 +135,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="@dimen/margin10dp"
+            android:layout_marginTop="1dp"
             android:background="@drawable/cajas_de_texto">
             <CheckBox
                 android:layout_width="wrap_content"
@@ -160,7 +153,7 @@
                 android:layout_marginLeft="30dp"
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"
+                android:layout_height="60dp"
                 android:background="@drawable/caja_texto_redonda"
                 android:gravity="center_vertical"
                 android:padding="@dimen/margin10dp">
@@ -195,6 +188,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="@dimen/margin10dp"
+            android:layout_marginTop="1dp"
             android:background="@drawable/cajas_de_texto">
             <CheckBox
                 android:layout_width="wrap_content"
@@ -212,7 +206,7 @@
                 android:layout_marginLeft="30dp"
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"
+                android:layout_height="60dp"
                 android:background="@drawable/caja_texto_redonda"
                 android:gravity="center_vertical"
                 android:padding="@dimen/margin10dp">
@@ -247,6 +241,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="@dimen/margin10dp"
+            android:layout_marginTop="1dp"
             android:background="@drawable/cajas_de_texto">
             <CheckBox
                 android:layout_width="wrap_content"
@@ -264,7 +259,7 @@
                 android:layout_marginLeft="30dp"
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"
+                android:layout_height="60dp"
                 android:background="@drawable/caja_texto_redonda"
                 android:gravity="center_vertical"
                 android:padding="@dimen/margin10dp">
@@ -299,6 +294,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="@dimen/margin10dp"
+            android:layout_marginTop="1dp"
             android:background="@drawable/cajas_de_texto">
             <CheckBox
                 android:layout_width="wrap_content"
@@ -316,7 +312,7 @@
                 android:layout_marginLeft="30dp"
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"
+                android:layout_height="60dp"
                 android:background="@drawable/caja_texto_redonda"
                 android:gravity="center_vertical"
                 android:padding="@dimen/margin10dp">
@@ -351,6 +347,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="@dimen/margin10dp"
+            android:layout_marginTop="1dp"
             android:background="@drawable/cajas_de_texto">
             <CheckBox
                 android:layout_width="wrap_content"
@@ -368,7 +365,7 @@
                 android:layout_marginLeft="30dp"
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"
+                android:layout_height="60dp"
                 android:background="@drawable/caja_texto_redonda"
                 android:gravity="center_vertical"
                 android:padding="@dimen/margin10dp">
@@ -403,6 +400,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="@dimen/margin10dp"
+            android:layout_marginTop="1dp"
             android:background="@drawable/cajas_de_texto">
             <CheckBox
                 android:layout_width="wrap_content"
@@ -420,7 +418,7 @@
                 android:layout_marginLeft="30dp"
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"
+                android:layout_height="60dp"
                 android:background="@drawable/caja_texto_redonda"
                 android:gravity="center_vertical"
                 android:padding="@dimen/margin10dp">
@@ -455,6 +453,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="@dimen/margin10dp"
+            android:layout_marginTop="1dp"
             android:background="@drawable/cajas_de_texto">
             <CheckBox
                 android:layout_width="wrap_content"
@@ -472,7 +471,7 @@
                 android:layout_marginLeft="30dp"
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"
+                android:layout_height="60dp"
                 android:background="@drawable/caja_texto_redonda"
                 android:gravity="center_vertical"
                 android:padding="@dimen/margin10dp">
@@ -502,5 +501,41 @@
                     android:background="@drawable/cajas_de_texto"/>
             </LinearLayout>
         </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:text="TOTAL PERSONAS OCUPADAS"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:background="@color/accent"/>
+        <EditText
+            android:background="@drawable/cajas_de_texto"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"/>
+        <TextView
+            android:text="TOTAL PORCENTAJE"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:background="@color/accent"/>
+        <EditText
+            android:background="@drawable/cajas_de_texto"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent" />
     </LinearLayout>
 </LinearLayout>

@@ -77,8 +77,28 @@
             android:id="@+id/opcion_19"
             android:checked="false"
             />
-        <item android:title="Modulo IV_P1"
+        <item android:title="Modulo V_P1"
             android:id="@+id/opcion_20"
+            android:checked="false"
+            />
+        <item android:title="Modulo V_P2"
+            android:id="@+id/opcion_21"
+            android:checked="false"
+            />
+        <item android:title="Modulo V_P3"
+            android:id="@+id/opcion_22"
+            android:checked="false"
+            />
+        <item android:title="Modulo V_P4_P6"
+            android:id="@+id/opcion_23"
+            android:checked="false"
+            />
+        <item android:title="Modulo V_P7"
+            android:id="@+id/opcion_24"
+            android:checked="false"
+            />
+        <item android:title="Modulo V_P8_P27"
+            android:id="@+id/opcion_25"
             android:checked="false"
             />
     </group>

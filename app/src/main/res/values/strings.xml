@@ -486,14 +486,23 @@
 
     <string name="mod5_p2">2. En los últimos 12 meses, ¿cuántas personas contrató (o qué porcentaje en caso no sepa el número exacto) según la categoría ocupacional?</string>
     <string name="mod5_p2_sp1">1.Gerentes</string>
+    <string name="mod5_p2_sp1_contrato">¿Contrató Gerentes?</string>
     <string name="mod5_p2_sp2">2.Profesionales</string>
+    <string name="mod5_p2_sp2_contrato">¿Contrató Profesionales?</string>
     <string name="mod5_p2_sp3">3.Técnicos y profesionales de nivel medio</string>
+    <string name="mod5_p2_sp3_contrato">¿Contrató Técnicos y profesionales de nivel medio?</string>
     <string name="mod5_p2_sp4">4.Personal de apoyo administrativo</string>
+    <string name="mod5_p2_sp4_contrato">¿Contrató Personal de apoyo administrativo?</string>
     <string name="mod5_p2_sp5">5.Personal de servicios y vendedores</string>
+    <string name="mod5_p2_sp5_contrato">¿Contrató Personal de servicios y vendedores?</string>
     <string name="mod5_p2_sp6">6.Trabajadores calificados agropecuarios, forestales y pesqueros</string>
+    <string name="mod5_p2_sp6_contrato">¿Contrató Trabajadores calificados agropecuarios, forestales y pesqueros?</string>
     <string name="mod5_p2_sp7">7.Oficiales, operarios y artesanos de artes mecánicas y de otros oficios</string>
+    <string name="mod5_p2_sp7_contrato">¿Contrató Oficiales, operarios y artesanos de artes mecánicas y de otros oficios?</string>
     <string name="mod5_p2_sp8">8.Operadores de instalaciones y máquinas y ensambladores</string>
+    <string name="mod5_p2_sp8_contrato">¿Contrató Operadores de instalaciones y máquinas y ensambladores?</string>
     <string name="mod5_p2_sp9">9.Ocupaciones elementales</string>
+    <string name="mod5_p2_sp9_contrato">¿Contrató Ocupaciones elementales?</string>
     <string name="mod5_p2_sp10">10.Total</string>
 
     <string name="mod5_p3">3. ¿En los últimos 12 meses, en su empresa ¿cuáles fueron los dos medios de contratación de personal más importantes que utilizó? Bolsa de trabajo del Ministerio de Trabajo y Promoción del Empleo (MTPE)/ Centros de empleo</string>
@@ -508,8 +517,7 @@
     <string name="mod5_p3_sp9">9.Otros sitios web privados / Redes sociales (LinkedIn, Facebook, etc.)</string>
     <string name="mod5_p3_sp10">10.Redes informales (amigos/colegas/conocidos o sus propios trabajadores)</string>
     <string name="mod5_p3_sp11">11.Feria de empleos privadas</string>
-    <string name="mod5_p3_sp12">12.Otros no especificados anteriormente:</string>
-    <string name="mod5_p3_sp13">13.Otro?  (Especifique)</string>
+    <string name="mod5_p3_sp12">12.Otro</string>
 
 
     <string name="mod5_p4">4. ¿Cuáles son las dos razones principales por las que usó estos medios de contratación de personal?</string>
@@ -538,13 +546,17 @@
     <string name="mod5_p7_sp3">3.Convenio de Practicas Pre-Profesionales</string>
     <string name="mod5_p7_sp4">4.Convenios de Capacitación Laboral Juvenil </string>
     <string name="mod5_p7_sp5">5.Otro</string>
-    <string name="mod5_p7_op1">No conoce esta opción </string>
-    <string name="mod5_p7_op2">No es necesaria</string>
-    <string name="mod5_p7_op3">Se requieren demasiados procedimientos engorrosos para usarlos </string>
-    <string name="mod5_p7_op4">La usamos anteriormente y no me satisfizo las condiciones que imponía la modalidad formativa </string>
-    <string name="mod5_p7_op5">La usamos anteriormente pero las personas no llegan con la formación mínima requerida por la empresa </string>
-    <string name="mod5_p7_op6">Otra (especificar)</string>
-    <string name="mod5_p7_op7">7. No Sabe </string>
+
+    <string-array name="mod5_p7_opciones">
+        <item>Seleccione motivo por el que no uso</item>
+        <item>No conoce esta opción</item>
+        <item>No es necesaria</item>
+        <item>Se requieren demasiados procedimientos engorrosos para usarlos</item>
+        <item>La usamos anteriormente y no me satisfizo las condiciones que imponía la modalidad formativa</item>
+        <item>La usamos anteriormente pero las personas no llegan con la formación mínima requerida por la empresa</item>
+        <item>Otra (especificar)</item>
+        <item>No Sabe</item>
+    </string-array>
 
     <string name="mod5_p8">8. Actualmente, su empresa, ¿cuántas vacantes tiene?</string>
 
@@ -655,15 +667,10 @@
     <string name="mod5_p27_sp7">7.Dificultades para introducir tecnologías </string>
     <string name="mod5_p27_sp8">8.Dificultades para introducir mejoras y gestión, de administración o de organización del negocio  </string>
     <string name="mod5_p27_sp9">9.Sin problemas de reclutamiento del personal/ no se anticipan problemas de reclutamiento de personal </string>
-    <string name="mod5_p27_sp10">10.Perdida de negocios o pedidos</string>
-    <string name="mod5_p27_sp11">11.Retraso en el desarrollo de productos o servicios </string>
-    <string name="mod5_p27_sp12">12.Renuncia a ofrecer ciertos productos o servicios </string>
-    <string name="mod5_p27_sp13">13.Dificultades en la atención al cliente</string>
-    <string name="mod5_p27_sp14">14.Dificultada para ofrecer sus productos o servicios con la calidad requerida</string>
-    <string name="mod5_p27_sp15">15.Incremento en los costos del negocio </string>
-    <string name="mod5_p27_sp16">16.Dificultades para introducir tecnologías </string>
-    <string name="mod5_p27_sp17">17.Dificultades para introducir mejoras y gestión, de administración o de organización del negocio  </string>
-    <string name="mod5_p27_sp18">18.Sin problemas de reclutamiento del personal/ no se anticipan problemas de reclutamiento de personal </string>
+    <string name="mod5_p27A">27A. Durante los últimos tres años, ¿ha habido problemas para contratar personal con las habilidades requeridas que hayan conducido a la empresa a alguna de las siguientes situaciones?</string>
+    <string name="mod5_p27B">27B. Mirando hacia los próximos dos o tres años, ¿cree usted que habrá problemas para contratar personal con las habilidades requeridas en esta empresa que puedan causar algunas de las siguientes situaciones?</string>
+
+
     <string name="OBS_MOD_V">Observaciones Modulo IV</string>
 
 
