@@ -101,5 +101,9 @@
             android:id="@+id/opcion_25"
             android:checked="false"
             />
+        <item android:title="Modulo VI"
+            android:id="@+id/opcion_26"
+            android:checked="false"
+            />
     </group>
 </menu>
