@@ -698,7 +698,7 @@
     <string name="mod6_p4_sp2">2.Se introdujo una nueva tecnología y el personal no se ha adaptado a ella   </string>
     <string name="mod6_p4_sp3">3.No se capacita ni se desarrolla al personal   </string>
     <string name="mod6_p4_sp4">4.Retención laboral deficiente   </string>
-    <string name="mod6_p4_sp5">5.Personal que no cuenta  con todas las habilidades necesarias para realizar el trabajo</string>
+    <string name="mod6_p4_sp5">5.personal que no cuenta  con todas las habilidades necesarias para realizar el trabajo</string>
     <string name="mod6_p4_sp6">6.Otro</string>
     <string name="mod6_p4_op1">Gerentes</string>
     <string name="mod6_p4_op2">profesionales</string>
@@ -778,6 +778,284 @@
     <string name="mod6_p11_sp9">Ninguna de las anteriores</string>
     <string name="OBS_MOD_VI">Observaciones Modulo VI</string>
 
+    <!--MODULO 7-->
+
+
+    <string name="mod7_p1">1. ¿En esta empresa regularmente se hacen ejercicios para analizar cuáles son las habilidades, talentos y competencias que se necesita para el buen funcionamiento del negocio?</string>
+    <string name="mod7_p1_sp1">Sí, pero no regularmente. Se hace según cuando se requiere.</string>
+
+    <string name="mod7_p1_sp2">Sí, regularmente. Es parte del proceso de planificación general en la empresa.</string>
+
+    <string name="mod7_p1_sp3">No</string>
+
+    <string name="mod7_p2">2. Durante los últimos 12 meses, su empresa ¿participó en un proceso de Certificación de Competencias Laborales de los empleados? </string>
+    <string name="mod7_p3">3. ¿Qué empresa / agencia realizó la Certificación de Competencias Laborales?</string>
+    <string name="mod7_p4">4. ¿planea el próximo año participar en un proceso de Certificación de Competencias Laborales?</string>
+
+    <string name="mod7_p5">5. ¿Cómo calificaría la Certificación de Competencias Laborales como instrumento de medición de habilidades y competencias?</string>
+    <string name="mod7_p5_sp1">1.Nada importante</string>
+    <string name="mod7_p5_sp2">2.Un poco importante</string>
+    <string name="mod7_p5_sp3">3.Más o menos importante</string>
+    <string name="mod7_p5_sp4">4.Es importante</string>
+    <string name="mod7_p5_sp5">5.Muy importante</string>
+
+    <string name="mod7_p6">6. En su empresa del total de trabajadores ¿cuántos o qué porcentaje tiene una Certificación de Competencias Laborales?</string>
+    <string name="mod7_p6_sp1">6.Numero- Trabajadores</string>
+    <string name="mod7_p6_sp2">% - Trabajadores</string>
+
+    <string name="mod7_p7">7. ¿Cuál es la principal estrategia utilizan  para que, en el futuro, los trabajadores tengan las habilidades y competencias requeridas?</string>
+    <string name="mod7_p7_sp1">1.Capacitacion al personal actual</string>
+    <string name="mod7_p7_sp2">2.Capacitamos a los contratistas con los que trabajan</string>
+    <string name="mod7_p7_sp3">3.Contratamos nuevo personal que cuenta con las habilidades, competencias y calificaciones que necesitamos</string>
+    <string name="mod7_p7_sp4">4.Contratamos nuevo personal, al cual le damos capacitación específica</string>
+    <string name="mod7_p7_sp5">5.Otros</string>
+
+    <string name="mod7_p8">8. ¿Cuáles habilidades / competencias son consideradas generalmente como importantes en su empresa para el desarrollo de su organización en los próximos años?</string>
+    <string name="mod7_p8_sp1">1.Habilidad de lectura y escritura (en Español)</string>
+    <string name="mod7_p8_sp2">2.Habilidades de cálculo y numérica</string>
+    <string name="mod7_p8_sp3">3.Conocimiento (hablar, lectura y escritura) de Inglés</string>
+    <string name="mod7_p8_sp4">4.Conocimiento (hablar, lectura y escritura) de otro idioma extranjero (ej. Francés, Chino, etc.)</string>
+    <string name="mod7_p8_sp5">5.Habilidades técnicas específicas de la ocupación</string>
+    <string name="mod7_p8_sp6">6.Habilidad de comunicación</string>
+    <string name="mod7_p8_sp7">7.Habilidad de liderazgo</string>
+    <string name="mod7_p8_sp8">8.Habilidad de trabajar en equipo</string>
+    <string name="mod7_p8_sp9">9.Habilidad de pensamiento creativo y crítico</string>
+    <string name="mod7_p8_sp10">10.Habilidad de resolución de problemas (en los que llegar a una buena solución tome al menos 30 minutos de pensar)</string>
+    <string name="mod7_p8_sp11">11.Habilidad de trabajar independientemente</string>
+    <string name="mod7_p8_sp12">12.Habilidad de manejo de tiempo</string>
+    <string name="mod7_p8_sp13">13.Responsabilidad (hacer un trabajo consciente, ser trabajador, hacer el trabajo eficientemente)</string>
+    <string name="mod7_p8_sp14">14.Estabilidad emocional (ser sereno y manejar bien la presión, no perder el control fácilmente)</string>
+    <string name="mod7_p8_sp15">15.Amabilidad (ser considerado, amable, cortés)</string>
+    <string name="mod7_p8_sp16">16.Extroversión (ser comunicador, sociable)</string>
+    <string name="mod7_p8_sp17">17.Apertura a la experiencia (ser original, tener una imaginación activa)</string>
+    <string name="mod7_p8_sp18">18.Conocimiento de informática / uso de computadoras</string>
+    <string name="mod7_p8_sp19">19.Otra </string>
+    <string name="mod7_p8_sp20">20.Ninguna.</string>
+    <string name="mod7_p9">9. Cuáles son las tres habilidades que se considera más importante en su empresa?</string>
+    <string name="mod7_p9_sp1">Habilidad de lectura y escritura (en Español)</string>
+    <string name="mod7_p9_sp2">Habilidades de cálculo y numérica</string>
+    <string name="mod7_p9_sp3">Conocimiento (hablar, lectura y escritura) de Inglés</string>
+    <string name="mod7_p9_sp4">Conocimiento (hablar, lectura y escritura) de otro idioma extranjero (ej. Francés, Chino, etc.)</string>
+    <string name="mod7_p9_sp5">Habilidades técnicas específicas de la ocupación</string>
+    <string name="mod7_p9_sp6">Habilidad de comunicación</string>
+    <string name="mod7_p9_sp7">Habilidad de liderazgo</string>
+    <string name="mod7_p9_sp8">Habilidad de trabajar en equipo</string>
+    <string name="mod7_p9_sp9">Habilidad de pensamiento creativo y crítico</string>
+    <string name="mod7_p9_sp10">Habilidad de resolución de problemas (en los que llegar a una buena solución tome al menos 30 minutos de pensar)</string>
+    <string name="mod7_p9_sp11">Habilidad de trabajar independientemente</string>
+    <string name="mod7_p9_sp12">Habilidad de manejo de tiempo</string>
+    <string name="mod7_p9_sp13">Responsabilidad (hacer un trabajo consciente, ser trabajador, hacer el trabajo eficientemente)</string>
+    <string name="mod7_p9_sp14">Estabilidad emocional (ser sereno y manejar bien la presión, no perder el control fácilmente)</string>
+    <string name="mod7_p9_sp15">Amabilidad (ser considerado, amable, cortés)</string>
+    <string name="mod7_p9_sp16">Extroversión (ser comunicador, sociable)</string>
+    <string name="mod7_p9_sp17">Apertura a la experiencia (ser original, tener una imaginación activa)</string>
+    <string name="mod7_p9_sp18">Conocimiento de informática \ uso de computadoras</string>
+    <string name="mod7_p9_sp19">Otra</string>
+    <string name="mod7_p9_sp20">Ninguna.</string>
+    <string name="mod7_p10">10. ¿Su empresa cuenta con un plan o programa de capacitación?</string>
+    <string name="mod7_p11">11.  ¿En el presupuesto anual de su empresa se asigna regularmente un monto para la capacitación de los trabajadores?</string>
+
+    <string name="mod7_p12">12.  Actualmente, su empresa ¿Cuenta con…</string>
+    <string name="mod7_p12_sp1">1.Una política de igualdad de oportunidades?</string>
+    <string name="mod7_p12_sp2">2.Alguna certificación ISO 9000?</string>
+    <string name="mod7_p12_sp3">3.Procesos implementados que le permita identificar a individuos con alto potencial, o talentosos, dentro de la empresa?</string>
+
+    <string name="mod7_p13">13. Actualmente, su empresa ¿cuenta con alguno de los siguientes programas de pago e incentivos para sus empleados?</string>
+    <string name="mod7_p13_sp1">1.Bonos que se basan en el desempeño general de la empresa</string>
+    <string name="mod7_p13_sp2">2.Pago relacionado con el desempeño individual</string>
+    <string name="mod7_p13_sp3">3.Participaciones en acciones de la empresa</string>
+    <string name="mod7_p13_sp4">4.No cuenta con ninguno de estos programas</string>
+
+    <string name="mod7_p14">14. ¿Aproximadamente qué proporción de su personal cuenta con una descripción formal y por escrito de su trabajo?</string>
+    <string name="mod7_p14_sp1">1.Ninguno</string>
+    <string name="mod7_p14_sp2">2.Algunos, pero menos de la mitad</string>
+    <string name="mod7_p14_sp3">3.Cerca de la mitad</string>
+    <string name="mod7_p14_sp4">4.Más de la mitad, pero no todos</string>
+    <string name="mod7_p14_sp5">5.Todos</string>
+    <string name="mod7_p14_sp6">6.No sabe</string>
+
+    <string name="mod7_p15">15. ¿Aproximadamente qué porcentaje de su personal es sometido a una revisión anual de desempeño?</string>
+    <string name="mod7_p15_sp1">1.Ninguno</string>
+    <string name="mod7_p15_sp2">2.Algunos, pero menos de la mitad</string>
+    <string name="mod7_p15_sp3">3.Cerca de la mitad</string>
+    <string name="mod7_p15_sp4">4.Más de la mitad, pero no todos</string>
+    <string name="mod7_p15_sp5">5.Todos </string>
+
+    <string name="mod7_p16">16. ¿Se usa la revisión anual de desempeño para decidir si alguien será ascendido?</string>
+
+    <string name="mod7_p17">17. ¿Cómo califica usted la calidad de la capacitación proporcionada por cada una de las siguientes instituciones capacitadoras?</string>
+    <string name="mod7_p17_sp1">Centros de formación sectoriales (SENATI, SENCICO, CENFOTUR)</string>
+    <string name="mod7_p17_sp2">Universidad o instituto educativo público</string>
+    <string name="mod7_p17_sp3">Universidad o instituto educativo privado</string>
+    <string name="mod7_p17_sp4">Instituciones públicas</string>
+    <string name="mod7_p17_sp5">Centro de Innovación Tecnológica (CITE)</string>
+    <string name="mod7_p17_sp6">Cámara de Comercio</string>
+    <string name="mod7_p17_sp7">proveedores de la empresa</string>
+    <string name="mod7_p17_sp8">La propia empresa / Casa matriz</string>
+    <string name="mod7_p17_sp9">Instructor externo (persona)</string>
+    <string name="mod7_p17_sp10">Otra</string>
+    <string name="mod7_p17_sp11">Muy buena</string>
+    <string name="mod7_p17_sp12">Buena</string>
+    <string name="mod7_p17_sp13">Mala</string>
+    <string name="mod7_p17_sp14">Muy mala</string>
+    <string name="mod7_p17_sp15">No sabe</string>
+
+    <string name="mod7_p18">18. ¿Cómo califica usted la relevancia de la capacitación proporcionada por cada una de las siguientes instituciones capacitadoras?</string>
+    <string name="mod7_p19">19.Independientemente si ha usado o no los servicios de capacitación de las siguientes instituciones, ¿qué tan costoso cree que sería contratarlos para que brinden capacitación en el tema más importante para su empresa?</string>
+
+    <string name="mod7_p20">20. Durante los últimos 12 meses ¿ha organizado o financiado alguna capacitación o programa de desarrollo formativo fuera del trabajo para los trabajadores de su empresa?</string>
+    <string name="mod7_p21">21. Durante los últimos 12 meses ¿ha organizado o financiado alguna capacitación en planta o en la empresa?</string>
+
+    <string name="mod7_p22">22.  ¿Cuáles son las razones para que no haya organizado ni financiado capacitación para ninguno de los trabajadores de su empresa en los últimos 12 meses?</string>
+    <string name="mod7_p22_sp1">1.No hay capacitación disponible en el área de conocimiento requerido.</string>
+    <string name="mod7_p22_sp2">2.Los cursos que interesan no están disponibles en la zona.</string>
+    <string name="mod7_p22_sp3">3.La calidad de los cursos o proveedores locales no es satisfactoria.</string>
+    <string name="mod7_p22_sp4">4.Es difícil obtener información sobre los cursos disponibles en la zona.</string>
+    <string name="mod7_p22_sp5">5.No sé qué cursos hay disponibles en la zona.</string>
+    <string name="mod7_p22_sp6">6.Las fechas de inicio o los horarios de los cursos no son convenientes.</string>
+    <string name="mod7_p22_sp7">7.No hay dinero disponible para capacitación.</string>
+    <string name="mod7_p22_sp8">8.Los cursos externos son demasiado costosos.</string>
+    <string name="mod7_p22_sp9">9.Los gerentes no tienen tiempo para organizar capacitaciones.</string>
+    <string name="mod7_p22_sp10">10.Los trabajadores están demasiado ocupados como para impartir capacitación.</string>
+    <string name="mod7_p22_sp11">11.Los  trabajadores están demasiado ocupados como para capacitarse.</string>
+    <string name="mod7_p22_sp12">12.La capacitación no se considera una prioridad de la empresa.</string>
+    <string name="mod7_p22_sp13">13.Todo nuestro personal es plenamente competente / no se necesita capacitación.</string>
+    <string name="mod7_p22_sp14">14.El personal capacitado será arrebatado por otros empleadores.</string>
+    <string name="mod7_p22_sp15">15.Muchos  trabajadores  son temporales y puede que no permanezcan en nuestra empresa.</string>
+    <string name="mod7_p22_sp16">16.Otra</string>
+    <string name="mod7_p22_sp17">17.No hay ninguna razón en particular.</string>
+
+    <string name="mod7_p23">23. ¿Quiénes son los principales proveedores de capacitación para su personal?</string>
+    <string name="mod7_p23_sp1">1.Centros de formación sectoriales (SENATI, SENCICO, CENFOTUR)</string>
+    <string name="mod7_p23_sp2">2.Universidad o instituto público</string>
+    <string name="mod7_p23_sp3">3.Universidad o instituto privado</string>
+    <string name="mod7_p23_sp4">4.Instituciones públicas</string>
+    <string name="mod7_p23_sp5">5.Centros de Innovación Tecnológica (CITE)</string>
+    <string name="mod7_p23_sp6">6.Cámara de Comercio</string>
+    <string name="mod7_p23_sp7">7.Proveedores de la empresa</string>
+    <string name="mod7_p23_sp8">8.La propia empresa / casa matriz</string>
+    <string name="mod7_p23_sp9">9.Instructor externo (personal)</string>
+    <string name="mod7_p23_sp10">10.Otra</string>
+
+    <string name="mod7_p24">24. ¿Ha recurrido a entidades del gobierno para capacitar a sus trabajadores?</string>
+    <string name="mod7_p24_sp1">Código 1</string>
+    <string name="mod7_p24_sp2">Código 2</string>
+    <string name="mod7_p24_sp3">Código 3</string>
+    <string name="mod7_p24_sp4">Detalle código 1</string>
+    <string name="mod7_p24_sp5">Detalle código 2</string>
+    <string name="mod7_p24_sp6">Detalle código 3</string>
+    <string name="mod7_p25">25. ¿por qué no ha utilizado los cursos impartidos por la Entidad del Gobierno……?</string>
+    <string name="mod7_p25_sp1">No sabía que daban capacitación</string>
+    <string name="mod7_p25_sp2">No ofrece capacitación en los temas que necesitamos</string>
+    <string name="mod7_p25_sp3">No ofrecen la capacitación en el momento que se requiere</string>
+    <string name="mod7_p25_sp4">La calidad no es lo suficientemente buena</string>
+    <string name="mod7_p25_sp5">Son demasiado caras</string>
+    <string name="mod7_p25_sp6">No hay razones en particular</string>
+    <string name="mod7_p26">26. Durante los últimos 12 meses, su empresa ¿cuáles de los siguientes cursos/temas de capacitación ha organizado o financiado para los trabajadores? </string>
+    <string name="mod7_p26_sp1">Capacitación de inducción a la empresa.</string>
+    <string name="mod7_p26_sp2">Capacitación en salud, seguridad y/o primeros auxilios en el trabajo.</string>
+    <string name="mod7_p26_sp3">Habilidad de lectura y escritura (en Español)</string>
+    <string name="mod7_p26_sp4">Habilidades de cálculo y numérica</string>
+    <string name="mod7_p26_sp5">Conocimiento (hablar, lectura y escritura) de Inglés</string>
+    <string name="mod7_p26_sp6">Conocimiento (hablar, lectura y escritura) de otro idioma extranjero (ej. Francés, Chino, etc.)</string>
+    <string name="mod7_p26_sp7">Habilidades técnicas específicas de la ocupación</string>
+    <string name="mod7_p26_sp8">Habilidad de comunicación</string>
+    <string name="mod7_p26_sp9">Habilidad de liderazgo</string>
+    <string name="mod7_p26_sp10">Habilidad de trabajar en equipo</string>
+    <string name="mod7_p26_sp11">Habilidad de pensamiento creativo y crítico</string>
+    <string name="mod7_p26_sp12">Habilidad de resolución de problemas (en los que llegar a una buena solución tome al menos 30 minutos de pensar)</string>
+    <string name="mod7_p26_sp13">Habilidad de trabajar independientemente</string>
+    <string name="mod7_p26_sp14"> Habilidad de manejo de tiempo</string>
+    <string name="mod7_p26_sp15">Responsabilidad (hacer un trabajo consciente, ser trabajador, hacer el trabajo eficientemente)</string>
+    <string name="mod7_p26_sp16">Estabilidad emocional (ser sereno y manejar bien la presión, no perder el control fácilmente)</string>
+    <string name="mod7_p26_sp17">Amabilidad (ser considerado, amable, cortés)</string>
+    <string name="mod7_p26_sp18">Extraversión (ser comunicador, sociable)</string>
+    <string name="mod7_p26_sp19">Apertura a la experiencia (ser original, tener una imaginación activa)</string>
+    <string name="mod7_p26_sp20">Conocimiento de informática \ uso de computadoras</string>
+    <string name="mod7_p26_sp21">Otros (Especifique)</string>
+    <string name="mod7_p26_sp22">Ninguna.</string>
+    <string name="mod7_p27">27.  ¿Qué porcentaje de los cursos de capacitación que ha organizado o financiado la empresa, fueron sobre la inducción al trabajo/empresa o destinado a salud y seguridad en el trabajo.</string>
+
+    <string name="mod7_p28">28. ¿En los últimos 12 meses se ha realizado en esta empresa algunas de las siguientes acciones para el desarrollo de sus trabajadores?</string>
+    <string name="mod7_p28_sp1">1.Proporcionó supervisión para asegurar que los trabajadores sean orientados en sus funciones de trabajo. </string>
+    <string name="mod7_p28_sp2">2.Brindó oportunidades para que el personal aprenda de otros viendo cómo realizar sus funciones de trabajo. </string>
+    <string name="mod7_p28_sp3">3.Autorizó al personal a llevar a cabo tareas que iban más allá de su formación estricta de trabajo y le entregó comentarios sobre su desempeño  </string>
+    <string name="mod7_p28_sp4">4.Otros</string>
+    <string name="mod7_p28_sp5">5.Ninguno de estos.</string>
+
+    <string name="mod7_p29">29. Durante los últimos 12 meses ¿Qué porcentaje del total de sus trabajadores en su empresa han asistido a cursos que organizó y/o financió (en capacitación interna y externa)? Incluya a los que ya no están en la empresa                                    </string>
+    <string name="mod7_p30">30. ¿Cuántas o qué porcentaje de personas están en capacitación o fueron capacitadas (actividades en planta-internas y externas) con el objetivo de obtener una certificación reconocida?</string>
+    <string name="mod7_p30_sp1">Numero- Trabajadores</string>
+    <string name="mod7_p30_sp2">% - Trabajadores</string>
+
+    <string name="mod7_p31">31. Contestar las siguientes preguntas en el cuadro que se presenta</string>
+    <string name="mod7_p31_sp1">1.Gerentes </string>
+    <string name="mod7_p31_sp2">2.Profesionales </string>
+    <string name="mod7_p31_sp3">3.Técnicos y profesionales de nivel medio</string>
+    <string name="mod7_p31_sp4">4.Personal de apoyo administrativo</string>
+    <string name="mod7_p31_sp5">5.Personal de servicios y vendedores </string>
+    <string name="mod7_p31_sp6">6.Trabajadores calificados agropecuarios, forestales y pesqueros</string>
+    <string name="mod7_p31_sp7">7.Oficiales, operarios y artesanos de artes mecánicas y de otros oficios</string>
+    <string name="mod7_p31_sp8">8.Operadores de instalaciones y máquinas y ensambladores</string>
+    <string name="mod7_p31_sp9">9.Ocupaciones elementales </string>
+
+    <string name="mod7_p32">32. ¿Ha proporcionado capacitación a las siguientes categorías de trabajadores?</string>
+    <string name="mod7_p32_sp1">1.Trabajadores permanentes </string>
+    <string name="mod7_p32_sp2">2.Trabajadores temporales o a plazo fijo </string>
+    <string name="mod7_p32_sp3">3.Trabajadores a tiempo completo </string>
+    <string name="mod7_p32_sp4">4.Trabajadores a tiempo parcial</string>
+
+    <string name="mod7_p33">33.En los últimos 12 meses, ¿En promedio cuanto duraron los cursos de capacitación que ofrecieron a sus trabajadores?</string>
+    <string name="mod7_p34">34. Su empresa ¿evaluó formalmente si la capacitación recibida por el trabajador tiene impacto en su desempeño?</string>
+    <string name="mod7_p35">35. A su empresa ¿le gustaría entregar más capacitación a sus trabajadores?</string>
+
+    <string name="mod7_p36">36. ¿Qué impide que su empresa provea más capacitación a sus trabajadores?</string>
+    <string name="mod7_p36_sp1">1.La capacitación es demasiado costosa</string>
+    <string name="mod7_p36_sp2">2.Preocupa que pueda perder trabajadores después de capacitarlos</string>
+    <string name="mod7_p36_sp3">3.Ninguna organización entrega la capacitación necesaria</string>
+    <string name="mod7_p36_sp4">4.La empresa no tiene capacidad(tiempo, conocimiento y/o presupuesto) para capacitar más a sus trabajadores</string>
+    <string name="mod7_p36_sp5">5.Otros</string>
+
+    <string name="mod7_p37">37. En el año 2016, del monto total de ventas anuales ¿A qué porcentaje equivale los gastos de capacitación (interna y externa)?</string>
+
+    <string name="mod7_p38">38. ¿Cuáles fueron las principales fuentes de financiamiento que su empresa utilizó en capacitación</string>
+    <string name="mod7_p38_sp1">1.Becas, prestamos, incentivos tributarios, apoyo estatal</string>
+    <string name="mod7_p38_sp2">2.Crédito privado</string>
+    <string name="mod7_p38_sp3">3.Recursos de la Empresa</string>
+    <string name="mod7_p38_sp4">4.Recurso de los trabajadores </string>
+    <string name="mod7_p38_sp5">5.Otros</string>
+
+    <string name="mod7_p39">39. ¿Cuál es la razón principal para que esta empresa no utilice becas, préstamos, incentivos tributarios o cualquier otro apoyo del gobierno para financiar capacitaciones?</string>
+    <string name="mod7_p39_sp1">1.No sabíamos que existían fondos del gobierno</string>
+    <string name="mod7_p39_sp2">2.Sabíamos que habían fondos, pero no sabíamos cómo acceder a ellos</string>
+    <string name="mod7_p39_sp3">3.Porque la empresa no cumple con los requisitos de elegibilidad para acceder a estos fondos</string>
+    <string name="mod7_p39_sp4">4.Acceder a los fondos es agobiante</string>
+    <string name="mod7_p39_sp5">5.Porque los fondos de financiamiento son pequeños</string>
+    <string name="mod7_p39_sp6">6.Porque los montos que ofrecen son pequeños en relación al costo de la capacitación</string>
+    <string name="mod7_p39_sp7">7.Otros</string>
+
+    <string name="mod7_p40">40. ¿El acceso a los fondos del Estado, dio algunos de los siguientes resultados…</string>
+    <string name="mod7_p40_sp1">1.Aumento el volumen de capacitaciones realizadas </string>
+    <string name="mod7_p40_sp2">2.Permitió que capacitara a grupos de  trabajadores que de lo contrario no se hubiesen capacitado</string>
+    <string name="mod7_p40_sp3">3.Permitió que se proporcione  un rango más amplio de capacitación  </string>
+    <string name="mod7_p40_sp4">4.No tuvo impacto en la capacitación proporcionada porque esta se hubiese realizado de todos modos</string>
+    <string name="mod7_p40_sp5">5.Se realizó capacitación que no se necesitaba realmente </string>
+
+    <string name="mod7_p41">41. Actualmente, su empresa ¿ofrece contratos de formación dual? </string>
+    <string name="mod7_p42">42. Actualmente, su empresa ¿tiene algún trabajador (aprendiz) en formación dual?</string>
+    <string name="mod7_p43">43. Actualmente, su empresa ¿cuántos trabajadores (aprendices) en formación dual tiene?</string>
+    <string name="mod7_p43_sp1">Trabajadores aprendices en formación dual</string>
+    <string name="mod7_p43_sp2">Trabajadores aprendices en formación dual</string>
+    <string name="mod7_p44">44. La gerencia reconoce el rol del sindicato/asociación de trabajadores al negociar el pago y las condiciones para cualquier proporción de la fuerza laboral de esta empresa (Seleccione la alternativa que corresponda)</string>
+    <string name="mod7_p45">45. ¿La gerencia reconoce el rol del sindicato/asociación de trabajadores al negociar el pago y las condiciones para cualquier proporción de la fuerza laboral de esta empresa</string>
+
+    <string name="mod7_p46">46. ¿La gerencia negocia, consulta o informa con los sindicatos las decisiones de capacitación de los empleados?</string>
+    <string name="mod7_p46_sp1">1. Negocia</string>
+    <string name="mod7_p46_sp2">2. Consulta</string>
+    <string name="mod7_p46_sp3">3. Informa</string>
+    <string name="mod7_p46_sp4">4. Ninguna de las anteriores</string>
+    <string name="OBS_MOD_VII">Observaciones Modulo VII</string>
+    
     <!--GENERICOS-->
     <string name="nombre_informante">Apellidos y nombres del informante</string>
     <string name="mismo_informante">Mismo informante</string>
@@ -1086,9 +1364,9 @@
     <string-array name="array_grandes_grupos">
         <item>Seleccione grupo</item>
         <item>Gerentes</item>
-        <item>Profesionales</item>
+        <item>profesionales</item>
         <item>Técnicos y profesionales de nivel medio</item>
-        <item>Personal de apoyo administrativ</item>
+        <item>personal de apoyo administrativ</item>
         <item>personal de servicios y vendedores</item>
         <item>Trabajadores calificados agropecuarios, forestales y pesqueros</item>
         <item>Oficiales, operarios y artesanos de artes mecánicas y de otros oficios</item>
