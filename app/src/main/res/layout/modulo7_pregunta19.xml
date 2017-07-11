@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/mod7_p18"
+        android:text="@string/mod7_p19"
         android:layout_marginBottom="@dimen/fab_margin" />
     <LinearLayout
         android:orientation="vertical"
@@ -103,7 +103,7 @@
                 android:layout_width="0dp"
                 android:padding="@dimen/margin5dp"
                 android:layout_height="wrap_content"
-                android:text="@string/mod7_p18_sp1"
+                android:text="@string/mod7_p19_sp1"
                 android:layout_marginRight="1dp"
                 android:background="@drawable/cajas_de_texto"/>
             <RadioGroup
@@ -160,7 +160,7 @@
                 android:layout_width="0dp"
                 android:padding="@dimen/margin5dp"
                 android:layout_height="wrap_content"
-                android:text="@string/mod7_p18_sp2"
+                android:text="@string/mod7_p19_sp2"
                 android:layout_marginRight="1dp"
                 android:background="@drawable/cajas_de_texto"/>
             <RadioGroup
@@ -217,7 +217,7 @@
                 android:layout_width="0dp"
                 android:padding="@dimen/margin5dp"
                 android:layout_height="wrap_content"
-                android:text="@string/mod7_p18_sp3"
+                android:text="@string/mod7_p19_sp3"
                 android:layout_marginRight="1dp"
                 android:background="@drawable/cajas_de_texto"/>
             <RadioGroup
@@ -274,7 +274,7 @@
                 android:layout_width="0dp"
                 android:padding="@dimen/margin5dp"
                 android:layout_height="wrap_content"
-                android:text="@string/mod7_p18_sp4"
+                android:text="@string/mod7_p19_sp4"
                 android:layout_marginRight="1dp"
                 android:background="@drawable/cajas_de_texto"/>
             <RadioGroup
@@ -331,7 +331,7 @@
                 android:layout_width="0dp"
                 android:padding="@dimen/margin5dp"
                 android:layout_height="wrap_content"
-                android:text="@string/mod7_p18_sp5"
+                android:text="@string/mod7_p19_sp5"
                 android:layout_marginRight="1dp"
                 android:background="@drawable/cajas_de_texto"/>
             <RadioGroup
@@ -388,7 +388,7 @@
                 android:layout_width="0dp"
                 android:padding="@dimen/margin5dp"
                 android:layout_height="wrap_content"
-                android:text="@string/mod7_p18_sp6"
+                android:text="@string/mod7_p19_sp6"
                 android:layout_marginRight="1dp"
                 android:background="@drawable/cajas_de_texto"/>
             <RadioGroup
@@ -445,7 +445,7 @@
                 android:layout_width="0dp"
                 android:padding="@dimen/margin5dp"
                 android:layout_height="wrap_content"
-                android:text="@string/mod7_p18_sp7"
+                android:text="@string/mod7_p19_sp7"
                 android:layout_marginRight="1dp"
                 android:background="@drawable/cajas_de_texto"/>
             <RadioGroup
@@ -502,7 +502,7 @@
                 android:layout_width="0dp"
                 android:padding="@dimen/margin5dp"
                 android:layout_height="wrap_content"
-                android:text="@string/mod7_p18_sp8"
+                android:text="@string/mod7_p19_sp8"
                 android:layout_marginRight="1dp"
                 android:background="@drawable/cajas_de_texto"/>
             <RadioGroup
@@ -559,7 +559,7 @@
                 android:layout_width="0dp"
                 android:padding="@dimen/margin5dp"
                 android:layout_height="wrap_content"
-                android:text="@string/mod7_p18_sp9"
+                android:text="@string/mod7_p19_sp9"
                 android:layout_marginRight="1dp"
                 android:background="@drawable/cajas_de_texto"/>
             <RadioGroup
@@ -622,7 +622,7 @@
                     android:layout_width="match_parent"
                     android:padding="@dimen/margin5dp"
                     android:layout_height="wrap_content"
-                    android:text="@string/mod7_p18_sp10"
+                    android:text="@string/mod7_p19_sp10"
                     android:layout_marginRight="1dp"
                     />
                 <EditText

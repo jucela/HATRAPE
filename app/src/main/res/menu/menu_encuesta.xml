@@ -105,5 +105,21 @@
             android:id="@+id/opcion_26"
             android:checked="false"
             />
+        <item android:title="Modulo VII-1"
+            android:id="@+id/opcion_27"
+            android:checked="false"
+            />
+        <item android:title="Modulo VII-2"
+            android:id="@+id/opcion_28"
+            android:checked="false"
+            />
+        <item android:title="Modulo VII-3"
+            android:id="@+id/opcion_29"
+            android:checked="false"
+            />
+        <item android:title="Modulo VII-4"
+            android:id="@+id/opcion_30"
+            android:checked="false"
+            />
     </group>
 </menu>

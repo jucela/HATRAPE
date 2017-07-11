@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/modulo1_nombre"
+        android:text="@string/modulo4_nombre"
         android:background="@color/colorPrimary"
         android:textColor="@color/icons"
         android:gravity="center"

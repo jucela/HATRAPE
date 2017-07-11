@@ -884,24 +884,55 @@
     <string name="mod7_p16">16. ¿Se usa la revisión anual de desempeño para decidir si alguien será ascendido?</string>
 
     <string name="mod7_p17">17. ¿Cómo califica usted la calidad de la capacitación proporcionada por cada una de las siguientes instituciones capacitadoras?</string>
-    <string name="mod7_p17_sp1">Centros de formación sectoriales (SENATI, SENCICO, CENFOTUR)</string>
-    <string name="mod7_p17_sp2">Universidad o instituto educativo público</string>
-    <string name="mod7_p17_sp3">Universidad o instituto educativo privado</string>
-    <string name="mod7_p17_sp4">Instituciones públicas</string>
-    <string name="mod7_p17_sp5">Centro de Innovación Tecnológica (CITE)</string>
-    <string name="mod7_p17_sp6">Cámara de Comercio</string>
-    <string name="mod7_p17_sp7">proveedores de la empresa</string>
-    <string name="mod7_p17_sp8">La propia empresa / Casa matriz</string>
-    <string name="mod7_p17_sp9">Instructor externo (persona)</string>
-    <string name="mod7_p17_sp10">Otra</string>
-    <string name="mod7_p17_sp11">Muy buena</string>
-    <string name="mod7_p17_sp12">Buena</string>
-    <string name="mod7_p17_sp13">Mala</string>
-    <string name="mod7_p17_sp14">Muy mala</string>
-    <string name="mod7_p17_sp15">No sabe</string>
+    <string name="mod7_p17_sp1">1.Centros de formación sectoriales (SENATI, SENCICO, CENFOTUR)</string>
+    <string name="mod7_p17_sp2">2.Universidad o instituto educativo público</string>
+    <string name="mod7_p17_sp3">3.Universidad o instituto educativo privado</string>
+    <string name="mod7_p17_sp4">4.Instituciones públicas</string>
+    <string name="mod7_p17_sp5">5.Centro de Innovación Tecnológica (CITE)</string>
+    <string name="mod7_p17_sp6">6.Cámara de Comercio</string>
+    <string name="mod7_p17_sp7">7.Proveedores de la empresa</string>
+    <string name="mod7_p17_sp8">8.La propia empresa / Casa matriz</string>
+    <string name="mod7_p17_sp9">9.Instructor externo (persona)</string>
+    <string name="mod7_p17_sp10">10.Otra</string>
+    <string name="mod7_p17_sp11">11.Muy buena</string>
+    <string name="mod7_p17_sp12">12.Buena</string>
+    <string name="mod7_p17_sp13">13.Mala</string>
+    <string name="mod7_p17_sp14">14.Muy mala</string>
+    <string name="mod7_p17_sp15">15.No sabe</string>
 
     <string name="mod7_p18">18. ¿Cómo califica usted la relevancia de la capacitación proporcionada por cada una de las siguientes instituciones capacitadoras?</string>
+    <string name="mod7_p18_sp1">1.Centros de formación sectoriales (SENATI, SENCICO, CENFOTUR)</string>
+    <string name="mod7_p18_sp2">2.Universidad o instituto educativo público</string>
+    <string name="mod7_p18_sp3">3.Universidad o instituto educativo privado</string>
+    <string name="mod7_p18_sp4">4.Instituciones públicas</string>
+    <string name="mod7_p18_sp5">5.Centro de Innovación Tecnológica (CITE)</string>
+    <string name="mod7_p18_sp6">6.Cámara de Comercio</string>
+    <string name="mod7_p18_sp7">7.Proveedores de la empresa</string>
+    <string name="mod7_p18_sp8">8.La propia empresa / Casa matriz</string>
+    <string name="mod7_p18_sp9">9.Instructor externo (persona)</string>
+    <string name="mod7_p18_sp10">10.Otra</string>
+    <string name="mod7_p18_sp11">11.Muy buena</string>
+    <string name="mod7_p18_sp12">12.Buena</string>
+    <string name="mod7_p18_sp13">13.Mala</string>
+    <string name="mod7_p18_sp14">14.Muy mala</string>
+    <string name="mod7_p18_sp15">15.No sabe</string>
+
     <string name="mod7_p19">19.Independientemente si ha usado o no los servicios de capacitación de las siguientes instituciones, ¿qué tan costoso cree que sería contratarlos para que brinden capacitación en el tema más importante para su empresa?</string>
+    <string name="mod7_p19_sp1">1.Centros de formación sectoriales (SENATI, SENCICO, CENFOTUR)</string>
+    <string name="mod7_p19_sp2">2.Universidad o instituto educativo público</string>
+    <string name="mod7_p19_sp3">3.Universidad o instituto educativo privado</string>
+    <string name="mod7_p19_sp4">4.Instituciones públicas</string>
+    <string name="mod7_p19_sp5">5.Centro de Innovación Tecnológica (CITE)</string>
+    <string name="mod7_p19_sp6">6.Cámara de Comercio</string>
+    <string name="mod7_p19_sp7">7.Proveedores de la empresa</string>
+    <string name="mod7_p19_sp8">8.La propia empresa / Casa matriz</string>
+    <string name="mod7_p19_sp9">9.Instructor externo (persona)</string>
+    <string name="mod7_p19_sp10">10.Otra</string>
+    <string name="mod7_p19_sp11">11.Muy buena</string>
+    <string name="mod7_p19_sp12">12.Buena</string>
+    <string name="mod7_p19_sp13">13.Mala</string>
+    <string name="mod7_p19_sp14">14.Muy mala</string>
+    <string name="mod7_p19_sp15">15.No sabe</string>
 
     <string name="mod7_p20">20. Durante los últimos 12 meses ¿ha organizado o financiado alguna capacitación o programa de desarrollo formativo fuera del trabajo para los trabajadores de su empresa?</string>
     <string name="mod7_p21">21. Durante los últimos 12 meses ¿ha organizado o financiado alguna capacitación en planta o en la empresa?</string>
@@ -1103,7 +1134,6 @@
     <string name="ntrab_tiempoparcial">N° de trabajadores a tiempo parcial</string>
     <string name="ntrab_cont_temp">N° de trabajdores con contratos temporales o a plazo fijo</string>
     <string name="ntrba_contratados">N° de trabajadores contratados</string>
-
     <string-array name="paises">
         <item>Afganistán</item>
         <item>Albania</item>
