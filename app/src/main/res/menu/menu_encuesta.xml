@@ -101,24 +101,88 @@
             android:id="@+id/opcion_25"
             android:checked="false"
             />
-        <item android:title="Modulo VI"
+        <item android:title="Modulo VI_P1_P3"
             android:id="@+id/opcion_26"
             android:checked="false"
             />
-        <item android:title="Modulo VII-1"
+        <item android:title="Modulo VI_P4_P5"
             android:id="@+id/opcion_27"
             android:checked="false"
             />
-        <item android:title="Modulo VII-2"
+        <item android:title="Modulo VI_P6_P7"
             android:id="@+id/opcion_28"
             android:checked="false"
             />
-        <item android:title="Modulo VII-3"
+        <item android:title="Modulo VI_P8_P11"
             android:id="@+id/opcion_29"
             android:checked="false"
             />
-        <item android:title="Modulo VII-4"
+        <item android:title="Modulo VII_P1_P4"
             android:id="@+id/opcion_30"
+            android:checked="false"
+            />
+        <item android:title="Modulo VII_P5_P7"
+            android:id="@+id/opcion_31"
+            android:checked="false"
+            />
+        <item android:title="Modulo VII_P8"
+            android:id="@+id/opcion_32"
+            android:checked="false"
+            />
+        <item android:title="Modulo VII_P9"
+            android:id="@+id/opcion_33"
+            android:checked="false"
+            />
+        <item android:title="Modulo VII_P10_P14"
+            android:id="@+id/opcion_34"
+            android:checked="false"
+            />
+        <item android:title="Modulo VII_P15_P17"
+            android:id="@+id/opcion_35"
+            android:checked="false"
+            />
+        <item android:title="Modulo VII_P18"
+            android:id="@+id/opcion_36"
+            android:checked="false"
+            />
+        <item android:title="Modulo VII_P19_P21"
+            android:id="@+id/opcion_37"
+            android:checked="false"
+            />
+        <item android:title="Modulo VII_P22"
+            android:id="@+id/opcion_38"
+            android:checked="false"
+            />
+        <item android:title="Modulo VII_P23_P25"
+            android:id="@+id/opcion_39"
+            android:checked="false"
+            />
+        <item android:title="Modulo VII_P26"
+            android:id="@+id/opcion_40"
+            android:checked="false"
+            />
+        <item android:title="Modulo VII_P27_P30"
+            android:id="@+id/opcion_41"
+            android:checked="false"
+            />
+        <item android:title="Modulo VII_P31"
+            android:id="@+id/opcion_42"
+            android:checked="false"
+            />
+        <item android:title="Modulo VII_P32_P36"
+            android:id="@+id/opcion_43"
+            android:checked="false"
+            />
+        <item android:title="Modulo VII_P37_P39"
+            android:id="@+id/opcion_44"
+            android:checked="false"
+            />
+        <item android:title="Modulo VII_P40_P43"
+            android:id="@+id/opcion_45"
+            android:checked="false"
+            />
+        <item android:title="Modulo VII_P44_P46"
+            android:id="@+id/opcion_46"
             android:checked="false"
             />
     </group>

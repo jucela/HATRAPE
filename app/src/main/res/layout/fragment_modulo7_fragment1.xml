@@ -73,19 +73,5 @@
     <include layout="@layout/modulo7_pregunta2"/>
     <include layout="@layout/modulo7_pregunta3"/>
     <include layout="@layout/modulo7_pregunta4"/>
-    <include layout="@layout/modulo7_pregunta5"/>
-    <include layout="@layout/modulo7_pregunta6"/>
-    <include layout="@layout/modulo7_pregunta7"/>
-    <include layout="@layout/modulo7_pregunta8"/>
-    <include layout="@layout/modulo7_pregunta9"/>
-    <include layout="@layout/modulo7_pregunta10"/>
-    <include layout="@layout/modulo7_pregunta11"/>
-    <include layout="@layout/modulo7_pregunta12"/>
-    <include layout="@layout/modulo7_pregunta13"/>
-    <include layout="@layout/modulo7_pregunta14"/>
-    <include layout="@layout/modulo7_pregunta15"/>
-    <include layout="@layout/modulo7_pregunta16"/>
-    <include layout="@layout/modulo7_pregunta17"/>
-    <include layout="@layout/modulo7_pregunta18"/>
 
 </LinearLayout>

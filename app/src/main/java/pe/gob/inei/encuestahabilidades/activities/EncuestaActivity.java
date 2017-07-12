@@ -38,7 +38,26 @@ import pe.gob.inei.encuestahabilidades.fragments.Modulo5Fragment4;
 import pe.gob.inei.encuestahabilidades.fragments.Modulo5Fragment5;
 import pe.gob.inei.encuestahabilidades.fragments.Modulo5Fragment6;
 import pe.gob.inei.encuestahabilidades.fragments.Modulo6Fragment1;
+import pe.gob.inei.encuestahabilidades.fragments.Modulo6Fragment2;
+import pe.gob.inei.encuestahabilidades.fragments.Modulo6Fragment3;
+import pe.gob.inei.encuestahabilidades.fragments.Modulo6Fragment4;
 import pe.gob.inei.encuestahabilidades.fragments.Modulo7Fragment1;
+import pe.gob.inei.encuestahabilidades.fragments.Modulo7Fragment10;
+import pe.gob.inei.encuestahabilidades.fragments.Modulo7Fragment11;
+import pe.gob.inei.encuestahabilidades.fragments.Modulo7Fragment12;
+import pe.gob.inei.encuestahabilidades.fragments.Modulo7Fragment13;
+import pe.gob.inei.encuestahabilidades.fragments.Modulo7Fragment14;
+import pe.gob.inei.encuestahabilidades.fragments.Modulo7Fragment15;
+import pe.gob.inei.encuestahabilidades.fragments.Modulo7Fragment16;
+import pe.gob.inei.encuestahabilidades.fragments.Modulo7Fragment17;
+import pe.gob.inei.encuestahabilidades.fragments.Modulo7Fragment2;
+import pe.gob.inei.encuestahabilidades.fragments.Modulo7Fragment3;
+import pe.gob.inei.encuestahabilidades.fragments.Modulo7Fragment4;
+import pe.gob.inei.encuestahabilidades.fragments.Modulo7Fragment5;
+import pe.gob.inei.encuestahabilidades.fragments.Modulo7Fragment6;
+import pe.gob.inei.encuestahabilidades.fragments.Modulo7Fragment7;
+import pe.gob.inei.encuestahabilidades.fragments.Modulo7Fragment8;
+import pe.gob.inei.encuestahabilidades.fragments.Modulo7Fragment9;
 import pe.gob.inei.encuestahabilidades.fragments.VisitaFragment;
 
 public class EncuestaActivity extends AppCompatActivity {
@@ -151,6 +170,54 @@ public class EncuestaActivity extends AppCompatActivity {
                         break;
                     case R.id.opcion_30:
                         setFragment(29);
+                        break;
+                    case R.id.opcion_31:
+                        setFragment(30);
+                        break;
+                    case R.id.opcion_32:
+                        setFragment(31);
+                        break;
+                    case R.id.opcion_33:
+                        setFragment(32);
+                        break;
+                    case R.id.opcion_34:
+                        setFragment(33);
+                        break;
+                    case R.id.opcion_35:
+                        setFragment(34);
+                        break;
+                    case R.id.opcion_36:
+                        setFragment(35);
+                        break;
+                    case R.id.opcion_37:
+                        setFragment(36);
+                        break;
+                    case R.id.opcion_38:
+                        setFragment(37);
+                        break;
+                    case R.id.opcion_39:
+                        setFragment(38);
+                        break;
+                    case R.id.opcion_40:
+                        setFragment(39);
+                        break;
+                    case R.id.opcion_41:
+                        setFragment(40);
+                        break;
+                    case R.id.opcion_42:
+                        setFragment(41);
+                        break;
+                    case R.id.opcion_43:
+                        setFragment(42);
+                        break;
+                    case R.id.opcion_44:
+                        setFragment(43);
+                        break;
+                    case R.id.opcion_45:
+                        setFragment(44);
+                        break;
+                    case R.id.opcion_46:
+                        setFragment(45);
                         break;
                 }
                 return false;
@@ -281,9 +348,86 @@ public class EncuestaActivity extends AppCompatActivity {
                 fragmentTransaction.replace(R.id.container_encuesta, modulo6Fragment1);
                 break;
             case 26:
+                Modulo6Fragment2 modulo6Fragment2 = new Modulo6Fragment2();
+                fragmentTransaction.replace(R.id.container_encuesta, modulo6Fragment2);
+                break;
+            case 27:
+                Modulo6Fragment3 modulo6Fragment3 = new Modulo6Fragment3();
+                fragmentTransaction.replace(R.id.container_encuesta, modulo6Fragment3);
+                break;
+            case 28:
+                Modulo6Fragment4 modulo6Fragment4 = new Modulo6Fragment4();
+                fragmentTransaction.replace(R.id.container_encuesta, modulo6Fragment4);
+                break;
+            case 29:
                 Modulo7Fragment1 modulo7Fragment1 = new Modulo7Fragment1();
                 fragmentTransaction.replace(R.id.container_encuesta, modulo7Fragment1);
                 break;
+            case 30:
+                Modulo7Fragment2 modulo7Fragment2 = new Modulo7Fragment2();
+                fragmentTransaction.replace(R.id.container_encuesta, modulo7Fragment2);
+                break;
+            case 31:
+                Modulo7Fragment3 modulo7Fragment3 = new Modulo7Fragment3();
+                fragmentTransaction.replace(R.id.container_encuesta, modulo7Fragment3);
+                break;
+            case 32:
+                Modulo7Fragment4 modulo7Fragment4 = new Modulo7Fragment4();
+                fragmentTransaction.replace(R.id.container_encuesta, modulo7Fragment4);
+                break;
+            case 33:
+                Modulo7Fragment5 modulo7Fragment5 = new Modulo7Fragment5();
+                fragmentTransaction.replace(R.id.container_encuesta, modulo7Fragment5);
+                break;
+            case 34:
+                Modulo7Fragment6 modulo7Fragment6 = new Modulo7Fragment6();
+                fragmentTransaction.replace(R.id.container_encuesta, modulo7Fragment6);
+                break;
+            case 35:
+                Modulo7Fragment7 modulo7Fragment7 = new Modulo7Fragment7();
+                fragmentTransaction.replace(R.id.container_encuesta, modulo7Fragment7);
+                break;
+            case 36:
+                Modulo7Fragment8 modulo7Fragment8 = new Modulo7Fragment8();
+                fragmentTransaction.replace(R.id.container_encuesta, modulo7Fragment8);
+                break;
+            case 37:
+                Modulo7Fragment9 modulo7Fragment9 = new Modulo7Fragment9();
+                fragmentTransaction.replace(R.id.container_encuesta, modulo7Fragment9);
+                break;
+            case 38:
+                Modulo7Fragment10 modulo7Fragment10 = new Modulo7Fragment10();
+                fragmentTransaction.replace(R.id.container_encuesta, modulo7Fragment10);
+                break;
+            case 39:
+                Modulo7Fragment11 modulo7Fragment11 = new Modulo7Fragment11();
+                fragmentTransaction.replace(R.id.container_encuesta, modulo7Fragment11);
+                break;
+            case 40:
+                Modulo7Fragment12 modulo7Fragment12 = new Modulo7Fragment12();
+                fragmentTransaction.replace(R.id.container_encuesta, modulo7Fragment12);
+                break;
+            case 41:
+                Modulo7Fragment13 modulo7Fragment13 = new Modulo7Fragment13();
+                fragmentTransaction.replace(R.id.container_encuesta, modulo7Fragment13);
+                break;
+            case 42:
+                Modulo7Fragment14 modulo7Fragment14 = new Modulo7Fragment14();
+                fragmentTransaction.replace(R.id.container_encuesta, modulo7Fragment14);
+                break;
+            case 43:
+                Modulo7Fragment15 modulo7Fragment15 = new Modulo7Fragment15();
+                fragmentTransaction.replace(R.id.container_encuesta, modulo7Fragment15);
+                break;
+            case 44:
+                Modulo7Fragment16 modulo7Fragment16 = new Modulo7Fragment16();
+                fragmentTransaction.replace(R.id.container_encuesta, modulo7Fragment16);
+                break;
+            case 45:
+                Modulo7Fragment17 modulo7Fragment17 = new Modulo7Fragment17();
+                fragmentTransaction.replace(R.id.container_encuesta, modulo7Fragment17);
+                break;
+
         }
         fragmentTransaction.commit();
     }

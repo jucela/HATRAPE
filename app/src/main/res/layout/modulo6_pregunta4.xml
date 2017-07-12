@@ -14,115 +14,56 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin10dp"
+            android:text="Razones"
+            android:gravity="center"
+            android:background="@color/accent"
+            android:textColor="@color/icons"
+            android:layout_weight="1"
+            android:textStyle="bold"/>
         <LinearLayout
+            android:layout_marginTop="1dp"
+            android:padding="@dimen/margin10dp"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center">
-            <TextView
-                android:layout_width="match_parent"
+            android:background="@drawable/cajas_de_texto">
+            <CheckBox
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="@dimen/margin10dp"
-                android:text="Razones"
-                android:gravity="center"
-                android:background="@color/accent"
-                android:textColor="@color/icons"
-                android:layout_weight="1"
-                android:textStyle="bold"/>
-            <LinearLayout
-                android:layout_marginTop="1dp"
-                android:padding="@dimen/margin15dp"
-                android:orientation="vertical"
-                android:layout_width="match_parent"
+                android:text="@string/mod6_p4_sp1"
+                android:layout_marginBottom="@dimen/margin10dp"/>
+            <CheckBox
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/cajas_de_texto">
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/mod6_p4_sp1"
-                    android:layout_marginBottom="@dimen/margin10dp"/>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_marginTop="1dp"
-                android:padding="@dimen/margin15dp"
-                android:orientation="vertical"
-                android:layout_width="match_parent"
+                android:text="@string/mod6_p4_sp2"
+                android:layout_marginBottom="@dimen/margin10dp"/>
+            <CheckBox
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/cajas_de_texto">
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/mod6_p4_sp2"
-                    android:layout_marginBottom="@dimen/margin10dp"/>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_marginTop="1dp"
-                android:padding="@dimen/margin15dp"
-                android:orientation="vertical"
-                android:layout_width="match_parent"
+                android:text="@string/mod6_p4_sp3"
+                android:layout_marginBottom="@dimen/margin10dp"/>
+            <CheckBox
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/cajas_de_texto">
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/mod6_p4_sp3"
-                    android:layout_marginBottom="@dimen/margin10dp"/>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_marginTop="1dp"
-                android:padding="@dimen/margin15dp"
-                android:orientation="vertical"
-                android:layout_width="match_parent"
+                android:text="@string/mod6_p4_sp4"
+                android:layout_marginBottom="@dimen/margin10dp"/>
+            <CheckBox
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/cajas_de_texto">
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/mod6_p4_sp4"
-                    android:layout_marginBottom="@dimen/margin10dp"/>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_marginTop="1dp"
-                android:padding="@dimen/margin15dp"
-                android:orientation="vertical"
-                android:layout_width="match_parent"
+                android:text="@string/mod6_p4_sp5"
+                android:layout_marginBottom="@dimen/margin10dp"/>
+            <CheckBox
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/cajas_de_texto">
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/mod6_p4_sp5"
-                    android:layout_marginBottom="@dimen/margin10dp"/>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_marginTop="1dp"
-                android:padding="@dimen/margin15dp"
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/cajas_de_texto">
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                    <CheckBox
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/mod6_p4_sp6"
-                        android:layout_marginBottom="@dimen/margin10dp"
-                        android:layout_marginRight="@dimen/margin10dp"/>
-                    <EditText
-                        android:hint="@string/especifique"
-                        android:inputType="text"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="30dp"
-                        android:paddingLeft="@dimen/margin10dp"
-                        android:background="@drawable/caja_texto_redonda"/>
-                </LinearLayout>
-            </LinearLayout>
-
+                android:text="@string/mod6_p4_sp6"
+                android:layout_marginBottom="@dimen/margin10dp"/>
         </LinearLayout>
     </LinearLayout>
+
 </LinearLayout>

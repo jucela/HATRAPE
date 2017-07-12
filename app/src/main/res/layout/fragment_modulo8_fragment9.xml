@@ -3,12 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="pe.gob.inei.encuestahabilidades.fragments.Modulo6Fragment1">
+    tools:context="pe.gob.inei.encuestahabilidades.fragments.Modulo8Fragment9">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/modulo6_nombre"
+        android:text="@string/modulo9_nombre"
         android:background="@color/colorPrimary"
         android:textColor="@color/icons"
         android:gravity="center"
@@ -69,8 +69,6 @@
             android:layout_marginBottom="@dimen/fab_margin"/>
     </LinearLayout>
 
-    <include layout="@layout/modulo6_pregunta1"/>
-    <include layout="@layout/modulo6_pregunta2"/>
-    <include layout="@layout/modulo6_pregunta3"/>
+    <include layout="@layout/modulo8_pregunta9"/>
 
 </LinearLayout>

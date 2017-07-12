@@ -733,7 +733,7 @@
     <string name="mod6_p5_sp19">19.Otro</string>
     <string name="mod6_p5_sp20">20.Ninguna</string>
 
-    <string name="mod6_p6">6. ¿El hecho de que algunos de sus …(OCUpACION) no sean plenamente competentes genera que su empresa…</string>
+    <string name="mod6_p6">6. ¿El hecho de que algunos de sus …(OCUPACIÓN) no sean plenamente competentes genera que su empresa…</string>
     <string name="mod6_p6_sp1">1.Esté perdiendo negocios o pedidos </string>
     <string name="mod6_p6_sp2">2.Se esté retrasando en el desarrollo de nuevos productos o servicios</string>
     <string name="mod6_p6_sp3">3.Esté renunciado a ofrecer ciertos productos o servicios</string>
@@ -767,15 +767,15 @@
     <string name="mod6_p10_sp4">4.Otro</string>
 
     <string name="mod6_p11">11. La carencia de habilidades de sus trabajadores ¿a cuál de las situaciones podría llevar a la empresa en los siguientes dos a tres años?</string>
-    <string name="mod6_p11_sp1">perdida de negocio o pedidos</string>
-    <string name="mod6_p11_sp2">Retraso en el desarrollo de productos o servicios</string>
-    <string name="mod6_p11_sp3">Renuncia a ofrecer ciertos productos o servicios </string>
-    <string name="mod6_p11_sp4">Dificultades en la atención al cliente</string>
-    <string name="mod6_p11_sp5">Dificultades para ofrecer sus productos o servicios con la  calidad requerida</string>
-    <string name="mod6_p11_sp6">Incremento en los costos del negocio</string>
-    <string name="mod6_p11_sp7">Dificultades para introducir nuevas tecnologías</string>
-    <string name="mod6_p11_sp8">Dificultades para introducir mejoras de gestión, de administración o de organización del negocio</string>
-    <string name="mod6_p11_sp9">Ninguna de las anteriores</string>
+    <string name="mod6_p11_sp1">1.Perdida de negocio o pedidos</string>
+    <string name="mod6_p11_sp2">2.Retraso en el desarrollo de productos o servicios</string>
+    <string name="mod6_p11_sp3">3.Renuncia a ofrecer ciertos productos o servicios </string>
+    <string name="mod6_p11_sp4">4.Dificultades en la atención al cliente</string>
+    <string name="mod6_p11_sp5">5.Dificultades para ofrecer sus productos o servicios con la  calidad requerida</string>
+    <string name="mod6_p11_sp6">6.Incremento en los costos del negocio</string>
+    <string name="mod6_p11_sp7">7.Dificultades para introducir nuevas tecnologías</string>
+    <string name="mod6_p11_sp8">8.Dificultades para introducir mejoras de gestión, de administración o de organización del negocio</string>
+    <string name="mod6_p11_sp9">9.Ninguna de las anteriores</string>
     <string name="OBS_MOD_VI">Observaciones Modulo VI</string>
 
     <!--MODULO 7-->
@@ -1086,7 +1086,7 @@
     <string name="mod7_p46_sp3">3. Informa</string>
     <string name="mod7_p46_sp4">4. Ninguna de las anteriores</string>
     <string name="OBS_MOD_VII">Observaciones Modulo VII</string>
-    
+
     <!--GENERICOS-->
     <string name="nombre_informante">Apellidos y nombres del informante</string>
     <string name="mismo_informante">Mismo informante</string>
