@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context="pe.gob.inei.encuestahabilidades.fragments.CaratulaFragment">
 
@@ -20,7 +21,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/fab_margin"
-        android:layout_marginBottom="@dimen/fab_margin">
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:padding="16dp">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -35,9 +37,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:layout_margin="@dimen/fab_margin">
+            android:layout_marginTop="1dp">
             <LinearLayout
-                android:layout_marginBottom="@dimen/margin5dp"
+                android:layout_marginTop="1dp"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="30dp">
@@ -58,7 +60,7 @@
                     android:imeOptions="flagNoExtractUi" />
             </LinearLayout>
             <LinearLayout
-                android:layout_marginBottom="@dimen/margin5dp"
+                android:layout_marginTop="1dp"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="30dp">
@@ -78,7 +80,7 @@
                     android:background="@drawable/cajas_de_texto" />
             </LinearLayout>
             <LinearLayout
-                android:layout_marginBottom="@dimen/margin5dp"
+                android:layout_marginTop="1dp"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="30dp">
@@ -107,16 +109,17 @@
             android:textColor="@color/colorPrimary"
             android:textStyle="bold"
             android:text="@string/caratula_loc_coordenadas"
-            android:background="@drawable/borde_layout_preguntas"/>
+            android:background="@drawable/borde_layout_preguntas"
+            android:layout_marginTop="5dp"/>
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_gravity="center"
-            android:padding="@dimen/fab_margin">
+            android:layout_marginTop="1dp">
             <LinearLayout
-                android:layout_marginBottom="@dimen/margin5dp"
+                android:layout_marginTop="1dp"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="30dp">
@@ -128,7 +131,7 @@
                     android:background="@color/colorAccent"
                     android:paddingLeft="@dimen/fab_margin"
                     android:text="@string/caratula_loc_coordenadas_gps_latitud"/>
-                <EditText
+                <TextView
                     android:id="@+id/caratula_txtLatitud"
                     android:layout_weight="1"
                     android:layout_width="0dp"
@@ -136,7 +139,7 @@
                     android:background="@drawable/cajas_de_texto" />
             </LinearLayout>
             <LinearLayout
-                android:layout_marginBottom="@dimen/margin5dp"
+                android:layout_marginTop="1dp"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="30dp">
@@ -148,7 +151,7 @@
                     android:background="@color/colorAccent"
                     android:paddingLeft="@dimen/fab_margin"
                     android:text="@string/caratula_loc_coordenadas_gps_altitud"/>
-                <EditText
+                <TextView
                     android:id="@+id/caratula_txtAltitud"
                     android:layout_weight="1"
                     android:layout_width="0dp"
@@ -156,7 +159,7 @@
                     android:background="@drawable/cajas_de_texto" />
             </LinearLayout>
             <LinearLayout
-                android:layout_marginBottom="@dimen/margin5dp"
+                android:layout_marginTop="1dp"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="30dp">
@@ -168,7 +171,7 @@
                     android:background="@color/colorAccent"
                     android:paddingLeft="@dimen/fab_margin"
                     android:text="@string/caratula_loc_coordenadas_gps_longitud"/>
-                <EditText
+                <TextView
                     android:id="@+id/caratula_txtLongitud"
                     android:layout_weight="1"
                     android:layout_width="0dp"
@@ -176,6 +179,11 @@
                     android:background="@drawable/cajas_de_texto" />
             </LinearLayout>
         </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAPTURAR GPS"
+            android:theme="@style/RaisedButtonDark"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -184,14 +192,16 @@
             android:textColor="@color/colorPrimary"
             android:textStyle="bold"
             android:text="@string/caratula_loc_ubicacion_muestral"
+            android:layout_marginTop="5dp"
             android:background="@drawable/borde_layout_preguntas"/>
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/fab_margin">
+            android:layout_marginTop="1dp"
+            >
             <LinearLayout
-                android:layout_marginBottom="@dimen/margin5dp"
+                android:layout_marginTop="1dp"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="30dp">
@@ -202,7 +212,8 @@
                     android:layout_height="match_parent"
                     android:background="@color/colorAccent"
                     android:paddingLeft="@dimen/fab_margin"
-                    android:text="@string/caratula_loc_ubicacion_muestral_sector"/>
+                    android:text="@string/caratula_loc_ubicacion_muestral_sector"
+                    android:layout_marginTop="1dp"/>
                 <EditText
                     android:id="@+id/caratula_txtSector"
                     android:layout_weight="1"
@@ -211,10 +222,10 @@
                     android:background="@drawable/cajas_de_texto" />
             </LinearLayout>
             <LinearLayout
-                android:layout_marginBottom="@dimen/margin5dp"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="30dp">
+                android:layout_height="30dp"
+                android:layout_marginTop="1dp">
                 <TextView
                     android:textColor="@color/icons"
                     android:gravity="center_vertical"
@@ -231,10 +242,10 @@
                     android:background="@drawable/cajas_de_texto" />
             </LinearLayout>
             <LinearLayout
-                android:layout_marginBottom="@dimen/margin5dp"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="30dp">
+                android:layout_height="30dp"
+                android:layout_marginTop="1dp">
                 <TextView
                     android:textColor="@color/icons"
                     android:gravity="center_vertical"
@@ -251,10 +262,10 @@
                     android:background="@drawable/cajas_de_texto" />
             </LinearLayout>
             <LinearLayout
-                android:layout_marginBottom="@dimen/margin5dp"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="30dp">
+                android:layout_height="30dp"
+                android:layout_marginTop="1dp">
                 <TextView
                     android:textColor="@color/icons"
                     android:gravity="center_vertical"
@@ -271,10 +282,11 @@
                     android:background="@drawable/cajas_de_texto" />
             </LinearLayout>
             <LinearLayout
-                android:layout_marginBottom="@dimen/margin5dp"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="30dp">
+                android:layout_height="30dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="@dimen/margin5dp">
                 <TextView
                     android:textColor="@color/icons"
                     android:gravity="center_vertical"
@@ -301,11 +313,13 @@
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp">
                 <LinearLayout
                     android:layout_width="150dp"
                     android:layout_height="30dp"
-                    android:background="@drawable/cajas_de_texto">
+                    android:background="@drawable/cajas_de_texto"
+                    android:layout_marginRight="1dp">
                     <Spinner
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"/>
@@ -330,21 +344,24 @@
                     android:layout_height="20dp"
                     android:gravity="center"
                     android:textColor="@color/icons"
-                    android:text="@string/caratula_loc_direccion_npuerta"/>
+                    android:text="@string/caratula_loc_direccion_npuerta"
+                    android:layout_marginRight="1dp"/>
                 <TextView
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="20dp"
                     android:gravity="center"
                     android:textColor="@color/icons"
-                    android:text="@string/caratula_loc_direccion_block"/>
+                    android:text="@string/caratula_loc_direccion_block"
+                    android:layout_marginRight="1dp"/>
                 <TextView
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="20dp"
                     android:gravity="center"
                     android:textColor="@color/icons"
-                    android:text="@string/caratula_loc_direccion_interior"/>
+                    android:text="@string/caratula_loc_direccion_interior"
+                    android:layout_marginRight="1dp"/>
                 <TextView
                     android:id="@+id/textView"
                     android:layout_width="0dp"
@@ -352,21 +369,24 @@
                     android:layout_height="20dp"
                     android:gravity="center"
                     android:textColor="@color/icons"
-                    android:text="@string/caratula_loc_direccion_piso" />
+                    android:text="@string/caratula_loc_direccion_piso"
+                    android:layout_marginRight="1dp"/>
                 <TextView
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="20dp"
                     android:gravity="center"
                     android:textColor="@color/icons"
-                    android:text="@string/caratula_loc_direccion_manzana"/>
+                    android:text="@string/caratula_loc_direccion_manzana"
+                    android:layout_marginRight="1dp"/>
                 <TextView
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="20dp"
                     android:gravity="center"
                     android:textColor="@color/icons"
-                    android:text="@string/caratula_loc_direccion_lote"/>
+                    android:text="@string/caratula_loc_direccion_lote"
+                    android:layout_marginRight="1dp"/>
                 <TextView
                     android:layout_weight="1"
                     android:layout_width="0dp"

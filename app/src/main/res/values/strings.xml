@@ -1,17 +1,17 @@
 <resources>
-    <string name="app_name">ENHATRApE</string>
-    <string name="titulo_encuesta">ENCUESTA “HABILIDADES AL TRABAJO EN EL pERÚ”</string>
+    <string name="app_name">ENHATRAPE</string>
+    <string name="titulo_encuesta">ENCUESTA “HABILIDADES AL TRABAJO EN EL PERÚ”</string>
     <!--CARATULA-->
-    <string name="caratula_loc">LOCALIZACIÓN DE LA EMpRESA</string>
+    <string name="caratula_loc">LOCALIZACIÓN DE LA EMPRESA</string>
     <string name="caratula_loc_ubicacion_geo">A.UBICACIÓN GEOGRÁFICA</string>
     <string name="caratula_loc_ubicacion_geo_departamento">1.Departamento</string>
-    <string name="caratula_loc_ubicacion_geo_provincia">2.provincia</string>
+    <string name="caratula_loc_ubicacion_geo_provincia">2.Provincia</string>
     <string name="caratula_loc_ubicacion_geo_distrito">3.Distrito</string>
 
-    <string name="caratula_loc_coordenadas">B.COORDENADAS DEL pUNTO GpS</string>
-    <string name="caratula_loc_coordenadas_gps_latitud">4.GpS LATITUD</string>
-    <string name="caratula_loc_coordenadas_gps_altitud">4.GpS ALTITUD</string>
-    <string name="caratula_loc_coordenadas_gps_longitud">4.GpS LONGITUD</string>
+    <string name="caratula_loc_coordenadas">B.COORDENADAS DEL PUNTO GPS</string>
+    <string name="caratula_loc_coordenadas_gps_latitud">4.GPS LATITUD</string>
+    <string name="caratula_loc_coordenadas_gps_altitud">4.GPS ALTITUD</string>
+    <string name="caratula_loc_coordenadas_gps_longitud">4.GPS LONGITUD</string>
 
     <string name="caratula_loc_ubicacion_muestral">C.UBICACIÓN MUESTRAL</string>
     <string name="caratula_loc_ubicacion_muestral_sector">5.Sector de Trabajo</string>
@@ -81,7 +81,7 @@
     <string name="modulo3_nombre">MÓDULO III. ACTIVIDADES DE LA EMpRESA</string>
     <string name="modulo4_nombre">MÓDULO IV. ESTRATEGIA DE pRODUCTOS Y HABILIDADES</string>
     <string name="modulo5_nombre">MÓDULO V. VACANTES Y CONTRATACIÓN </string>
-    <string name="modulo6_nombre">MÓDULO VI. HABILIDADES Y COMpETENCIAS</string>
+    <string name="modulo6_nombre">MÓDULO VI. HABILIDADES Y COMPETENCIAS</string>
     <string name="modulo7_nombre">MÓDULO VII. CApACITACIÓN Y DESARROLLO pERSONAL</string>
     <string name="modulo8_nombre">MÓDULO VIII. INNOVACIÓN Y NUEVAS TECNOLOGÍAS</string>
     <string name="modulo9_nombre">MÓDULO IX. pREGUNTAS FINALES</string>
@@ -223,7 +223,7 @@
     <string name="mod2_p11_sp6">6.Es muy costoso terminar un contrato permanente</string>
     <string name="mod2_p11_sp7">7.Otra</string>
 
-    <string name="mod2_p12">12. ¿por qué considera costoso terminar un contrato permanente?                                                                                        </string>
+    <string name="mod2_p12">12. ¿Por qué considera costoso terminar un contrato permanente?                                                                                        </string>
     <string name="mod2_p12_sp1">1.Se debe pagar una alta indemnización</string>
     <string name="mod2_p12_sp2">2.Existe el riesgo de que un juez ordene la reposición del trabajador</string>
     <string name="mod2_p12_sp3">3.Otra</string>
@@ -1086,6 +1086,147 @@
     <string name="mod7_p46_sp3">3. Informa</string>
     <string name="mod7_p46_sp4">4. Ninguna de las anteriores</string>
     <string name="OBS_MOD_VII">Observaciones Modulo VII</string>
+
+    <!--MODULO 8-->
+
+    <string name="mod8_p1">1. ¿Se encuentra actualmente utilizando alguno de los siguientes ítems en el proceso que utiliza para producir sus bienes o servicios?</string>
+    <string name="mod8_p1_sp1">1.Inteligencia artificial</string>
+    <string name="mod8_p1_sp2">2.Aprendizaje automático</string>
+    <string name="mod8_p1_sp3">3.Robótica avanzada</string>
+    <string name="mod8_p1_sp4">4.Transporte automático</string>
+    <string name="mod8_p1_sp5">5.Manufactura avanzada</string>
+    <string name="mod8_p1_sp6">6.Producción con impresión en 3D</string>
+    <string name="mod8_p1_sp0">Afectación</string>
+    <string name="mod8_p1_op1">1.En gran medida</string>
+    <string name="mod8_p1_op2">2.De forma moderada</string>
+    <string name="mod8_p1_op3">3.En minima medida</string>
+    <string name="mod8_p1_op4">4.No sabe</string>
+
+    <string name="mod8_p2">2. ¿Qué tan probable es que utilice más o introduzca en los próximos tres años en su sistema de producción de bienes y/o servicios tecnologías como</string>
+    <string name="mod8_p2_sp1">1.Inteligencia artificial</string>
+    <string name="mod8_p2_sp2">2.Aprendizaje automático</string>
+    <string name="mod8_p2_sp3">3.Robótica avanzada</string>
+    <string name="mod8_p2_sp4">4.Transporte automático</string>
+    <string name="mod8_p2_sp5">5.Manufactura avanzada</string>
+    <string name="mod8_p2_sp6">6.Producción con impresión en 3D</string>
+    <string name="mod8_p2_op1">1.Muy Probable</string>
+    <string name="mod8_p2_op2">2.Probable</string>
+    <string name="mod8_p2_op3">3.Poco Probable</string>
+    <string name="mod8_p2_op4">4.Improbable</string>
+    <string name="mod8_p2_op5">5.NO SABE</string>
+
+    <string name="mod8_p3">3. ¿Por qué no ha introducido esta tecnología: ITEM?</string>
+    <string name="mod8_p3_sp1">1.Inteligencia artificial</string>
+    <string name="mod8_p3_sp2">2.Aprendizaje automático</string>
+    <string name="mod8_p3_sp3">3.Robótica avanzada</string>
+    <string name="mod8_p3_sp4">4.Transporte automático</string>
+    <string name="mod8_p3_sp5">5.Manufactura avanzada</string>
+    <string name="mod8_p3_sp6">6.Producción con impresión en 3D</string>
+    <string name="mod8_p3_op1">1.No hay demanda en la empresa</string>
+    <string name="mod8_p3_op2">2.No existen habilidades en la empresa para introducirlo</string>
+    <string name="mod8_p3_op3">3.No existen habilidades en el mercado laboral para introducirlo</string>
+    <string name="mod8_p3_op4">4.No estoy seguro de lo que es o qué puede hacer</string>
+    <string name="mod8_p3_op5">5.Hay escaso capital de inversión</string>
+    <string name="mod8_p3_op6">6.Otro</string>
+
+    <string name="mod8_p4">4.¿Por qué no va introducir o es poco probable que introduzca esta tecnología: ITEM en los próximos 3 años?</string>
+    <string name="mod8_p4_sp1">1.Inteligencia artificial</string>
+    <string name="mod8_p4_sp2">2.Aprendizaje automático</string>
+    <string name="mod8_p4_sp3">3.Robótica avanzada</string>
+    <string name="mod8_p4_sp4">4.Transporte automático</string>
+    <string name="mod8_p4_sp5">5.Manufactura avanzada</string>
+    <string name="mod8_p4_sp6">6.Producción con impresión en 3D</string>
+    <string name="mod8_p4_op1">1.No hay demanda en la empresa</string>
+    <string name="mod8_p4_op2">2.No existen habilidades en la empresa para introducirlo</string>
+    <string name="mod8_p4_op3">3.No existen habilidades en el mercado laboral para introducirlo</string>
+    <string name="mod8_p4_op4">4.No estoy seguro de lo que es o qué puede hacer</string>
+    <string name="mod8_p4_op5">5.Hay escaso capital de inversión</string>
+    <string name="mod8_p4_op6">6.Otro</string>
+
+    <string name="mod8_p5">5. ¿Cuál cree que va a ser el impacto neto de (ITEM), en el empleo de su empresa?</string>
+    <string name="mod8_p5_sp1">1.Inteligencia artificial</string>
+    <string name="mod8_p5_sp2">2.Aprendizaje automático</string>
+    <string name="mod8_p5_sp3">3.Robótica avanzada</string>
+    <string name="mod8_p5_sp4">4.Transporte automático</string>
+    <string name="mod8_p5_sp5">5.Manufactura avanzada</string>
+    <string name="mod8_p5_sp6">6.Producción con impresión en 3D</string>
+    <string name="mod8_p5_op1">1.El empleo va a aumentar mucho</string>
+    <string name="mod8_p5_op2">2.El empleo va a aumentar algo</string>
+    <string name="mod8_p5_op3">3.El empleo va a ser el mismo</string>
+    <string name="mod8_p5_op4">4.El empleo va a disminuir algo</string>
+    <string name="mod8_p5_op5">5.El empleo va a disminuir mucho</string>
+    <string name="mod8_p5_op6">6.No sabe</string>
+
+    <string name="mod8_p6">6. La introducción de nueva tecnología va a llevar a:</string>
+    <string name="mod8_p6_sp1">1.Inteligencia artificial</string>
+    <string name="mod8_p6_sp2">2.Aprendizaje automático</string>
+    <string name="mod8_p6_sp3">3.Robótica avanzada</string>
+    <string name="mod8_p6_sp4">4.Transporte automático</string>
+    <string name="mod8_p6_sp5">5.Manufactura avanzada</string>
+    <string name="mod8_p6_sp6">6.Producción con impresión en 3D</string>
+    <string name="mod8_p6_op1">A. Reclutamiento de personal con nuevas habilidades para reemplazar al existente</string>
+    <string name="mod8_p6_op2">B. Reclutamiento de personal con nuevas habilidades para sumarse al existente</string>
+    <string name="mod8_p6_op3">C. Traer expertos externos para que transfieran sus habilidades a los empleados</string>
+    <string name="mod8_p6_op4">D. Capacitar a los empleados existentes</string>
+    <string name="mod8_p6_op5">E. Externalización de algunas funciones empresariales</string>
+    <string name="mod8_p6_op6">F. Ninguna de las anteriores</string>
+
+    <string name="mod8_p7">7.¿Espera experimentar dificultades al momento de reclutar nuevo personal?</string>
+    <string name="mod8_p7_sp1">1.Inteligencia artificial</string>
+    <string name="mod8_p7_sp2">2.Aprendizaje automático</string>
+    <string name="mod8_p7_sp3">3.Robótica avanzada</string>
+    <string name="mod8_p7_sp4">4.Transporte automático</string>
+    <string name="mod8_p7_sp5">5.Manufactura avanzada</string>
+    <string name="mod8_p7_sp6">6.Producción con impresión en 3D</string>
+
+    <string name="mod8_p8">8. ¿En qué mercado buscará personal?</string>
+    <string name="mod8_p8_sp1">1.Inteligencia artificial</string>
+    <string name="mod8_p8_sp2">2.Aprendizaje automático</string>
+    <string name="mod8_p8_sp3">3.Robótica avanzada</string>
+    <string name="mod8_p8_sp4">4.Transporte automático</string>
+    <string name="mod8_p8_sp5">5.Manufactura avanzada</string>
+    <string name="mod8_p8_sp6">6.Producción con impresión en 3D</string>
+    <string name="mod8_p8_op1">1.Local</string>
+    <string name="mod8_p8_op2">2.Nacional</string>
+    <string name="mod8_p8_op3">3.Internacional</string>
+    <string name="mod8_p8_op4">4.No sabe</string>
+
+    <string name="mod8_p9">9. Esto va a ser provisto a través de Capacitación</string>
+    <string name="mod8_p9_sp1">1.Inteligencia artificial</string>
+    <string name="mod8_p9_sp2">2.Aprendizaje automático</string>
+    <string name="mod8_p9_sp3">3.Robótica avanzada</string>
+    <string name="mod8_p9_sp4">4.Transporte automático</string>
+    <string name="mod8_p9_sp5">5.Manufactura avanzada</string>
+    <string name="mod8_p9_sp6">6.Producción con impresión en 3D</string>
+    <string name="mod8_p9_op1">1.Externa, en centros de formación públicos</string>
+    <string name="mod8_p9_op2">2.Externa, en centros de formación privados</string>
+    <string name="mod8_p9_op3">3.En la empresa</string>
+    <string name="mod8_p9_op4">4.No Sabe</string>
+
+    <string name="mod8_p10">10. ¿Espera tener dificultades para ofrecer la capacitación necesaria?</string>
+    <string name="mod8_p10_sp1">1.Inteligencia artificial</string>
+    <string name="mod8_p10_sp2">2.Aprendizaje automático</string>
+    <string name="mod8_p10_sp3">3.Robótica avanzada</string>
+    <string name="mod8_p10_sp4">4.Transporte automático</string>
+    <string name="mod8_p10_sp5">5.Manufactura avanzada</string>
+    <string name="mod8_p10_sp6">6.Producción con impresión en 3D</string>
+    <string name="mod8_p10_op1">1.Sí, bastante dada la baja calidad de las capacitaciones</string>
+    <string name="mod8_p10_op2">2.Sí, bastante dada la baja relevancia de los contenidos</string>
+    <string name="mod8_p10_op3">3.Sí, bastante por otras razones</string>
+    <string name="mod8_p10_op4">4.Sí, alguna dificultad</string>
+    <string name="mod8_p10_op5">5.No</string>
+    <string name="mod8_p10_op6">6.No Sabe</string>
+    <string name="OBS_MOD_VIII">Observaciones Modulo VIII</string>
+
+    <!--MODULO 9-->
+
+    <string name="mod9_p1">1. ¿Podríamos contar nuevamente con usted en caso de requerir aclarar información?</string>
+    <string name="mod9_p2">2. Si en el futuro, el gobierno y sus entidades quisieran realizar trabajo adicional en torno a temas pertinentes ¿aceptaría que ellos lo contactaran en relación a estos temas?</string>
+    <string name="mod9_p2_sp1">Si, el cliente y/o contratista pueden contactarme</string>
+    <string name="mod9_p2_sp2">Solo el cliente puede contactarme nuevamente</string>
+    <string name="mod9_p2_sp3">No</string>
+    <string name="mod9_p3">3. Por último, a veces es posible vincular los datos recopilados con otras encuestas o conjuntos de datos de gobierno para emitir un análisis estadístico más profundo. ¿le gustaría que esto se hiciera? Se resguardará su confidencialidad. Los datos vinculados serán anonimizados y solo se usarán para propósitos estadísticos.</string>
+    <string name="OBS_MOD_IX">Observaciones Modulo IX</string>
 
     <!--GENERICOS-->
     <string name="nombre_informante">Apellidos y nombres del informante</string>

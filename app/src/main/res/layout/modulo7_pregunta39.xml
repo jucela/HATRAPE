@@ -45,6 +45,8 @@
             android:text="@string/mod7_p39_sp7"/>
     </RadioGroup>
     <EditText
+        android:id="@+id/p39_edtEspecifique"
+        android:inputType="textCapCharacters"
         android:hint="@string/especifique"
         android:layout_width="match_parent"
         android:layout_height="30dp"

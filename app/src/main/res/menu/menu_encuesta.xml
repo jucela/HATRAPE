@@ -185,5 +185,49 @@
             android:id="@+id/opcion_46"
             android:checked="false"
             />
+        <item android:title="Modulo VIII_P1"
+            android:id="@+id/opcion_47"
+            android:checked="false"
+            />
+        <item android:title="Modulo VIII_P2"
+            android:id="@+id/opcion_48"
+            android:checked="false"
+            />
+        <item android:title="Modulo VIII_P3"
+            android:id="@+id/opcion_49"
+            android:checked="false"
+            />
+        <item android:title="Modulo VIII_P4"
+            android:id="@+id/opcion_50"
+            android:checked="false"
+            />
+        <item android:title="Modulo VIII_P5"
+            android:id="@+id/opcion_51"
+            android:checked="false"
+            />
+        <item android:title="Modulo VIII_P6"
+            android:id="@+id/opcion_52"
+            android:checked="false"
+            />
+        <item android:title="Modulo VIII_P7"
+            android:id="@+id/opcion_53"
+            android:checked="false"
+            />
+        <item android:title="Modulo VIII_P8"
+            android:id="@+id/opcion_54"
+            android:checked="false"
+            />
+        <item android:title="Modulo VIII_P9"
+            android:id="@+id/opcion_55"
+            android:checked="false"
+            />
+        <item android:title="Modulo VIII_P10"
+            android:id="@+id/opcion_56"
+            android:checked="false"
+            />
+        <item android:title="Modulo IX_P1_P3"
+            android:id="@+id/opcion_57"
+            android:checked="false"
+            />
     </group>
 </menu>
