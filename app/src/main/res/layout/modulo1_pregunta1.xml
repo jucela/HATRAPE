@@ -14,10 +14,12 @@
         android:text="@string/modulo1_pregunta1"
         android:layout_marginBottom="@dimen/fab_margin"/>
     <EditText
+        android:id="@+id/mod1_p1_edtActividadPrimaria"
         android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:background="@drawable/cajas_de_texto"
+        android:paddingLeft="@dimen/margin5dp"
         android:layout_marginBottom="@dimen/margin10dp"/>
     <LinearLayout
         android:orientation="horizontal"
@@ -30,9 +32,12 @@
             android:textColor="@color/primary_text"
             android:layout_marginRight="@dimen/margin15dp"/>
         <EditText
-            android:inputType="text"
+            android:id="@+id/mod1_p1_edtCIUPrimaria"
+            android:inputType="numberPassword"
+            android:maxLength="4"
             android:layout_width="match_parent"
             android:layout_height="30dp"
+            android:paddingLeft="@dimen/margin5dp"
             android:background="@drawable/cajas_de_texto"/>
     </LinearLayout>
 </LinearLayout>

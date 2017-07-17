@@ -22,6 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/fab_margin">
         <CheckBox
+            android:id="@+id/mod1_cab_ckMismoInformante"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/mismo_informante"/>
@@ -34,10 +35,11 @@
             android:padding="@dimen/margin5dp"
             android:text="@string/nombre_informante"/>
         <EditText
-            android:id="@+id/modulo1_txtInformante"
+            android:id="@+id/mod1_cab_edtApeYNom"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:paddingLeft="@dimen/margin10dp"
+            android:paddingLeft="@dimen/margin5dp"
+            android:inputType="text"
             android:background="@drawable/cajas_de_texto"
             android:layout_marginBottom="@dimen/fab_margin"/>
         <TextView
@@ -49,11 +51,13 @@
             android:padding="@dimen/margin5dp"
             android:text="@string/cargo_informante"/>
         <LinearLayout
+            android:id="@+id/mod1_cab_lytFondoSpinner"
             android:layout_width="match_parent"
             android:layout_height="30dp"
+            android:focusableInTouchMode="true"
             android:background="@drawable/cajas_de_texto">
             <Spinner
-                android:id="@+id/modulo1_spCargoInformante"
+                android:id="@+id/mod1_cab_spCargo"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:drawSelectorOnTop="true"
@@ -61,13 +65,15 @@
                 />
         </LinearLayout>
         <EditText
-            android:id="@+id/modulo1_txtEspecifiqueCargo"
+            android:id="@+id/mod1_cab_edtEspecifiqueCargo"
+            android:layout_marginTop="@dimen/margin15dp"
             android:layout_width="match_parent"
             android:layout_height="30dp"
+            android:inputType="text"
             android:hint="@string/especifique"
-            android:paddingLeft="@dimen/margin10dp"
-            android:background="@drawable/cajas_de_texto"
-            android:layout_marginBottom="@dimen/fab_margin"/>
+            android:paddingLeft="@dimen/margin5dp"
+            android:visibility="gone"
+            android:background="@drawable/cajas_de_texto" />
     </LinearLayout>
 
     <include layout="@layout/modulo1_pregunta1"/>

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical"
+    android:id="@+id/mod1_p3_lytPregunta3"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/fab_margin"
+    android:focusableInTouchMode="true"
     android:padding="@dimen/margin15dp"
     android:background="@drawable/borde_layout_preguntas"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -12,39 +14,47 @@
         android:text="@string/modulo1_pregunta3"
         android:layout_marginBottom="@dimen/fab_margin"/>
     <RadioGroup
+        android:id="@+id/mod1_p3_rgOrgEmpresa"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <RadioButton
+            android:id="@+id/mod1_p3_rb1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
             android:text="@string/modulo1_pregunta3_subpregunta1"/>
         <RadioButton
+            android:id="@+id/mod1_p3_rb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
             android:text="@string/modulo1_pregunta3_subpregunta2"/>
         <RadioButton
+            android:id="@+id/mod1_p3_rb3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
             android:text="@string/modulo1_pregunta3_subpregunta3"/>
         <RadioButton
+            android:id="@+id/mod1_p3_rb4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
             android:text="@string/modulo1_pregunta3_subpregunta4"/>
         <RadioButton
+            android:id="@+id/mod1_p3_rb5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
             android:text="@string/modulo1_pregunta3_subpregunta5"/>
         <RadioButton
+            android:id="@+id/mod1_p3_rb6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
             android:text="@string/modulo1_pregunta3_subpregunta6"/>
         <RadioButton
+            android:id="@+id/mod1_p3_rb7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
@@ -52,12 +62,14 @@
             android:text="@string/modulo1_pregunta3_subpregunta7"/>
     </RadioGroup>
     <LinearLayout
+        android:id="@+id/mod1_p3_lytEspecifiqueOrg"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/margin10dp"
         android:layout_marginRight="@dimen/margin10dp"
         android:padding="@dimen/margin10dp"
+        android:visibility="gone"
         android:background="@drawable/border_layout_subpreguntas">
         <TextView
             android:layout_gravity="center_vertical"
@@ -67,10 +79,12 @@
             android:textColor="@color/primary_text"
             android:layout_marginRight="@dimen/margin10dp"/>
         <EditText
+            android:id="@+id/mod1_p3_edtEspecifiqueOrg"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="30dp"
             android:inputType="text"
+            android:paddingLeft="@dimen/margin5dp"
             android:background="@drawable/cajas_de_texto"/>
     </LinearLayout>
 </LinearLayout>
