@@ -10,8 +10,6 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 
-import java.util.ArrayList;
-
 import pe.gob.inei.encuestahabilidades.R;
 
 /**
@@ -38,7 +36,7 @@ public class Modulo1Fragment2 extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         autoCompleteTextView = (AutoCompleteTextView) view.findViewById(R.id.autotxtPaises);
         String[] paises = getResources().getStringArray(R.array.paises);
-        ArrayAdapter adapter = new ArrayAdapter(getActivity().getApplicationContext(),R.layout.list_item,R.id.item,paises);
+        ArrayAdapter adapter = new ArrayAdapter(getActivity().getApplicationContext(),R.layout.lista_item,R.id.item,paises);
         autoCompleteTextView.setAdapter(adapter);
     }
 }

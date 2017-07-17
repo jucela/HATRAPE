@@ -5,7 +5,6 @@
     android:orientation="vertical"
     tools:context="pe.gob.inei.encuestahabilidades.fragments.Modulo2Fragment4">
 
-    <include layout="@layout/modulo2_pregunta11"/>
     <include layout="@layout/modulo2_pregunta12"/>
     <include layout="@layout/modulo2_pregunta13"/>
 

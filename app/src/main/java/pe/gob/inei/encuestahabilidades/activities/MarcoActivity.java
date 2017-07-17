@@ -70,7 +70,7 @@ public class MarcoActivity extends AppCompatActivity {
                 });
                 colorAnimation2.start();
 
-                Intent intent = new Intent(getApplicationContext(), EncuestaActivity.class);
+                Intent intent = new Intent(getApplicationContext(), EnhatrapeActivity.class);
                 intent.putExtra("numero",encuestados.get(position).getNumero());
                 intent.putExtra("campo1", encuestados.get(position).getCampo1());
                 intent.putExtra("campo2", encuestados.get(position).getCampo2());

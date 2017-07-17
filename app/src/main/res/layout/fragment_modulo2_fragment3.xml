@@ -7,6 +7,6 @@
 
     <include layout="@layout/modulo2_pregunta10"/>
     <include layout="@layout/modulo2_pregunta11"/>
-    <include layout="@layout/modulo2_pregunta12"/>
+
 
 </LinearLayout>
