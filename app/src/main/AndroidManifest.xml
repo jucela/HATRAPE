@@ -13,10 +13,10 @@
             android:name=".activities.SplashActivity"
             android:configChanges="screenSize|orientation|keyboardHidden">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
         <activity
             android:name=".activities.LoginActivity"
@@ -32,6 +32,7 @@
         <activity
             android:name=".activities.EnhatrapeActivity"
             android:label="@string/title_activity_enhatrape"
+            android:configChanges="screenSize|orientation|keyboardHidden"
             android:theme="@style/AppTheme"></activity>
     </application>
 

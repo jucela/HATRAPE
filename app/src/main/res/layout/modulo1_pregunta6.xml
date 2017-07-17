@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical"
+<LinearLayout
+    android:id="@+id/mod1_p6_lytPregunta6"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/fab_margin"
@@ -17,7 +20,7 @@
         android:layout_height="wrap_content"
         android:padding="16dp">
         <AutoCompleteTextView
-            android:id="@+id/autotxtPaises"
+            android:id="@+id/mod1_p6_autotxtPaises"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:completionThreshold="1"/>

@@ -4,6 +4,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/fab_margin"
     android:padding="@dimen/fab_margin"
+    android:id="@+id/mod1_p11_lytPregunta11"
     android:background="@drawable/borde_layout_preguntas"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView
@@ -25,15 +26,18 @@
             android:layout_marginRight="@dimen/margin15dp"
             android:text="¿Menos de un año?"/>
         <RadioGroup
+            android:id="@+id/mod1_p11_rgAnio"
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <RadioButton
+                android:id="@+id/mod1_p11_rbSi"
                 android:layout_marginRight="@dimen/margin15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="SI"/>
             <RadioButton
+                android:id="@+id/mod1_p11_rbNo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="NO"/>
@@ -41,6 +45,7 @@
         </RadioGroup>
     </LinearLayout>
     <LinearLayout
+        android:id="@+id/mod1_p11_lytEdit1"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,21 +53,26 @@
         android:layout_marginRight="@dimen/margin10dp"
         android:layout_marginBottom="@dimen/margin10dp"
         android:padding="@dimen/margin10dp"
+        android:visibility="gone"
         android:background="@drawable/border_layout_subpreguntas">
         <TextView
             android:layout_gravity="center_vertical"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:text="¿Cuánto tiempo en años?"
             android:textColor="@color/primary_text"
             android:layout_marginRight="@dimen/margin10dp"/>
         <EditText
+            android:id="@+id/mod1_p11_edt1"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="30dp"
+            android:paddingLeft="@dimen/margin5dp"
+            android:inputType="numberPassword"
             android:background="@drawable/cajas_de_texto"/>
     </LinearLayout>
     <LinearLayout
+        android:id="@+id/mod1_p11_lytEdit2"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -70,18 +80,22 @@
         android:layout_marginRight="@dimen/margin10dp"
         android:layout_marginBottom="@dimen/margin10dp"
         android:padding="@dimen/margin10dp"
+        android:visibility="gone"
         android:background="@drawable/border_layout_subpreguntas">
         <TextView
             android:layout_gravity="center_vertical"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:text="¿Cuánto tiempo en meses?"
             android:textColor="@color/primary_text"
             android:layout_marginRight="@dimen/margin10dp"/>
         <EditText
+            android:id="@+id/mod1_p11_edt2"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="30dp"
+            android:paddingLeft="@dimen/margin5dp"
+            android:inputType="numberPassword"
             android:background="@drawable/cajas_de_texto"/>
     </LinearLayout>
 </LinearLayout>

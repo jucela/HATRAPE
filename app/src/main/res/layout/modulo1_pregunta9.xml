@@ -4,6 +4,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/fab_margin"
     android:padding="@dimen/fab_margin"
+    android:id="@+id/mod1_p09_lytPregunta09"
     android:background="@drawable/borde_layout_preguntas"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView
@@ -24,11 +25,14 @@
             android:text="@string/modulo1_pregunta9_subpregunta1"
             android:textColor="@color/primary_text"
             android:layout_marginRight="@dimen/margin10dp"/>
+
         <EditText
-            android:inputType="number"
-            android:layout_weight="1"
+            android:id="@+id/mod1_p9_edtEstablecimientos"
             android:layout_width="0dp"
             android:layout_height="30dp"
-            android:background="@drawable/cajas_de_texto"/>
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/margin5dp"
+            android:background="@drawable/cajas_de_texto"
+            android:inputType="numberPassword" />
     </LinearLayout>
 </LinearLayout>

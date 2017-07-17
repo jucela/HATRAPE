@@ -23,6 +23,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import pe.gob.inei.encuestahabilidades.NumericKeyBoardTransformationMethod;
@@ -32,6 +33,8 @@ import pe.gob.inei.encuestahabilidades.R;
  * A simple {@link Fragment} subclass.
  */
 public class Modulo1Fragment1 extends Fragment {
+
+    private LinearLayout lytFragment;
 
     private CheckBox ckMismoInformante;
     private EditText edtNombYApellidos;
@@ -68,7 +71,10 @@ public class Modulo1Fragment1 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+
         View rootView = inflater.inflate(R.layout.fragment_modulo1_fragment1, container, false);
+
+        lytFragment = (LinearLayout) rootView.findViewById(R.id.mod1_layoutFragment1);
 
         ckMismoInformante = (CheckBox) rootView.findViewById(R.id.mod1_cab_ckMismoInformante);
         edtNombYApellidos = (EditText)rootView.findViewById(R.id.mod1_cab_edtApeYNom);
@@ -93,7 +99,6 @@ public class Modulo1Fragment1 extends Fragment {
         lytPregunta4 = (LinearLayout) rootView.findViewById(R.id.mod1_p4_lytSubpreguntas);
         rgSP41 = (RadioGroup) rootView.findViewById(R.id.mod1_p4_rg41);
         rgSP42 = (RadioGroup) rootView.findViewById(R.id.mod1_p4_rg42);
-
         return rootView;
 
     }
@@ -101,8 +106,7 @@ public class Modulo1Fragment1 extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
-        ckMismoInformante.requestFocus();
+        lytFragment.requestFocus();
         ckMismoInformante.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
@@ -166,12 +170,27 @@ public class Modulo1Fragment1 extends Fragment {
         edtCIUPrimaria.setTransformationMethod(new NumericKeyBoardTransformationMethod());
         edtActividadSecundaria1.setFilters(new InputFilter[]{new InputFilter.AllCaps()});
         edtCIUSecundaria1.setTransformationMethod(new NumericKeyBoardTransformationMethod());
+        edtCIUSecundaria1.setOnKeyListener(new View.OnKeyListener() {
+            @Override
+            public boolean onKey(View view, int keyCode, KeyEvent keyEvent) {
+                if ((keyEvent.getAction() == KeyEvent.ACTION_DOWN) &&
+                        (keyCode == KeyEvent.KEYCODE_ENTER)) {
+                    if(ckNoSecundaria2.isChecked()){
+                        ocultarTeclado();
+                        rgOrgEmpresa.requestFocus();
+                    }
+                    return true;
+                }
+                return false;
+            }
+        });
         ckNoSecundaria2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(b) {
                     lytActividadSec2.setVisibility(View.GONE);
                     lytPregunta3.requestFocus();
+                    ocultarTeclado();
                 } else {
                     lytActividadSec2.setVisibility(View.VISIBLE);
                     edtActividadSecundaria2.setText("");
@@ -251,6 +270,9 @@ public class Modulo1Fragment1 extends Fragment {
 
     public void ocultarTeclado(){
         InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(getActivity().INPUT_METHOD_SERVICE);
-        imm.toggleSoftInput(InputMethodManager.SHOW_FORCED, 0);
+        if (imm.isAcceptingText()) {
+            imm.toggleSoftInput(InputMethodManager.SHOW_FORCED, 0);
+        }
+
     }
 }

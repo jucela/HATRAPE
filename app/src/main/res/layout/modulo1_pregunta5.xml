@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical"
+    android:id="@+id/mod1_p5_lytPregunta5"
+    android:focusableInTouchMode="true"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/fab_margin"
@@ -12,15 +14,18 @@
         android:text="@string/modulo1_pregunta5"
         android:layout_marginBottom="@dimen/fab_margin" />
     <RadioGroup
+        android:id="@+id/mod1_p5_rg"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <RadioButton
+            android:id="@+id/mod1_p5_rb1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="SI"
             android:layout_marginRight="@dimen/margin15dp"/>
         <RadioButton
+            android:id="@+id/mod1_p5_rb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="NO"/>
