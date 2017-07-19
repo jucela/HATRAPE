@@ -230,6 +230,10 @@ public class Modulo1Fragment1 extends Fragment {
                         edtEspecifiqueOrg.requestFocus();
                         break;
                 }
+                if(i != R.id.mod1_p3_rb7){
+                    lytPregunta4.requestFocus();
+                    lytPregunta4.setBackgroundColor(Color.CYAN);
+                }
             }
         });
         edtEspecifiqueOrg.setFilters(new InputFilter[]{new InputFilter.AllCaps()});
@@ -249,6 +253,7 @@ public class Modulo1Fragment1 extends Fragment {
         rgSP41.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, @IdRes int i) {
+                lytPregunta4.setBackgroundColor(Color.TRANSPARENT);
                 switch(i){
                     case R.id.mod1_p4_sp1_rb1:break;
                     case R.id.mod1_p4_sp1_rb2:break;

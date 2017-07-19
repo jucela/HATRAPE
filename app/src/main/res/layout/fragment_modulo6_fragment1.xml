@@ -5,72 +5,88 @@
     android:orientation="vertical"
     tools:context="pe.gob.inei.encuestahabilidades.fragments.Modulo6Fragment1">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/modulo6_nombre"
-        android:background="@color/colorPrimary"
-        android:textColor="@color/icons"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:padding="@dimen/fab_margin"/>
-
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/fab_margin">
-        <CheckBox
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/mismo_informante"/>
+        android:layout_height="50dp">
         <TextView
-            android:textColor="@color/icons"
-            android:gravity="center"
+            android:id="@+id/txtCabecera"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/colorAccent"
-            android:padding="@dimen/margin5dp"
-            android:text="@string/nombre_informante"/>
-        <EditText
-            android:id="@+id/modulo1_txtInformante"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:paddingLeft="@dimen/margin10dp"
-            android:background="@drawable/cajas_de_texto"
-            android:layout_marginBottom="@dimen/fab_margin"/>
-        <TextView
+            android:text="@string/modulo6_nombre"
+            android:background="@color/colorPrimary"
             android:textColor="@color/icons"
             android:gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/colorAccent"
-            android:padding="@dimen/margin5dp"
-            android:text="@string/cargo_informante"/>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:background="@drawable/cajas_de_texto">
-            <Spinner
-                android:id="@+id/modulo1_spCargoInformante"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:drawSelectorOnTop="true"
-                android:entries="@array/cargos"
-                />
-        </LinearLayout>
-        <EditText
-            android:id="@+id/modulo1_txtEspecifiqueCargo"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:hint="@string/especifique"
-            android:paddingLeft="@dimen/margin10dp"
-            android:background="@drawable/cajas_de_texto"
-            android:layout_marginBottom="@dimen/fab_margin"/>
+            android:textStyle="bold"
+            android:padding="@dimen/fab_margin"/>
     </LinearLayout>
 
-    <include layout="@layout/modulo6_pregunta1"/>
-    <include layout="@layout/modulo6_pregunta2"/>
-    <include layout="@layout/modulo6_pregunta3"/>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fab_margin">
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mismo_informante"/>
+                <TextView
+                    android:textColor="@color/icons"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:padding="@dimen/margin5dp"
+                    android:text="@string/nombre_informante"/>
+                <EditText
+                    android:id="@+id/modulo1_txtInformante"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:paddingLeft="@dimen/margin10dp"
+                    android:background="@drawable/cajas_de_texto"
+                    android:layout_marginBottom="@dimen/fab_margin"/>
+                <TextView
+                    android:textColor="@color/icons"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:padding="@dimen/margin5dp"
+                    android:text="@string/cargo_informante"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@drawable/cajas_de_texto">
+                    <Spinner
+                        android:id="@+id/modulo1_spCargoInformante"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:drawSelectorOnTop="true"
+                        android:entries="@array/cargos"
+                        />
+                </LinearLayout>
+                <EditText
+                    android:id="@+id/modulo1_txtEspecifiqueCargo"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:hint="@string/especifique"
+                    android:paddingLeft="@dimen/margin10dp"
+                    android:background="@drawable/cajas_de_texto"
+                    android:layout_marginBottom="@dimen/fab_margin"/>
+            </LinearLayout>
+            <include layout="@layout/modulo6_pregunta1"/>
+            <include layout="@layout/modulo6_pregunta2"/>
+            <include layout="@layout/modulo6_pregunta3"/>
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
