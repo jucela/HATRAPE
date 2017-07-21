@@ -22,8 +22,6 @@
         android:layout_marginBottom="@dimen/fab_margin" />
 
 
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -116,9 +114,9 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:entries="@array/importancia2"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center"
-                    android:entries="@array/importancia2"/>/>
+                    android:textAlignment="center" />/>
             </LinearLayout>
         </LinearLayout>
 
@@ -149,9 +147,9 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:entries="@array/importancia3"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center"
-                    android:entries="@array/importancia3"/>/>
+                    android:textAlignment="center" />/>
             </LinearLayout>
         </LinearLayout>
 
@@ -182,9 +180,9 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:entries="@array/importancia4"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center"
-                    android:entries="@array/importancia4"/>/>
+                    android:textAlignment="center" />/>
             </LinearLayout>
         </LinearLayout>
 
@@ -215,9 +213,9 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:entries="@array/importancia5"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center"
-                    android:entries="@array/importancia5"/>/>
+                    android:textAlignment="center" />/>
             </LinearLayout>
         </LinearLayout>
 
@@ -248,9 +246,9 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:entries="@array/importancia6"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center"
-                    android:entries="@array/importancia6"/>/>
+                    android:textAlignment="center" />/>
             </LinearLayout>
         </LinearLayout>
 
@@ -281,9 +279,9 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:entries="@array/importancia7"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center"
-                    android:entries="@array/importancia7"/>/>
+                    android:textAlignment="center" />/>
             </LinearLayout>
         </LinearLayout>
 
@@ -314,9 +312,9 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:entries="@array/importancia8"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center"
-                    android:entries="@array/importancia8"/>/>
+                    android:textAlignment="center" />/>
             </LinearLayout>
         </LinearLayout>
 
@@ -347,9 +345,9 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:entries="@array/importancia9"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center"
-                    android:entries="@array/importancia9"/>/>
+                    android:textAlignment="center" />/>
             </LinearLayout>
         </LinearLayout>
 
@@ -380,9 +378,9 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:entries="@array/importancia10"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center"
-                    android:entries="@array/importancia10"/>/>
+                    android:textAlignment="center" />/>
             </LinearLayout>
         </LinearLayout>
 
@@ -413,9 +411,9 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:entries="@array/importancia11"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center"
-                    android:entries="@array/importancia11"/>/>
+                    android:textAlignment="center" />/>
             </LinearLayout>
         </LinearLayout>
 
@@ -446,9 +444,9 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:entries="@array/importancia12"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center"
-                    android:entries="@array/importancia12"/>/>
+                    android:textAlignment="center" />/>
             </LinearLayout>
         </LinearLayout>
 
@@ -479,9 +477,9 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:entries="@array/importancia13"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center"
-                    android:entries="@array/importancia13"/>/>
+                    android:textAlignment="center" />/>
             </LinearLayout>
         </LinearLayout>
 
@@ -512,9 +510,9 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:entries="@array/importancia14"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center"
-                    android:entries="@array/importancia14"/>/>
+                    android:textAlignment="center" />/>
             </LinearLayout>
         </LinearLayout>
 
@@ -545,9 +543,9 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:entries="@array/importancia15"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center"
-                    android:entries="@array/importancia15"/>/>
+                    android:textAlignment="center" />/>
             </LinearLayout>
         </LinearLayout>
 
@@ -577,9 +575,9 @@
                     android:id="@+id/mod4_p8_spImportancia16"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
-                    android:textAlignment="center"
                     android:drawSelectorOnTop="true"
-                    android:entries="@array/importancia16"/>
+                    android:entries="@array/importancia16"
+                    android:textAlignment="center" />
             </LinearLayout>
         </LinearLayout>
 
@@ -600,8 +598,8 @@
                     android:id="@+id/mod4_p8_ckObstaculo17"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
-                    android:text="@string/mod4_p8_sp17"
-                    android:layout_marginRight="@dimen/margin10dp"/>
+                    android:layout_marginRight="@dimen/margin10dp"
+                    android:text="@string/mod4_p8_sp17" />
 
                 <EditText
                     android:id="@+id/mod4_p8_edtEspecificar17"
@@ -627,10 +625,10 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Orden de Importancia"
                     android:drawSelectorOnTop="true"
-                    android:textAlignment="center"
-                    android:entries="@array/importancia17"/>
+                    android:entries="@array/importancia17"
+                    android:text="Orden de Importancia"
+                    android:textAlignment="center" />
             </LinearLayout>
         </LinearLayout>
 
@@ -650,20 +648,20 @@
                 android:text="@string/mod4_p8_sp18" />
 
             <!--<LinearLayout-->
-                <!--android:layout_width="0dp"-->
-                <!--android:layout_height="30dp"-->
-                <!--android:layout_weight="1"-->
-                <!--android:background="@drawable/caja_texto_redonda">-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/caja_texto_redonda">-->
 
-                <!--<Spinner-->
-                    <!--android:id="@+id/mod4_p8_spImportancia18"-->
-                    <!--android:layout_width="match_parent"-->
-                    <!--android:layout_height="match_parent"-->
-                    <!--android:layout_weight="1"-->
-                    <!--android:text="Orden de Importancia"-->
-                    <!--android:drawSelectorOnTop="true"-->
-                    <!--android:textAlignment="center"-->
-                    <!--android:entries="@array/importancia18"/>-->
+            <!--<Spinner-->
+            <!--android:id="@+id/mod4_p8_spImportancia18"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="Orden de Importancia"-->
+            <!--android:drawSelectorOnTop="true"-->
+            <!--android:textAlignment="center"-->
+            <!--android:entries="@array/importancia18"/>-->
             <!--</LinearLayout>-->
         </LinearLayout>
 
