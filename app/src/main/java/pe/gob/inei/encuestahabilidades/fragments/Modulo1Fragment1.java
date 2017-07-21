@@ -38,9 +38,11 @@ public class Modulo1Fragment1 extends Fragment {
 
     private LinearLayout lytFragment;
 
-    private CheckBox ckMismoInformante;
-    private EditText edtNombYApellidos;
-    private EditText edtEspecifiqueCargo;
+    private CheckBox ckMismoInformante1;
+    private EditText edtNombYApellidos1;
+    private EditText edtEspecifiqueCargo1;
+    private LinearLayout lytFondoSpinner1;
+    private Spinner spCargo1;
 
     private EditText edtActividadPrimaria;
     private EditText edtCIUPrimaria;
@@ -49,8 +51,8 @@ public class Modulo1Fragment1 extends Fragment {
     private EditText edtCIUSecundaria1;
     private EditText edtActividadSecundaria2;
     private EditText edtCIUSecundaria2;
-    private Spinner spCargo;
-    private LinearLayout lytFondoSpinner;
+
+
     private LinearLayout lytActividadSec2;
 
     private LinearLayout lytPregunta3;
@@ -78,11 +80,11 @@ public class Modulo1Fragment1 extends Fragment {
 
         lytFragment = (LinearLayout) rootView.findViewById(R.id.mod1_layoutFragment1);
 
-        ckMismoInformante = (CheckBox) rootView.findViewById(R.id.mod1_cab_ckMismoInformante);
-        edtNombYApellidos = (EditText)rootView.findViewById(R.id.mod1_cab_edtApeYNom);
-        spCargo = (Spinner) rootView.findViewById(R.id.mod1_cab_spCargo);
-        edtEspecifiqueCargo = (EditText) rootView.findViewById(R.id.mod1_cab_edtEspecifiqueCargo);
-        lytFondoSpinner = (LinearLayout) rootView.findViewById(R.id.mod1_cab_lytFondoSpinner);
+        ckMismoInformante1 = (CheckBox) rootView.findViewById(R.id.cab_ckMismoInformante);
+        edtNombYApellidos1 = (EditText)rootView.findViewById(R.id.cab_edtApeYNom);
+        spCargo1 = (Spinner) rootView.findViewById(R.id.cab_spCargo);
+        edtEspecifiqueCargo1 = (EditText) rootView.findViewById(R.id.cab_edtEspecifiqueCargo);
+        lytFondoSpinner1 = (LinearLayout) rootView.findViewById(R.id.cab_lytFondoSpinner);
 
         edtActividadPrimaria = (EditText)rootView.findViewById(R.id.mod1_p1_edtActividadPrimaria);
         edtCIUPrimaria = (EditText) rootView.findViewById(R.id.mod1_p1_edtCIUPrimaria);
@@ -108,7 +110,7 @@ public class Modulo1Fragment1 extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        EditText[] cajasDeTexto = {edtNombYApellidos, edtEspecifiqueOrg, edtActividadPrimaria, edtCIUPrimaria, edtActividadSecundaria1,
+        EditText[] cajasDeTexto = {edtActividadPrimaria, edtCIUPrimaria, edtActividadSecundaria1,
         edtActividadSecundaria2,edtCIUSecundaria1,edtCIUSecundaria2, edtEspecifiqueOrg};
         RadioGroup[] radioGroups = {rgOrgEmpresa,rgSP41,rgSP42};
 
@@ -144,69 +146,95 @@ public class Modulo1Fragment1 extends Fragment {
             });
         }
         lytFragment.requestFocus();
-        ckMismoInformante.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+
+        ckMismoInformante1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if (b) {
-                    edtNombYApellidos.setBackgroundResource(R.drawable.cajas_de_texto_disabled);
-                    lytFondoSpinner.setBackgroundResource(R.drawable.cajas_de_texto_disabled);
-                    spCargo.setEnabled(false);
-                    edtNombYApellidos.setText("JULIO LAVADO");
-                    spCargo.setSelection(1);
-                    edtNombYApellidos.setEnabled(false);
+                    edtNombYApellidos1.setBackgroundResource(R.drawable.cajas_de_texto_disabled);
+                    lytFondoSpinner1.setBackgroundResource(R.drawable.cajas_de_texto_disabled);
+                    spCargo1.setEnabled(false);
+                    edtNombYApellidos1.setText("JULIO LAVADO");
+                    spCargo1.setSelection(1);
+                    edtNombYApellidos1.setEnabled(false);
                     edtActividadPrimaria.requestFocus();
                 }else{
-                    edtNombYApellidos.setText("");
-                    spCargo.setSelection(0);
-                    edtNombYApellidos.setBackgroundResource(R.drawable.cajas_de_texto);
-                    edtNombYApellidos.setEnabled(true);
-                    lytFondoSpinner.setBackgroundResource(R.drawable.cajas_de_texto);
-                    spCargo.setEnabled(true);
-                    edtNombYApellidos.requestFocus();
+                    edtNombYApellidos1.setText("");
+                    spCargo1.setSelection(0);
+                    edtNombYApellidos1.setBackgroundResource(R.drawable.cajas_de_texto);
+                    edtNombYApellidos1.setEnabled(true);
+                    lytFondoSpinner1.setBackgroundResource(R.drawable.cajas_de_texto);
+                    spCargo1.setEnabled(true);
+                    edtNombYApellidos1.requestFocus();
                 }
             }
         });
-        edtNombYApellidos.setFilters(new InputFilter[]{new InputFilter.AllCaps()});
-        edtNombYApellidos.setOnKeyListener(new View.OnKeyListener() {
+        edtNombYApellidos1.setFilters(new InputFilter[]{new InputFilter.AllCaps()});
+        edtNombYApellidos1.setOnKeyListener(new View.OnKeyListener() {
             @Override
             public boolean onKey(View view, int keyCode, KeyEvent keyEvent) {
                 if ((keyEvent.getAction() == KeyEvent.ACTION_DOWN) &&
                         (keyCode == KeyEvent.KEYCODE_ENTER)) {
-                    ocultarTeclado(lytFondoSpinner);
-                    lytFondoSpinner.requestFocus();
+                    ocultarTeclado(lytFondoSpinner1);
+                    lytFondoSpinner1.requestFocus();
                     return true;
                 }
                 return false;
             }
         });
 
-        lytFondoSpinner.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+        edtNombYApellidos1.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View view, boolean conFocus) {
                 if(conFocus) {
-                    lytFondoSpinner.setBackgroundResource(R.drawable.caja_texto_enabled);
-                    ocultarTeclado(lytFondoSpinner);
+                    edtNombYApellidos1.setBackgroundResource(R.drawable.caja_texto_enabled);
+                    mostrarTeclado();
                 }
                 else if(view.isEnabled()){
-                    lytFondoSpinner.setBackgroundResource(R.drawable.cajas_de_texto);
+                    edtNombYApellidos1.setBackgroundResource(R.drawable.cajas_de_texto);
                 }
             }
         });
-        edtEspecifiqueCargo.setFilters(new InputFilter[]{new InputFilter.AllCaps()});
-        spCargo.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+
+        lytFondoSpinner1.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View view, boolean conFocus) {
+                if(conFocus) {
+                    lytFondoSpinner1.setBackgroundResource(R.drawable.caja_texto_enabled);
+                    ocultarTeclado(lytFondoSpinner1);
+                }
+                else if(view.isEnabled()){
+                    lytFondoSpinner1.setBackgroundResource(R.drawable.cajas_de_texto);
+                }
+            }
+        });
+        edtEspecifiqueCargo1.setFilters(new InputFilter[]{new InputFilter.AllCaps()});
+        edtEspecifiqueCargo1.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View view, boolean conFocus) {
+                if(conFocus) {
+                    edtEspecifiqueCargo1.setBackgroundResource(R.drawable.caja_texto_enabled);
+                    mostrarTeclado();
+                }
+                else if(view.isEnabled()){
+                    edtEspecifiqueCargo1.setBackgroundResource(R.drawable.cajas_de_texto);
+                }
+            }
+        });
+        spCargo1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int pos, long l) {
-                edtEspecifiqueCargo.setVisibility(View.GONE);
+                edtEspecifiqueCargo1.setVisibility(View.GONE);
                 switch (pos){
                     case 0:break;
                     case 1:break;
                     case 2:break;
                     case 3:break;
                     case 4:
-                        edtEspecifiqueCargo.setVisibility(View.VISIBLE);
+                        edtEspecifiqueCargo1.setVisibility(View.VISIBLE);
                         break;
                 }
-                if(pos == 4) edtEspecifiqueCargo.requestFocus();
+                if(pos == 4) edtEspecifiqueCargo1.requestFocus();
                 else if (pos > 0 && pos <4)edtActividadPrimaria.requestFocus();
             }
 

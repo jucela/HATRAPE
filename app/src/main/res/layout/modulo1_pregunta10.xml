@@ -17,6 +17,7 @@
         android:id="@+id/mod1_p10_rgEstablecimiento"
         android:orientation="horizontal"
         android:layout_width="match_parent"
+        android:focusableInTouchMode="true"
         android:layout_height="wrap_content">
         <RadioButton
             android:id="@+id/mod1_p10_rbSi"

@@ -3,6 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:id="@+id/layout_modulo1_fragment3"
     android:layout_marginBottom="@dimen/margin10dp"
     tools:context="pe.gob.inei.encuestahabilidades.fragments.Modulo1Fragment3">
 

@@ -27,9 +27,11 @@
             android:textColor="@color/primary_text"
             android:layout_marginRight="@dimen/margin15dp"/>
         <EditText
-            android:inputType="number"
+            android:id="@+id/mod2_p1_edtNTrabajadores"
+            android:inputType="numberPassword"
             android:layout_width="100dp"
             android:layout_height="30dp"
+            android:paddingLeft="@dimen/margin5dp"
             android:background="@drawable/cajas_de_texto"/>
     </LinearLayout>
 </LinearLayout>

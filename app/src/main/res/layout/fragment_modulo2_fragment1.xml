@@ -27,43 +27,7 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/fab_margin">
-                <CheckBox
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/mismo_informante"/>
-                <TextView
-                    android:textColor="@color/icons"
-                    android:gravity="center"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorAccent"
-                    android:padding="@dimen/margin5dp"
-                    android:text="@string/nombre_informante"/>
-                <EditText
-                    android:id="@+id/modulo1_txtInformante"
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:background="@drawable/cajas_de_texto"
-                    android:layout_marginBottom="@dimen/fab_margin"/>
-                <TextView
-                    android:textColor="@color/icons"
-                    android:gravity="center"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorAccent"
-                    android:padding="@dimen/margin5dp"
-                    android:text="@string/cargo_informante"/>
-                <Spinner
-                    android:id="@+id/modulo1_spCargoInformante"
-                    android:background="@drawable/cajas_de_texto"
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"/>
-            </LinearLayout>
+            <include layout="@layout/cabecera_informante"/>
             <include layout="@layout/modulo2_pregunta1"/>
             <include layout="@layout/modulo2_pregunta2"/>
             <include layout="@layout/modulo2_pregunta3"/>

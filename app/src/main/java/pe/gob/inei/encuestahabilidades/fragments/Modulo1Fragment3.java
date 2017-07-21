@@ -1,15 +1,19 @@
 package pe.gob.inei.encuestahabilidades.fragments;
 
 
+import android.content.Context;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.IdRes;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.text.InputFilter;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RadioGroup;
@@ -24,17 +28,30 @@ import pe.gob.inei.encuestahabilidades.R;
 public class Modulo1Fragment3 extends Fragment {
 
     private EditText edtNEstablecimientos;
-
-    private LinearLayout lytPregunta10;
-    private RadioGroup rgEstablecimientos;
-
-    private RadioGroup rgAnio;
     private EditText edtAnio;
     private EditText edtMes;
+    private EditText edtVia;
+    private EditText edtPuerta;
+    private EditText edtBlock;
+    private EditText edtInterior;
+    private EditText edtPiso;
+    private EditText edtManzana;
+    private EditText edtLote;
+    private EditText edtKm;
+    private EditText edtDistrito;
+    private EditText edtProvincia;
+    private EditText edtDepartamento;
+    private EditText edtEspecifique;
+
+    private LinearLayout lytFondoSpinner;
     private LinearLayout lytEdit1;
     private LinearLayout lytEdit2;
 
-    private Spinner spEstablecimientos;
+    private RadioGroup rgEstablecimientos;
+    private RadioGroup rgAnio;
+
+    private Spinner spTipoVia;
+
 
     public Modulo1Fragment3() {
         // Required empty public constructor
@@ -47,18 +64,33 @@ public class Modulo1Fragment3 extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_modulo1_fragment3, container, false);
-        edtNEstablecimientos = (EditText) rootView.findViewById(R.id.mod1_p9_edtEstablecimientos);
 
-        lytPregunta10 = (LinearLayout) rootView.findViewById(R.id.mod1_p10_lytPregunta10);
         rgEstablecimientos = (RadioGroup) rootView.findViewById(R.id.mod1_p10_rgEstablecimiento);
-
         rgAnio = (RadioGroup) rootView.findViewById(R.id.mod1_p11_rgAnio);
+
+        edtNEstablecimientos = (EditText) rootView.findViewById(R.id.mod1_p9_edtEstablecimientos);
         edtAnio = (EditText) rootView.findViewById(R.id.mod1_p11_edt1);
         edtMes = (EditText) rootView.findViewById(R.id.mod1_p11_edt2);
-        lytEdit1 = (LinearLayout) rootView.findViewById(R.id.mod1_p11_lytEdit1);
-        lytEdit2 = (LinearLayout) rootView.findViewById(R.id.mod1_p11_lytEdit2);
 
-        spEstablecimientos = (Spinner) rootView.findViewById(R.id.mod1_p12_sp);
+        edtVia = (EditText) rootView.findViewById(R.id.mod1_p12_edtNomVia);
+        edtPuerta = (EditText) rootView.findViewById(R.id.mod1_p12_edtPuerta);
+        edtBlock = (EditText) rootView.findViewById(R.id.mod1_p12_edtBlock);
+        edtInterior = (EditText) rootView.findViewById(R.id.mod1_p12_edtInterior);
+        edtPiso = (EditText) rootView.findViewById(R.id.mod1_p12_edtPiso);
+        edtManzana = (EditText) rootView.findViewById(R.id.mod1_p12_edtManzana);
+        edtLote = (EditText) rootView.findViewById(R.id.mod1_p12_edtLote);
+        edtKm = (EditText) rootView.findViewById(R.id.mod1_p12_edtKm);
+        edtEspecifique = (EditText) rootView.findViewById(R.id.mod1_p12_edtEspecifique);
+
+        edtDistrito = (EditText) rootView.findViewById(R.id.mod1_p12_edtDistrito);
+        edtProvincia = (EditText) rootView.findViewById(R.id.mod1_p12_edtProvincia);
+        edtDepartamento = (EditText) rootView.findViewById(R.id.mod1_p12_edtDepartamento);
+
+        lytFondoSpinner = (LinearLayout)rootView.findViewById(R.id.mod1_p12_lytFondoSpVia);
+        lytEdit1 = (LinearLayout)rootView.findViewById(R.id.mod1_p11_lytEdit1);
+        lytEdit2 = (LinearLayout)rootView.findViewById(R.id.mod1_p11_lytEdit2);
+
+        spTipoVia = (Spinner) rootView.findViewById(R.id.mod1_p12_sp);
 
         return rootView;
     }
@@ -67,17 +99,68 @@ public class Modulo1Fragment3 extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+
         edtNEstablecimientos.setTransformationMethod(new NumericKeyBoardTransformationMethod());
+        edtAnio.setTransformationMethod(new NumericKeyBoardTransformationMethod());
+        edtMes.setTransformationMethod(new NumericKeyBoardTransformationMethod());
+        edtVia.setFilters(new InputFilter[]{new InputFilter.AllCaps()});
+        edtPuerta.setTransformationMethod(new NumericKeyBoardTransformationMethod());
+        edtBlock.setFilters(new InputFilter[]{new InputFilter.AllCaps()});
+        edtInterior.setFilters(new InputFilter[]{new InputFilter.AllCaps()});
+        edtPiso.setTransformationMethod(new NumericKeyBoardTransformationMethod());
+        edtManzana.setFilters(new InputFilter[]{new InputFilter.AllCaps()});
+        edtLote.setTransformationMethod(new NumericKeyBoardTransformationMethod());
+        edtKm.setTransformationMethod(new NumericKeyBoardTransformationMethod());
+        edtDistrito.setFilters(new InputFilter[]{new InputFilter.AllCaps()});
+        edtProvincia.setFilters(new InputFilter[]{new InputFilter.AllCaps()});
+        edtDepartamento.setFilters(new InputFilter[]{new InputFilter.AllCaps()});
+        edtEspecifique.setFilters(new InputFilter[]{new InputFilter.AllCaps()});
+
+        EditText[] editTexts = {edtNEstablecimientos,edtAnio,edtMes, edtVia,edtPuerta,edtBlock,edtInterior,edtPiso, edtManzana,edtLote,edtKm,edtDistrito,
+        edtProvincia,edtDepartamento,edtEspecifique};
+
+        for (int i = 0; i < editTexts.length; i++) {
+            final EditText editText = editTexts[i];
+            editText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+                @Override
+                public void onFocusChange(View view, boolean conFocus) {
+                    if(conFocus) editText.setBackgroundResource(R.drawable.caja_texto_enabled);
+                    else editText.setBackgroundResource(R.drawable.cajas_de_texto);
+                }
+            });
+        }
+
         edtNEstablecimientos.setOnKeyListener(new View.OnKeyListener() {
             @Override
             public boolean onKey(View view, int keyCode, KeyEvent keyEvent) {
                 if ((keyEvent.getAction() == KeyEvent.ACTION_DOWN) &&
                         (keyCode == KeyEvent.KEYCODE_ENTER)) {
-                    ocultarTeclado();
-                    lytPregunta10.requestFocus();
+                    ocultarTeclado(edtNEstablecimientos);
+                    rgEstablecimientos.requestFocus();
                     return true;
                 }
                 return false;
+            }
+        });
+
+        rgEstablecimientos.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup radioGroup, @IdRes int i) {
+                switch (i){
+                    case R.id.mod1_p10_rbSi:
+                        break;
+                    case R.id.mod1_p10_rbNo:
+                        break;
+                }
+                rgAnio.requestFocus();
+            }
+        });
+
+        rgEstablecimientos.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View view, boolean b) {
+                if(b) rgEstablecimientos.setBackgroundColor(Color.CYAN);
+                else rgEstablecimientos.setBackgroundColor(Color.TRANSPARENT);
             }
         });
 
@@ -88,51 +171,89 @@ public class Modulo1Fragment3 extends Fragment {
                     case R.id.mod1_p11_rbSi:
                         lytEdit1.setVisibility(View.VISIBLE);
                         lytEdit2.setVisibility(View.GONE);
+                        edtAnio.requestFocus();
                         break;
                     case R.id.mod1_p11_rbNo:
                         lytEdit2.setVisibility(View.VISIBLE);
                         lytEdit1.setVisibility(View.GONE);
+                        edtMes.requestFocus();
                         break;
                 }
             }
         });
 
-        edtAnio.setTransformationMethod(new NumericKeyBoardTransformationMethod());
+        rgAnio.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View view, boolean b) {
+                if(b) rgAnio.setBackgroundColor(Color.CYAN);
+                else rgAnio.setBackgroundColor(Color.TRANSPARENT);
+            }
+        });
+
         edtAnio.setOnKeyListener(new View.OnKeyListener() {
             @Override
             public boolean onKey(View view, int keyCode, KeyEvent keyEvent) {
                 if ((keyEvent.getAction() == KeyEvent.ACTION_DOWN) &&
                         (keyCode == KeyEvent.KEYCODE_ENTER)) {
-                    ocultarTeclado();
-                    spEstablecimientos.requestFocus();
+                    ocultarTeclado(edtAnio);
+                    lytFondoSpinner.requestFocus();
                     return true;
                 }
                 return false;
             }
         });
-        edtMes.setTransformationMethod(new NumericKeyBoardTransformationMethod());
+
         edtMes.setOnKeyListener(new View.OnKeyListener() {
             @Override
             public boolean onKey(View view, int keyCode, KeyEvent keyEvent) {
                 if ((keyEvent.getAction() == KeyEvent.ACTION_DOWN) &&
                         (keyCode == KeyEvent.KEYCODE_ENTER)) {
-                    ocultarTeclado();
-                    spEstablecimientos.requestFocus();
+                    ocultarTeclado(edtMes);
+                    lytFondoSpinner.requestFocus();
                     return true;
                 }
                 return false;
+            }
+        });
+
+        lytFondoSpinner.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View view, boolean b) {
+                if(b) lytFondoSpinner.setBackgroundResource(R.drawable.caja_texto_enabled);
+                else lytFondoSpinner.setBackgroundResource(R.drawable.cajas_de_texto);
+            }
+        });
+
+        spTipoVia.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int pos, long l) {
+                edtEspecifique.setVisibility(View.GONE);
+                switch (pos){
+                    case 1:break;
+                    case 2:break;
+                    case 3:break;
+                    case 4:break;
+                    case 5:break;
+                    case 6:
+                        edtEspecifique.setVisibility(View.VISIBLE);
+                        edtEspecifique.requestFocus();
+                        break;
+                }
+                if (pos > 0 && pos < 6) edtVia.requestFocus();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
             }
         });
 
 
     }
 
-    public void ocultarTeclado(){
-        InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(getActivity().INPUT_METHOD_SERVICE);
-        if (imm.isAcceptingText()) {
-            imm.toggleSoftInput(InputMethodManager.SHOW_FORCED, 0);
-        }
-
+    public void ocultarTeclado(View view){
+        InputMethodManager mgr = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+        mgr.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
 
     public void mostrarTeclado(){

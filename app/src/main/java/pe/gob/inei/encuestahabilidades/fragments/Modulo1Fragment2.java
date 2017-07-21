@@ -129,8 +129,8 @@ public class Modulo1Fragment2 extends Fragment {
         autoCompleteTextView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                String[] paises = getResources().getStringArray(R.array.paises);
-                txtPaisSeleccionado.setText(paises[i].toUpperCase());
+
+                txtPaisSeleccionado.setText(autoCompleteTextView.getText().toString().toUpperCase());
                 rg1P7.requestFocus();
             }
         });

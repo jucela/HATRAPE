@@ -32,10 +32,13 @@
                 android:background="@color/accent"
                 />
             <LinearLayout
+                android:id="@+id/mod1_p12_lytFondoSpVia"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
+                android:focusableInTouchMode="true"
                 android:background="@drawable/cajas_de_texto">
                 <Spinner
+                    android:padding="@dimen/margin5dp"
                     android:id="@+id/mod1_p12_sp"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
@@ -44,6 +47,17 @@
                     />
             </LinearLayout>
         </LinearLayout>
+        <EditText
+            android:id="@+id/mod1_p12_edtEspecifique"
+            android:gravity="center_vertical"
+            android:inputType="text"
+            android:paddingLeft="@dimen/margin5dp"
+            android:hint="@string/especifique"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:visibility="gone"
+            android:layout_margin="@dimen/margin5dp"
+            android:background="@drawable/cajas_de_texto"/>
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -59,6 +73,7 @@
                 android:background="@color/accent"
                 />
             <EditText
+                android:id="@+id/mod1_p12_edtNomVia"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
@@ -81,10 +96,11 @@
                 android:background="@color/accent"
                 />
             <EditText
+                android:id="@+id/mod1_p12_edtPuerta"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
-                android:inputType="text"
+                android:inputType="numberPassword"
                 android:paddingLeft="@dimen/margin5dp"
                 android:background="@drawable/cajas_de_texto"/>
         </LinearLayout>
@@ -103,6 +119,7 @@
                 android:background="@color/accent"
                 />
             <EditText
+                android:id="@+id/mod1_p12_edtBlock"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
@@ -125,10 +142,12 @@
                 android:background="@color/accent"
                 />
             <EditText
+                android:id="@+id/mod1_p12_edtInterior"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:paddingLeft="@dimen/margin5dp"
+                android:inputType="text"
                 android:background="@drawable/cajas_de_texto"/>
         </LinearLayout>
         <LinearLayout
@@ -146,10 +165,12 @@
                 android:background="@color/accent"
                 />
             <EditText
+                android:id="@+id/mod1_p12_edtPiso"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:paddingLeft="@dimen/margin5dp"
+                android:inputType="numberPassword"
                 android:background="@drawable/cajas_de_texto"/>
         </LinearLayout>
         <LinearLayout
@@ -167,6 +188,7 @@
                 android:background="@color/accent"
                 />
             <EditText
+                android:id="@+id/mod1_p12_edtManzana"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
@@ -189,10 +211,11 @@
                 android:background="@color/accent"
                 />
             <EditText
+                android:id="@+id/mod1_p12_edtLote"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
-                android:inputType="text"
+                android:inputType="numberPassword"
                 android:paddingLeft="@dimen/margin5dp"
                 android:background="@drawable/cajas_de_texto"/>
         </LinearLayout>
@@ -211,10 +234,11 @@
                 android:background="@color/accent"
                 />
             <EditText
+                android:id="@+id/mod1_p12_edtKm"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
-                android:inputType="text"
+                android:inputType="numberPassword"
                 android:paddingLeft="@dimen/margin5dp"
                 android:background="@drawable/cajas_de_texto"/>
         </LinearLayout>
@@ -233,6 +257,7 @@
                 android:background="@color/accent"
                 />
             <EditText
+                android:id="@+id/mod1_p12_edtDistrito"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
@@ -255,6 +280,7 @@
                 android:background="@color/accent"
                 />
             <EditText
+                android:id="@+id/mod1_p12_edtProvincia"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
@@ -277,6 +303,7 @@
                 android:background="@color/accent"
                 />
             <EditText
+                android:id="@+id/mod1_p12_edtDepartamento"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
