@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical"
+    android:id="@+id/mod4_p8_lytPregunta8"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/fab_margin"
@@ -11,6 +12,17 @@
         android:layout_height="wrap_content"
         android:text="@string/mod4_p8"
         android:layout_marginBottom="@dimen/fab_margin" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mod4_p8_1"
+        android:layout_marginBottom="@dimen/fab_margin" />
+
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -52,6 +64,7 @@
             android:orientation="horizontal">
 
             <CheckBox
+                android:id="@+id/mod4_p8_ckObstaculo1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin10dp"
@@ -59,15 +72,18 @@
                 android:text="@string/mod4_p8_sp1" />
 
             <LinearLayout
+                android:id="@+id/mod4_p8_lyImportancia1"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:background="@drawable/caja_texto_redonda">
 
                 <Spinner
+                    android:id="@+id/mod4_p8_spImportancia1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:entries="@array/importancia1"
                     android:text="Orden de Importancia"
                     android:textAlignment="center" />
             </LinearLayout>
@@ -81,6 +97,7 @@
             android:orientation="horizontal">
 
             <CheckBox
+                android:id="@+id/mod4_p8_ckObstaculo2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin10dp"
@@ -88,17 +105,20 @@
                 android:text="@string/mod4_p8_sp2" />
 
             <LinearLayout
+                android:id="@+id/mod4_p8_lyImportancia2"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:background="@drawable/caja_texto_redonda">
 
                 <Spinner
+                    android:id="@+id/mod4_p8_spImportancia2"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:entries="@array/importancia2"/>/>
             </LinearLayout>
         </LinearLayout>
 
@@ -110,6 +130,7 @@
             android:orientation="horizontal">
 
             <CheckBox
+                android:id="@+id/mod4_p8_ckObstaculo3"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin10dp"
@@ -117,17 +138,20 @@
                 android:text="@string/mod4_p8_sp3" />
 
             <LinearLayout
+                android:id="@+id/mod4_p8_lyImportancia3"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:background="@drawable/caja_texto_redonda">
 
                 <Spinner
+                    android:id="@+id/mod4_p8_spImportancia3"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:entries="@array/importancia3"/>/>
             </LinearLayout>
         </LinearLayout>
 
@@ -139,6 +163,7 @@
             android:orientation="horizontal">
 
             <CheckBox
+                android:id="@+id/mod4_p8_ckObstaculo4"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin10dp"
@@ -146,17 +171,20 @@
                 android:text="@string/mod4_p8_sp4" />
 
             <LinearLayout
+                android:id="@+id/mod4_p8_lyImportancia4"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:background="@drawable/caja_texto_redonda">
 
                 <Spinner
+                    android:id="@+id/mod4_p8_spImportancia4"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:entries="@array/importancia4"/>/>
             </LinearLayout>
         </LinearLayout>
 
@@ -168,6 +196,7 @@
             android:orientation="horizontal">
 
             <CheckBox
+                android:id="@+id/mod4_p8_ckObstaculo5"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin10dp"
@@ -175,17 +204,20 @@
                 android:text="@string/mod4_p8_sp5" />
 
             <LinearLayout
+                android:id="@+id/mod4_p8_lyImportancia5"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:background="@drawable/caja_texto_redonda">
 
                 <Spinner
+                    android:id="@+id/mod4_p8_spImportancia5"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:entries="@array/importancia5"/>/>
             </LinearLayout>
         </LinearLayout>
 
@@ -197,6 +229,7 @@
             android:orientation="horizontal">
 
             <CheckBox
+                android:id="@+id/mod4_p8_ckObstaculo6"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin10dp"
@@ -204,17 +237,20 @@
                 android:text="@string/mod4_p8_sp6" />
 
             <LinearLayout
+                android:id="@+id/mod4_p8_lyImportancia6"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:background="@drawable/caja_texto_redonda">
 
                 <Spinner
+                    android:id="@+id/mod4_p8_spImportancia6"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:entries="@array/importancia6"/>/>
             </LinearLayout>
         </LinearLayout>
 
@@ -226,6 +262,7 @@
             android:orientation="horizontal">
 
             <CheckBox
+                android:id="@+id/mod4_p8_ckObstaculo7"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin10dp"
@@ -233,17 +270,20 @@
                 android:text="@string/mod4_p8_sp7" />
 
             <LinearLayout
+                android:id="@+id/mod4_p8_lyImportancia7"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:background="@drawable/caja_texto_redonda">
 
                 <Spinner
+                    android:id="@+id/mod4_p8_spImportancia7"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:entries="@array/importancia7"/>/>
             </LinearLayout>
         </LinearLayout>
 
@@ -255,6 +295,7 @@
             android:orientation="horizontal">
 
             <CheckBox
+                android:id="@+id/mod4_p8_ckObstaculo8"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin10dp"
@@ -262,17 +303,20 @@
                 android:text="@string/mod4_p8_sp8" />
 
             <LinearLayout
+                android:id="@+id/mod4_p8_lyImportancia8"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:background="@drawable/caja_texto_redonda">
 
                 <Spinner
+                    android:id="@+id/mod4_p8_spImportancia8"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:entries="@array/importancia8"/>/>
             </LinearLayout>
         </LinearLayout>
 
@@ -284,6 +328,7 @@
             android:orientation="horizontal">
 
             <CheckBox
+                android:id="@+id/mod4_p8_ckObstaculo9"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin10dp"
@@ -291,17 +336,20 @@
                 android:text="@string/mod4_p8_sp9" />
 
             <LinearLayout
+                android:id="@+id/mod4_p8_lyImportancia9"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:background="@drawable/caja_texto_redonda">
 
                 <Spinner
+                    android:id="@+id/mod4_p8_spImportancia9"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:entries="@array/importancia9"/>/>
             </LinearLayout>
         </LinearLayout>
 
@@ -313,6 +361,7 @@
             android:orientation="horizontal">
 
             <CheckBox
+                android:id="@+id/mod4_p8_ckObstaculo10"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin10dp"
@@ -320,17 +369,20 @@
                 android:text="@string/mod4_p8_sp10" />
 
             <LinearLayout
+                android:id="@+id/mod4_p8_lyImportancia10"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:background="@drawable/caja_texto_redonda">
 
                 <Spinner
+                    android:id="@+id/mod4_p8_spImportancia10"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:entries="@array/importancia10"/>/>
             </LinearLayout>
         </LinearLayout>
 
@@ -342,6 +394,7 @@
             android:orientation="horizontal">
 
             <CheckBox
+                android:id="@+id/mod4_p8_ckObstaculo11"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin10dp"
@@ -349,17 +402,20 @@
                 android:text="@string/mod4_p8_sp11" />
 
             <LinearLayout
+                android:id="@+id/mod4_p8_lyImportancia11"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:background="@drawable/caja_texto_redonda">
 
                 <Spinner
+                    android:id="@+id/mod4_p8_spImportancia11"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:entries="@array/importancia11"/>/>
             </LinearLayout>
         </LinearLayout>
 
@@ -371,6 +427,7 @@
             android:orientation="horizontal">
 
             <CheckBox
+                android:id="@+id/mod4_p8_ckObstaculo12"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin10dp"
@@ -378,17 +435,20 @@
                 android:text="@string/mod4_p8_sp12" />
 
             <LinearLayout
+                android:id="@+id/mod4_p8_lyImportancia12"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:background="@drawable/caja_texto_redonda">
 
                 <Spinner
+                    android:id="@+id/mod4_p8_spImportancia12"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:entries="@array/importancia12"/>/>
             </LinearLayout>
         </LinearLayout>
 
@@ -400,6 +460,7 @@
             android:orientation="horizontal">
 
             <CheckBox
+                android:id="@+id/mod4_p8_ckObstaculo13"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin10dp"
@@ -407,17 +468,20 @@
                 android:text="@string/mod4_p8_sp13" />
 
             <LinearLayout
+                android:id="@+id/mod4_p8_lyImportancia13"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:background="@drawable/caja_texto_redonda">
 
                 <Spinner
+                    android:id="@+id/mod4_p8_spImportancia13"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:entries="@array/importancia13"/>/>
             </LinearLayout>
         </LinearLayout>
 
@@ -429,6 +493,7 @@
             android:orientation="horizontal">
 
             <CheckBox
+                android:id="@+id/mod4_p8_ckObstaculo14"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin10dp"
@@ -436,17 +501,20 @@
                 android:text="@string/mod4_p8_sp14" />
 
             <LinearLayout
+                android:id="@+id/mod4_p8_lyImportancia14"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:background="@drawable/caja_texto_redonda">
 
                 <Spinner
+                    android:id="@+id/mod4_p8_spImportancia14"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:entries="@array/importancia14"/>/>
             </LinearLayout>
         </LinearLayout>
 
@@ -458,6 +526,7 @@
             android:orientation="horizontal">
 
             <CheckBox
+                android:id="@+id/mod4_p8_ckObstaculo15"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin10dp"
@@ -465,17 +534,20 @@
                 android:text="@string/mod4_p8_sp15" />
 
             <LinearLayout
+                android:id="@+id/mod4_p8_lyImportancia15"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:background="@drawable/caja_texto_redonda">
 
                 <Spinner
+                    android:id="@+id/mod4_p8_spImportancia15"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center" />
+                    android:textAlignment="center"
+                    android:entries="@array/importancia15"/>/>
             </LinearLayout>
         </LinearLayout>
 
@@ -487,6 +559,7 @@
             android:orientation="horizontal">
 
             <CheckBox
+                android:id="@+id/mod4_p8_ckObstaculo16"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin10dp"
@@ -494,17 +567,19 @@
                 android:text="@string/mod4_p8_sp16" />
 
             <LinearLayout
+                android:id="@+id/mod4_p8_lyImportancia16"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:background="@drawable/caja_texto_redonda">
 
                 <Spinner
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text="Orden de Importancia"
-                    android:textAlignment="center" />
+                    android:id="@+id/mod4_p8_spImportancia16"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textAlignment="center"
+                    android:drawSelectorOnTop="true"
+                    android:entries="@array/importancia16"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -522,12 +597,14 @@
                 android:orientation="horizontal">
 
                 <CheckBox
+                    android:id="@+id/mod4_p8_ckObstaculo17"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:text="@string/mod4_p8_sp17"
                     android:layout_marginRight="@dimen/margin10dp"/>
 
                 <EditText
+                    android:id="@+id/mod4_p8_edtEspecificar17"
                     android:layout_width="0dp"
                     android:layout_height="30dp"
                     android:layout_weight="3"
@@ -538,6 +615,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/mod4_p8_lyImportancia17"
                 android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_marginLeft="@dimen/margin15dp"
@@ -545,11 +623,14 @@
                 android:background="@drawable/caja_texto_redonda">
 
                 <Spinner
+                    android:id="@+id/mod4_p8_spImportancia17"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="Orden de Importancia"
-                    android:textAlignment="center" />
+                    android:drawSelectorOnTop="true"
+                    android:textAlignment="center"
+                    android:entries="@array/importancia17"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -561,25 +642,29 @@
             android:orientation="horizontal">
 
             <CheckBox
+                android:id="@+id/mod4_p8_ckObstaculo18"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin10dp"
                 android:layout_weight="4"
                 android:text="@string/mod4_p8_sp18" />
 
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="30dp"
-                android:layout_weight="1"
-                android:background="@drawable/caja_texto_redonda">
+            <!--<LinearLayout-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/caja_texto_redonda">-->
 
-                <Spinner
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:text="Orden de Importancia"
-                    android:textAlignment="center" />
-            </LinearLayout>
+                <!--<Spinner-->
+                    <!--android:id="@+id/mod4_p8_spImportancia18"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:text="Orden de Importancia"-->
+                    <!--android:drawSelectorOnTop="true"-->
+                    <!--android:textAlignment="center"-->
+                    <!--android:entries="@array/importancia18"/>-->
+            <!--</LinearLayout>-->
         </LinearLayout>
 
     </LinearLayout>

@@ -57,6 +57,7 @@
                 android:layout_height="40dp"
                 android:layout_marginBottom="1dp">
                 <CheckBox
+                    android:id="@+id/mod2_p5_ck1"
                     android:layout_gravity="center_vertical"
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
@@ -81,6 +82,7 @@
                 android:layout_height="40dp"
                 android:layout_marginBottom="1dp">
                 <CheckBox
+                    android:id="@+id/mod2_p5_ck2"
                     android:layout_gravity="center_vertical"
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
@@ -91,7 +93,7 @@
                 <EditText
                     android:id="@+id/mod2_p5_edt2"
                     android:layout_marginLeft="1dp"
-                    android:inputType="number"
+                    android:inputType="numberPassword"
                     android:layout_width="100dp"
                     android:paddingLeft="@dimen/margin5dp"
                     android:layout_height="match_parent"
@@ -105,6 +107,7 @@
                 android:layout_height="40dp"
                 android:layout_marginBottom="1dp">
                 <CheckBox
+                    android:id="@+id/mod2_p5_ck3"
                     android:layout_gravity="center_vertical"
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
@@ -115,7 +118,7 @@
                 <EditText
                     android:id="@+id/mod2_p5_edt3"
                     android:layout_marginLeft="1dp"
-                    android:inputType="number"
+                    android:inputType="numberPassword"
                     android:layout_width="100dp"
                     android:paddingLeft="@dimen/margin5dp"
                     android:layout_height="match_parent"
@@ -129,6 +132,7 @@
                 android:layout_height="40dp"
                 android:layout_marginBottom="1dp">
                 <CheckBox
+                    android:id="@+id/mod2_p5_ck4"
                     android:layout_gravity="center_vertical"
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
@@ -139,7 +143,7 @@
                 <EditText
                     android:id="@+id/mod2_p5_edt4"
                     android:layout_marginLeft="1dp"
-                    android:inputType="number"
+                    android:inputType="numberPassword"
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:paddingLeft="@dimen/margin5dp"
@@ -153,6 +157,7 @@
                 android:layout_height="40dp"
                 android:layout_marginBottom="1dp">
                 <CheckBox
+                    android:id="@+id/mod2_p5_ck5"
                     android:layout_gravity="center_vertical"
                     android:layout_width="300dp"
                     android:layout_height="match_parent"
@@ -163,7 +168,7 @@
                 <EditText
                     android:id="@+id/mod2_p5_edt5"
                     android:layout_marginLeft="1dp"
-                    android:inputType="number"
+                    android:inputType="numberPassword"
                     android:layout_width="100dp"
                     android:paddingLeft="@dimen/margin5dp"
                     android:layout_height="match_parent"
@@ -189,6 +194,9 @@
                     android:layout_height="match_parent"
                     android:paddingLeft="@dimen/margin5dp"
                     android:enabled="false"
+                    android:text="0"
+                    android:textSize="@dimen/textoMedium"
+                    android:gravity="center_vertical"
                     android:background="@drawable/cajas_de_texto"/>
             </LinearLayout>
         </LinearLayout>

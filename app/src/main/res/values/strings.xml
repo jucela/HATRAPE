@@ -1582,5 +1582,129 @@
 
     <string name="title_activity_enhatrape">HABILIDADES AL TRABAJO EN EL PERÚ</string>
 
+    <string-array name="importancia1">
+        <item>Seleccione orden </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
 
+    <string-array name="importancia2">
+        <item>Seleccione orden </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="importancia3">
+        <item>Seleccione orden </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="importancia4">
+        <item>Seleccione orden </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="importancia5">
+        <item>Seleccione orden </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="importancia6">
+        <item>Seleccione orden </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="importancia7">
+        <item>Seleccione orden </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="importancia8">
+        <item>Seleccione orden </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="importancia9">
+        <item>Seleccione orden </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="importancia10">
+        <item>Seleccione orden </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="importancia11">
+        <item>Seleccione orden </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="importancia12">
+        <item>Seleccione orden </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="importancia13">
+        <item>Seleccione orden </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="importancia14">
+        <item>Seleccione orden </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="importancia15">
+        <item>Seleccione orden </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="importancia16">
+        <item>Seleccione orden </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="importancia17">
+        <item>Seleccione orden </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="importancia18">
+        <item>Seleccione orden </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
 </resources>

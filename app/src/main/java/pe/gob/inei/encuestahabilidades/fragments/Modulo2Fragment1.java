@@ -18,6 +18,7 @@ import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 import pe.gob.inei.encuestahabilidades.NumericKeyBoardTransformationMethod;
 import pe.gob.inei.encuestahabilidades.R;
@@ -46,7 +47,13 @@ public class Modulo2Fragment1 extends Fragment {
 
     private LinearLayout lytPregunta5;
 
+    private CheckBox ck1;
+    private CheckBox ck2;
+    private CheckBox ck3;
+    private CheckBox ck4;
+    private CheckBox ck5;
 
+    private TextView txtTotal;
 
 
     public Modulo2Fragment1() {
@@ -79,6 +86,13 @@ public class Modulo2Fragment1 extends Fragment {
         edt4 = (EditText) rootView.findViewById(R.id.mod2_p5_edt4);
         edt5 = (EditText) rootView.findViewById(R.id.mod2_p5_edt5);
 
+        ck1 = (CheckBox) rootView.findViewById(R.id.mod2_p5_ck1);
+        ck2 = (CheckBox) rootView.findViewById(R.id.mod2_p5_ck2);
+        ck3 = (CheckBox) rootView.findViewById(R.id.mod2_p5_ck3);
+        ck4 = (CheckBox) rootView.findViewById(R.id.mod2_p5_ck4);
+        ck5 = (CheckBox) rootView.findViewById(R.id.mod2_p5_ck5);
+
+        txtTotal = (TextView) rootView.findViewById(R.id.mod2_p5_txtTotal);
         return rootView;
     }
 
@@ -87,6 +101,8 @@ public class Modulo2Fragment1 extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         EditText[] editTexts = {edtNTrabajadores, edtTrabMujeres, edtTiempoParcial, edtContratosTemp};
+        EditText[] editTexts1 = {edt1,edt2,edt3,edt4,edt5};
+        CheckBox[] checkBoxes = {ck1,ck2,ck3,ck4,ck5};
 
         for (int i = 0; i <editTexts.length ; i++) {
             final EditText editText = editTexts[i];
@@ -221,6 +237,57 @@ public class Modulo2Fragment1 extends Fragment {
                 else lytPregunta5.setBackgroundColor(Color.TRANSPARENT);
             }
         });
+
+        for (int i = 0; i <editTexts1.length ; i++) {
+            final EditText editText = editTexts1[i];
+            CheckBox checkBox = checkBoxes[i];
+            editText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+                @Override
+                public void onFocusChange(View view, boolean conFocus) {
+                    if(conFocus) {
+                        editText.setBackgroundResource(R.drawable.caja_texto_enabled);
+                        mostrarTeclado();
+                    }
+                    else if(view.isEnabled()){
+                        editText.setBackgroundResource(R.drawable.cajas_de_texto);
+                    }
+                }
+            });
+            editText.setTransformationMethod(new NumericKeyBoardTransformationMethod());
+            editText.setOnKeyListener(new View.OnKeyListener() {
+                @Override
+                public boolean onKey(View view, int keyCode, KeyEvent keyEvent) {
+                    if ((keyEvent.getAction() == KeyEvent.ACTION_DOWN) &&
+                            (keyCode == KeyEvent.KEYCODE_ENTER)) {
+                        ocultarTeclado(editText);
+                        lytPregunta5.requestFocus();
+                        int temp = 0;
+                        if(txtTotal.getText().toString().equals("0")) temp = Integer.parseInt(editText.getText().toString());
+                        else temp = Integer.valueOf(txtTotal.getText().toString()) + Integer.valueOf(editText.getText().toString());
+                        txtTotal.setText(temp+"");
+                        return true;
+                    }
+                    return false;
+                }
+            });
+
+            checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+                @Override
+                public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                    if(b){
+                        editText.setEnabled(true);
+                        editText.setBackgroundResource(R.drawable.cajas_de_texto);
+                        editText.requestFocus();
+                    }else{
+                        editText.setEnabled(false);
+                        editText.setText("");
+                        editText.setBackgroundResource(R.drawable.cajas_de_texto_disabled);
+                    }
+                }
+            });
+        }
+
+
 
     }
     public void ocultarTeclado(View view){

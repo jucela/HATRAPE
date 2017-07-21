@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical"
+    android:id="@+id/mod4_p9_lytPregunta9"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/fab_margin"
@@ -17,14 +18,17 @@
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/margin10dp">
         <CheckBox
+            android:id="@+id/mod4_p9_ckInnovacion1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/mod4_p9_sp1"/>
         <CheckBox
+            android:id="@+id/mod4_p9_ckInnovacion2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/mod4_p9_sp2"/>
         <CheckBox
+            android:id="@+id/mod4_p9_ckInnovacion3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/mod4_p9_sp3"/>
