@@ -16,6 +16,7 @@
         android:layout_marginBottom="@dimen/fab_margin" />
     <RadioGroup
         android:id="@+id/mod1_p8_rg"
+        android:focusableInTouchMode="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <RadioButton

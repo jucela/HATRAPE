@@ -27,6 +27,7 @@
             android:layout_marginBottom="@dimen/fab_margin"/>
         <RadioGroup
             android:id="@+id/mod1_p4_rg41"
+            android:focusableInTouchMode="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/fab_margin">
@@ -54,7 +55,9 @@
         <RadioGroup
             android:id="@+id/mod1_p4_rg42"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            >
             <RadioButton
                 android:id="@+id/mod1_p4_sp2_rb1"
                 android:layout_width="match_parent"

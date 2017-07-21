@@ -16,7 +16,8 @@
     <RadioGroup
         android:id="@+id/mod1_p3_rgOrgEmpresa"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true">
         <RadioButton
             android:id="@+id/mod1_p3_rb1"
             android:layout_width="wrap_content"

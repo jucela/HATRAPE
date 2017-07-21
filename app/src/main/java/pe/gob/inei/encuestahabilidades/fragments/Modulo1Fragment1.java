@@ -1,6 +1,7 @@
 package pe.gob.inei.encuestahabilidades.fragments;
 
 
+import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.inputmethodservice.Keyboard;
@@ -17,6 +18,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
@@ -106,6 +108,41 @@ public class Modulo1Fragment1 extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        EditText[] cajasDeTexto = {edtNombYApellidos, edtEspecifiqueOrg, edtActividadPrimaria, edtCIUPrimaria, edtActividadSecundaria1,
+        edtActividadSecundaria2,edtCIUSecundaria1,edtCIUSecundaria2, edtEspecifiqueOrg};
+        RadioGroup[] radioGroups = {rgOrgEmpresa,rgSP41,rgSP42};
+
+        for (int i = 0; i < cajasDeTexto.length; i++) {
+            final EditText editText = cajasDeTexto[i];
+            editText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+                @Override
+                public void onFocusChange(View view, boolean conFocus) {
+                    if(conFocus) {
+                        editText.setBackgroundResource(R.drawable.caja_texto_enabled);
+                        mostrarTeclado();
+                    }
+                    else if(view.isEnabled()){
+                        editText.setBackgroundResource(R.drawable.cajas_de_texto);
+                    }
+                }
+            });
+        }
+
+        for (int i = 0; i < radioGroups.length; i++) {
+            final RadioGroup radioGroup = radioGroups[i];
+            radioGroup.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+                @Override
+                public void onFocusChange(View view, boolean conFocus) {
+                    if(conFocus) {
+                        ocultarTeclado(radioGroup);
+                        radioGroup.setBackgroundColor(Color.CYAN);
+                    }
+                    else if(view.isEnabled()){
+                        radioGroup.setBackgroundColor(Color.TRANSPARENT);
+                    }
+                }
+            });
+        }
         lytFragment.requestFocus();
         ckMismoInformante.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -135,14 +172,27 @@ public class Modulo1Fragment1 extends Fragment {
             public boolean onKey(View view, int keyCode, KeyEvent keyEvent) {
                 if ((keyEvent.getAction() == KeyEvent.ACTION_DOWN) &&
                         (keyCode == KeyEvent.KEYCODE_ENTER)) {
+                    ocultarTeclado(lytFondoSpinner);
                     lytFondoSpinner.requestFocus();
-                    ocultarTeclado();
                     return true;
                 }
                 return false;
             }
         });
 
+        lytFondoSpinner.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View view, boolean conFocus) {
+                if(conFocus) {
+                    lytFondoSpinner.setBackgroundResource(R.drawable.caja_texto_enabled);
+                    ocultarTeclado(lytFondoSpinner);
+                }
+                else if(view.isEnabled()){
+                    lytFondoSpinner.setBackgroundResource(R.drawable.cajas_de_texto);
+                }
+            }
+        });
+        edtEspecifiqueCargo.setFilters(new InputFilter[]{new InputFilter.AllCaps()});
         spCargo.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int pos, long l) {
@@ -170,13 +220,14 @@ public class Modulo1Fragment1 extends Fragment {
         edtCIUPrimaria.setTransformationMethod(new NumericKeyBoardTransformationMethod());
         edtActividadSecundaria1.setFilters(new InputFilter[]{new InputFilter.AllCaps()});
         edtCIUSecundaria1.setTransformationMethod(new NumericKeyBoardTransformationMethod());
+
         edtCIUSecundaria1.setOnKeyListener(new View.OnKeyListener() {
             @Override
             public boolean onKey(View view, int keyCode, KeyEvent keyEvent) {
                 if ((keyEvent.getAction() == KeyEvent.ACTION_DOWN) &&
                         (keyCode == KeyEvent.KEYCODE_ENTER)) {
                     if(ckNoSecundaria2.isChecked()){
-                        ocultarTeclado();
+                        InputMethodManager mgr = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
                         rgOrgEmpresa.requestFocus();
                     }
                     return true;
@@ -186,11 +237,10 @@ public class Modulo1Fragment1 extends Fragment {
         });
         ckNoSecundaria2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if(b) {
+            public void onCheckedChanged(CompoundButton compoundButton, boolean checkeado) {
+                if(checkeado) {
                     lytActividadSec2.setVisibility(View.GONE);
-                    lytPregunta3.requestFocus();
-                    ocultarTeclado();
+                    rgOrgEmpresa.requestFocus();
                 } else {
                     lytActividadSec2.setVisibility(View.VISIBLE);
                     edtActividadSecundaria2.setText("");
@@ -206,7 +256,6 @@ public class Modulo1Fragment1 extends Fragment {
             public boolean onKey(View view, int keyCode, KeyEvent keyEvent) {
                 if ((keyEvent.getAction() == KeyEvent.ACTION_DOWN) &&
                         (keyCode == KeyEvent.KEYCODE_ENTER)) {
-                    ocultarTeclado();
                     rgOrgEmpresa.requestFocus();
                     return true;
                 }
@@ -231,8 +280,7 @@ public class Modulo1Fragment1 extends Fragment {
                         break;
                 }
                 if(i != R.id.mod1_p3_rb7){
-                    lytPregunta4.requestFocus();
-                    lytPregunta4.setBackgroundColor(Color.CYAN);
+                    rgSP41.requestFocus();
                 }
             }
         });
@@ -242,8 +290,7 @@ public class Modulo1Fragment1 extends Fragment {
             public boolean onKey(View view, int keyCode, KeyEvent keyEvent) {
                 if ((keyEvent.getAction() == KeyEvent.ACTION_DOWN) &&
                         (keyCode == KeyEvent.KEYCODE_ENTER)) {
-                    ocultarTeclado();
-                    lytPregunta4.requestFocus();
+                    rgSP41.requestFocus();
                     return true;
                 }
                 return false;
@@ -253,7 +300,7 @@ public class Modulo1Fragment1 extends Fragment {
         rgSP41.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, @IdRes int i) {
-                lytPregunta4.setBackgroundColor(Color.TRANSPARENT);
+                rgSP42.requestFocus();
                 switch(i){
                     case R.id.mod1_p4_sp1_rb1:break;
                     case R.id.mod1_p4_sp1_rb2:break;
@@ -273,11 +320,14 @@ public class Modulo1Fragment1 extends Fragment {
         });
     }
 
-    public void ocultarTeclado(){
+    public void ocultarTeclado(View view){
+        InputMethodManager mgr = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+        mgr.hideSoftInputFromWindow(view.getWindowToken(), 0);
+    }
+    public void mostrarTeclado(){
         InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(getActivity().INPUT_METHOD_SERVICE);
-        if (imm.isAcceptingText()) {
+        if (!imm.isAcceptingText()) {
             imm.toggleSoftInput(InputMethodManager.SHOW_FORCED, 0);
         }
-
     }
 }

@@ -30,6 +30,7 @@
         <RadioGroup
             android:id="@+id/mod1_p7_rg1"
             android:orientation="horizontal"
+            android:focusableInTouchMode="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <RadioButton
@@ -68,6 +69,7 @@
             android:orientation="horizontal"
             android:layout_width="130dp"
             android:gravity="center"
+            android:focusableInTouchMode="true"
             android:layout_height="wrap_content">
             <RadioButton
                 android:id="@+id/mod1_p7_rgSp1_rbSi"
@@ -76,7 +78,7 @@
                 android:layout_height="wrap_content"
                 android:text="SI"/>
             <RadioButton
-                android:id="@+id/mod1_p7_rbSp1_rbNo"
+                android:id="@+id/mod1_p7_rgSp1_rbNo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="NO"/>
@@ -99,6 +101,7 @@
         <RadioGroup
             android:id="@+id/mod1_p7_rg2"
             android:orientation="horizontal"
+            android:focusableInTouchMode="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <RadioButton
@@ -140,6 +143,7 @@
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:focusableInTouchMode="true"
             android:orientation="horizontal">
 
             <RadioButton
