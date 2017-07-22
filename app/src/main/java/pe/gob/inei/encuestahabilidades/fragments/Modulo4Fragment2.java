@@ -132,6 +132,7 @@ public class Modulo4Fragment2 extends Fragment {
                 mod4_p4_rgb.setBackgroundColor(Color.TRANSPARENT);
                 mod4_p5_rgb.setBackgroundColor(Color.TRANSPARENT);
                 mod4_p6_rgb.setBackgroundColor(Color.TRANSPARENT);
+                mod4_p7_rgb.setBackgroundColor(Color.TRANSPARENT);
 
 
 
