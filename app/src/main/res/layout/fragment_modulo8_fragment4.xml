@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:id="@+id/mod8_layoutFragment4"
     tools:context="pe.gob.inei.encuestahabilidades.fragments.Modulo8Fragment4">
     <LinearLayout
         android:layout_width="match_parent"
