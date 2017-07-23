@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical"
+
+<LinearLayout
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/fab_margin"
@@ -13,309 +15,423 @@
         android:layout_marginBottom="@dimen/fab_margin" />
 
     <LinearLayout
-        android:layout_marginTop="@dimen/margin10dp"
-        android:orientation="vertical"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/margin10dp"
-        android:background="@drawable/border_layout_subpreguntas">
+        android:layout_marginTop="@dimen/margin10dp"
+        android:background="@drawable/border_layout_subpreguntas"
+        android:orientation="vertical"
+        android:padding="@dimen/margin10dp">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/margin5dp"
             android:text="@string/mod8_p1_sp1"
-            android:layout_marginBottom="@dimen/margin5dp"/>
+            android:textStyle="bold" />
+
         <RadioGroup
-            android:orientation="horizontal"
+            android:id="@+id/mod8_p1_rgb1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin10dp">
+            android:layout_marginBottom="@dimen/margin10dp"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal">
+
             <RadioButton
+                android:id="@+id/mod8_p1_rb1_SI"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="SI"/>
+                android:text="SI" />
+
             <RadioButton
+                android:id="@+id/mod8_p1_rb1_NO"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="NO"/>
+                android:text="NO" />
         </RadioGroup>
+
         <LinearLayout
-            android:orientation="vertical"
+            android:id="@+id/mod8_p1_rgb1a_ly"
+            android:visibility="gone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="@dimen/margin10dp"
-            android:background="@drawable/border_layout_subpreguntas">
+            android:background="@drawable/border_layout_subpreguntas"
+            android:orientation="vertical"
+            android:padding="@dimen/margin10dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p1_sp0"
                 android:textAlignment="center"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
+
             <RadioGroup
-                android:orientation="horizontal"
+                android:id="@+id/mod8_p1_rgb1a"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
                 <RadioButton
+                    android:id="@+id/mod8_p1_rb1a_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mod8_p1_op1"
-                    android:layout_marginRight="@dimen/margin10dp"/>
+                    android:layout_marginRight="@dimen/margin10dp"
+                    android:text="@string/mod8_p1_op1" />
+
                 <RadioButton
+                    android:id="@+id/mod8_p1_rb1a_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mod8_p1_op2"
-                    android:layout_marginRight="@dimen/margin10dp"/>
+                    android:layout_marginRight="@dimen/margin10dp"
+                    android:text="@string/mod8_p1_op2" />
+
                 <RadioButton
+                    android:id="@+id/mod8_p1_rb1a_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mod8_p1_op3"/>
+                    android:text="@string/mod8_p1_op3" />
             </RadioGroup>
         </LinearLayout>
     </LinearLayout>
+
     <LinearLayout
-        android:layout_marginTop="@dimen/margin10dp"
-        android:orientation="vertical"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/margin10dp"
-        android:background="@drawable/border_layout_subpreguntas">
+        android:layout_marginTop="@dimen/margin10dp"
+        android:background="@drawable/border_layout_subpreguntas"
+        android:orientation="vertical"
+        android:padding="@dimen/margin10dp">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/margin5dp"
             android:text="@string/mod8_p1_sp2"
-            android:layout_marginBottom="@dimen/margin5dp"/>
+            android:textStyle="bold" />
+
         <RadioGroup
-            android:orientation="horizontal"
+            android:id="@+id/mod8_p1_rgb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin10dp">
+            android:layout_marginBottom="@dimen/margin10dp"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal">
+
             <RadioButton
+                android:id="@+id/mod8_p1_rb2_SI"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="SI"/>
+                android:text="SI" />
+
             <RadioButton
+                android:id="@+id/mod8_p1_rb2_NO"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="NO"/>
+                android:text="NO" />
         </RadioGroup>
+
         <LinearLayout
-            android:orientation="vertical"
+            android:id="@+id/mod8_p1_rgb2a_ly"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@drawable/border_layout_subpreguntas"
+            android:orientation="vertical"
             android:padding="@dimen/margin10dp"
-            android:background="@drawable/border_layout_subpreguntas">
+            android:visibility="gone">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p1_sp0"
                 android:textAlignment="center"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
+
             <RadioGroup
-                android:orientation="horizontal"
+                android:id="@+id/mod8_p1_rgb2a"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
                 <RadioButton
+                    android:id="@+id/mod8_p1_rb2a_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mod8_p1_op1"
-                    android:layout_marginRight="@dimen/margin10dp"/>
+                    android:layout_marginRight="@dimen/margin10dp"
+                    android:text="@string/mod8_p1_op1" />
+
                 <RadioButton
+                    android:id="@+id/mod8_p1_rb2a_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mod8_p1_op2"
-                    android:layout_marginRight="@dimen/margin10dp"/>
+                    android:layout_marginRight="@dimen/margin10dp"
+                    android:text="@string/mod8_p1_op2" />
+
                 <RadioButton
+                    android:id="@+id/mod8_p1_rb2a_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mod8_p1_op3"/>
+                    android:text="@string/mod8_p1_op3" />
             </RadioGroup>
         </LinearLayout>
     </LinearLayout>
+
     <LinearLayout
-        android:layout_marginTop="@dimen/margin10dp"
-        android:orientation="vertical"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/margin10dp"
-        android:background="@drawable/border_layout_subpreguntas">
+        android:layout_marginTop="@dimen/margin10dp"
+        android:background="@drawable/border_layout_subpreguntas"
+        android:orientation="vertical"
+        android:padding="@dimen/margin10dp">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/margin5dp"
             android:text="@string/mod8_p1_sp3"
-            android:layout_marginBottom="@dimen/margin5dp"/>
+            android:textStyle="bold" />
+
         <RadioGroup
-            android:orientation="horizontal"
+            android:id="@+id/mod8_p1_rgb3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin10dp">
+            android:layout_marginBottom="@dimen/margin10dp"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal">
+
             <RadioButton
+                android:id="@+id/mod8_p1_rb3_SI"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="SI"/>
+                android:text="SI" />
+
             <RadioButton
+                android:id="@+id/mod8_p1_rb3_NO"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="NO"/>
+                android:text="NO" />
         </RadioGroup>
+
         <LinearLayout
-            android:orientation="vertical"
+            android:id="@+id/mod8_p1_rgb3a_ly"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@drawable/border_layout_subpreguntas"
+            android:orientation="vertical"
             android:padding="@dimen/margin10dp"
-            android:background="@drawable/border_layout_subpreguntas">
+            android:visibility="gone">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p1_sp0"
                 android:textAlignment="center"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
+
             <RadioGroup
-                android:orientation="horizontal"
+                android:id="@+id/mod8_p1_rgb3a"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:focusableInTouchMode="true">
+
+
                 <RadioButton
+                    android:id="@+id/mod8_p1_rb3a_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mod8_p1_op1"
-                    android:layout_marginRight="@dimen/margin10dp"/>
+                    android:layout_marginRight="@dimen/margin10dp"
+                    android:text="@string/mod8_p1_op1" />
+
                 <RadioButton
+                    android:id="@+id/mod8_p1_rb3a_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mod8_p1_op2"
-                    android:layout_marginRight="@dimen/margin10dp"/>
+                    android:layout_marginRight="@dimen/margin10dp"
+                    android:text="@string/mod8_p1_op2" />
+
                 <RadioButton
+                    android:id="@+id/mod8_p1_rb3a_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mod8_p1_op3"/>
+                    android:text="@string/mod8_p1_op3" />
             </RadioGroup>
         </LinearLayout>
     </LinearLayout>
+
     <LinearLayout
-        android:layout_marginTop="@dimen/margin10dp"
-        android:orientation="vertical"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/margin10dp"
-        android:background="@drawable/border_layout_subpreguntas">
+        android:layout_marginTop="@dimen/margin10dp"
+        android:background="@drawable/border_layout_subpreguntas"
+        android:orientation="vertical"
+        android:padding="@dimen/margin10dp">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/margin5dp"
             android:text="@string/mod8_p1_sp4"
-            android:layout_marginBottom="@dimen/margin5dp"/>
+            android:textStyle="bold" />
+
         <RadioGroup
-            android:orientation="horizontal"
+            android:id="@+id/mod8_p1_rgb4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin10dp">
+            android:layout_marginBottom="@dimen/margin10dp"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal">
+
             <RadioButton
+                android:id="@+id/mod8_p1_rb4_SI"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="SI"/>
+                android:text="SI" />
+
             <RadioButton
+                android:id="@+id/mod8_p1_rb4_NO"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="NO"/>
+                android:text="NO" />
         </RadioGroup>
+
         <LinearLayout
-            android:orientation="vertical"
+            android:id="@+id/mod8_p1_rgb4a_ly"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@drawable/border_layout_subpreguntas"
+            android:orientation="vertical"
             android:padding="@dimen/margin10dp"
-            android:background="@drawable/border_layout_subpreguntas">
+            android:visibility="gone">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p1_sp0"
                 android:textAlignment="center"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
+
             <RadioGroup
-                android:orientation="horizontal"
+                android:id="@+id/mod8_p1_rgb4a"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:focusableInTouchMode="true">
+
+
+
                 <RadioButton
+                    android:id="@+id/mod8_p1_rb4a_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mod8_p1_op1"
-                    android:layout_marginRight="@dimen/margin10dp"/>
+                    android:layout_marginRight="@dimen/margin10dp"
+                    android:text="@string/mod8_p1_op1" />
+
                 <RadioButton
+                    android:id="@+id/mod8_p1_rb4a_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mod8_p1_op2"
-                    android:layout_marginRight="@dimen/margin10dp"/>
+                    android:layout_marginRight="@dimen/margin10dp"
+                    android:text="@string/mod8_p1_op2" />
+
                 <RadioButton
+                    android:id="@+id/mod8_p1_rb4a_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mod8_p1_op3"/>
+                    android:text="@string/mod8_p1_op3" />
             </RadioGroup>
         </LinearLayout>
     </LinearLayout>
+
     <LinearLayout
-        android:layout_marginTop="@dimen/margin10dp"
-        android:orientation="vertical"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/margin10dp"
-        android:background="@drawable/border_layout_subpreguntas">
+        android:layout_marginTop="@dimen/margin10dp"
+        android:background="@drawable/border_layout_subpreguntas"
+        android:orientation="vertical"
+        android:padding="@dimen/margin10dp">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/margin5dp"
             android:text="@string/mod8_p1_sp5"
-            android:layout_marginBottom="@dimen/margin5dp"/>
+            android:textStyle="bold" />
+
         <RadioGroup
-            android:orientation="horizontal"
+            android:id="@+id/mod8_p1_rgb5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin10dp">
+            android:layout_marginBottom="@dimen/margin10dp"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal">
+
             <RadioButton
+                android:id="@+id/mod8_p1_rb5_SI"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="SI"/>
+                android:text="SI" />
+
             <RadioButton
+                android:id="@+id/mod8_p1_rb5_NO"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="NO"/>
+                android:text="NO" />
         </RadioGroup>
+
         <LinearLayout
-            android:orientation="vertical"
+            android:id="@+id/mod8_p1_rgb5a_ly"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@drawable/border_layout_subpreguntas"
+            android:orientation="vertical"
             android:padding="@dimen/margin10dp"
-            android:background="@drawable/border_layout_subpreguntas">
+            android:visibility="gone">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p1_sp0"
                 android:textAlignment="center"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
+
             <RadioGroup
-                android:orientation="horizontal"
+                android:id="@+id/mod8_p1_rgb5a"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:focusableInTouchMode="true">
+
+
                 <RadioButton
+                    android:id="@+id/mod8_p1_rb5a_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mod8_p1_op1"
-                    android:layout_marginRight="@dimen/margin10dp"/>
+                    android:layout_marginRight="@dimen/margin10dp"
+                    android:text="@string/mod8_p1_op1" />
+
                 <RadioButton
+                    android:id="@+id/mod8_p1_rb5a_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mod8_p1_op2"
-                    android:layout_marginRight="@dimen/margin10dp"/>
+                    android:layout_marginRight="@dimen/margin10dp"
+                    android:text="@string/mod8_p1_op2" />
+
                 <RadioButton
+                    android:id="@+id/mod8_p1_rb5a_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/mod8_p1_op3"/>
+                    android:text="@string/mod8_p1_op3" />
             </RadioGroup>
         </LinearLayout>
     </LinearLayout>
+
     <LinearLayout
         android:layout_marginTop="@dimen/margin10dp"
         android:orientation="vertical"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="@dimen/margin10dp"
         android:background="@drawable/border_layout_subpreguntas">
@@ -326,20 +442,26 @@
             android:text="@string/mod8_p1_sp6"
             android:layout_marginBottom="@dimen/margin5dp"/>
         <RadioGroup
+            android:id="@+id/mod8_p1_rgb6"
             android:orientation="horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
             android:layout_marginBottom="@dimen/margin10dp">
             <RadioButton
+                android:id="@+id/mod8_p1_rb6_SI"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="SI"/>
             <RadioButton
+                android:id="@+id/mod8_p1_rb6_NO"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="NO"/>
         </RadioGroup>
         <LinearLayout
+            android:id="@+id/mod8_p1_rgb6a_ly"
+            android:visibility="gone"
             android:orientation="vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -352,21 +474,26 @@
                 android:textAlignment="center"
                 android:textStyle="bold"/>
             <RadioGroup
+                android:id="@+id/mod8_p1_rgb6a"
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true">
+
                 <RadioButton
+                    android:id="@+id/mod8_p1_rb6a_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/mod8_p1_op1"
                     android:layout_marginRight="@dimen/margin10dp"/>
                 <RadioButton
+                    android:id="@+id/mod8_p1_rb6a_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/mod8_p1_op2"
                     android:layout_marginRight="@dimen/margin10dp"/>
                 <RadioButton
-                    android:layout_width="wrap_content"
+                    android:id="@+id/mod8_p1_rb6a_3"                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/mod8_p1_op3"/>
             </RadioGroup>
