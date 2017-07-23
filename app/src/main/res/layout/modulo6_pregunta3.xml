@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical"
+    android:id="@+id/mod6_p3_lytPregunta3"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/fab_margin"
@@ -11,6 +12,44 @@
         android:layout_height="wrap_content"
         android:text="@string/mod6_p3"
         android:layout_marginBottom="@dimen/fab_margin" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin10dp"
+        android:background="@color/accent"
+        android:textColor="@color/icons"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Tipo de Informacion a ingresar"/>
+
+    <LinearLayout
+        android:id="@+id/mod6_p3_lytrgb"
+        android:layout_marginBottom="@dimen/margin5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+
+        <RadioGroup
+            android:id="@+id/mod6_p3_rgp3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true">
+            <RadioButton
+                android:id="@+id/mod6_p3_rgp3b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Numero de Personas Competentes"/>
+            <RadioButton
+                android:id="@+id/mod6_p3_rgp3p2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="% de Personas Competentes"/>
+        </RadioGroup>
+    </LinearLayout>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,7 +62,8 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true">
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
@@ -32,6 +72,7 @@
             android:layout_marginTop="1dp"
             android:background="@drawable/cajas_de_texto">
             <CheckBox
+                android:id="@+id/mod6_p3_ckGerentes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
@@ -43,6 +84,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/mod5_p1_sp1_desc"/>
             <LinearLayout
+                android:id="@+id/mod6_p3_lytCk_1"
                 android:layout_marginTop="@dimen/margin15dp"
                 android:layout_marginLeft="30dp"
                 android:orientation="horizontal"
@@ -58,6 +100,7 @@
                     android:gravity="center_vertical"
                     android:text="N°  de Competentes"/>
                 <EditText
+                    android:id="@+id/mod6_p3_edtNroDeComponentes1"
                     android:inputType="number"
                     android:layout_width="100dp"
                     android:layout_height="30dp"
@@ -70,6 +113,7 @@
                     android:layout_marginRight="@dimen/margin10dp"
                     android:text="Porcentaje de competentes"/>
                 <EditText
+                    android:id="@+id/mod6_p3_edtPorcentajeDeComponentes1"
                     android:inputType="number"
                     android:layout_width="100dp"
                     android:layout_height="30dp"
@@ -85,6 +129,7 @@
             android:layout_marginTop="1dp"
             android:background="@drawable/cajas_de_texto">
             <CheckBox
+                android:id="@+id/mod6_p3_ckProfesionales"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
@@ -96,6 +141,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/mod5_p1_sp2_desc"/>
             <LinearLayout
+                android:id="@+id/mod6_p3_lytCk_2"
                 android:layout_marginTop="@dimen/margin15dp"
                 android:layout_marginLeft="30dp"
                 android:orientation="horizontal"
@@ -111,6 +157,7 @@
                     android:gravity="center_vertical"
                     android:text="N°  de Competentes"/>
                 <EditText
+                    android:id="@+id/mod6_p3_edtNroDeComponentes2"
                     android:inputType="number"
                     android:layout_width="100dp"
                     android:layout_height="30dp"
@@ -123,6 +170,7 @@
                     android:layout_marginRight="@dimen/margin10dp"
                     android:text="Porcentaje de competentes"/>
                 <EditText
+                    android:id="@+id/mod6_p3_edtPorcentajeDeComponentes2"
                     android:inputType="number"
                     android:layout_width="100dp"
                     android:layout_height="30dp"
@@ -138,6 +186,7 @@
             android:layout_marginTop="1dp"
             android:background="@drawable/cajas_de_texto">
             <CheckBox
+                android:id="@+id/mod6_p3_ckTecnicos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
@@ -149,6 +198,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/mod5_p1_sp3_desc"/>
             <LinearLayout
+                android:id="@+id/mod6_p3_lytCk_3"
                 android:layout_marginTop="@dimen/margin15dp"
                 android:layout_marginLeft="30dp"
                 android:orientation="horizontal"
@@ -164,6 +214,7 @@
                     android:gravity="center_vertical"
                     android:text="N°  de Competentes"/>
                 <EditText
+                    android:id="@+id/mod6_p3_edtNroDeComponentes3"
                     android:inputType="number"
                     android:layout_width="100dp"
                     android:layout_height="30dp"
@@ -176,6 +227,7 @@
                     android:layout_marginRight="@dimen/margin10dp"
                     android:text="Porcentaje de competentes"/>
                 <EditText
+                    android:id="@+id/mod6_p3_edtPorcentajeDeComponentes3"
                     android:inputType="number"
                     android:layout_width="100dp"
                     android:layout_height="30dp"
@@ -191,6 +243,7 @@
             android:layout_marginTop="1dp"
             android:background="@drawable/cajas_de_texto">
             <CheckBox
+                android:id="@+id/mod6_p3_ckPersonalApoyoAdministrativo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
@@ -202,6 +255,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/mod5_p1_sp4_desc"/>
             <LinearLayout
+                android:id="@+id/mod6_p3_lytCk_4"
                 android:layout_marginTop="@dimen/margin15dp"
                 android:layout_marginLeft="30dp"
                 android:orientation="horizontal"
@@ -217,6 +271,7 @@
                     android:gravity="center_vertical"
                     android:text="N°  de Competentes"/>
                 <EditText
+                    android:id="@+id/mod6_p3_edtNroDeComponentes4"
                     android:inputType="number"
                     android:layout_width="100dp"
                     android:layout_height="30dp"
@@ -229,6 +284,7 @@
                     android:layout_marginRight="@dimen/margin10dp"
                     android:text="Porcentaje de competentes"/>
                 <EditText
+                    android:id="@+id/mod6_p3_edtPorcentajeDeComponentes4"
                     android:inputType="number"
                     android:layout_width="100dp"
                     android:layout_height="30dp"
@@ -244,6 +300,7 @@
             android:layout_marginTop="1dp"
             android:background="@drawable/cajas_de_texto">
             <CheckBox
+                android:id="@+id/mod6_p3_ckPersonalServicio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
@@ -255,6 +312,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/mod5_p1_sp5_desc"/>
             <LinearLayout
+                android:id="@+id/mod6_p3_lytCk_5"
                 android:layout_marginTop="@dimen/margin15dp"
                 android:layout_marginLeft="30dp"
                 android:orientation="horizontal"
@@ -270,6 +328,7 @@
                     android:gravity="center_vertical"
                     android:text="N°  de Competentes"/>
                 <EditText
+                    android:id="@+id/mod6_p3_edtNroDeComponentes5"
                     android:inputType="number"
                     android:layout_width="100dp"
                     android:layout_height="30dp"
@@ -282,6 +341,7 @@
                     android:layout_marginRight="@dimen/margin10dp"
                     android:text="Porcentaje de competentes"/>
                 <EditText
+                    android:id="@+id/mod6_p3_edtPorcentajeDeComponentes5"
                     android:inputType="number"
                     android:layout_width="100dp"
                     android:layout_height="30dp"
@@ -297,6 +357,7 @@
             android:layout_marginTop="1dp"
             android:background="@drawable/cajas_de_texto">
             <CheckBox
+                android:id="@+id/mod6_p3_ckTrabajadoresCalificados"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
@@ -308,6 +369,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/mod5_p1_sp6_desc"/>
             <LinearLayout
+                android:id="@+id/mod6_p3_lytCk_6"
                 android:layout_marginTop="@dimen/margin15dp"
                 android:layout_marginLeft="30dp"
                 android:orientation="horizontal"
@@ -323,6 +385,7 @@
                     android:gravity="center_vertical"
                     android:text="N°  de Competentes"/>
                 <EditText
+                    android:id="@+id/mod6_p3_edtNroDeComponentes6"
                     android:inputType="number"
                     android:layout_width="100dp"
                     android:layout_height="30dp"
@@ -335,6 +398,7 @@
                     android:layout_marginRight="@dimen/margin10dp"
                     android:text="Porcentaje de competentes"/>
                 <EditText
+                    android:id="@+id/mod6_p3_edtPorcentajeDeComponentes6"
                     android:inputType="number"
                     android:layout_width="100dp"
                     android:layout_height="30dp"
@@ -350,6 +414,7 @@
             android:layout_marginTop="1dp"
             android:background="@drawable/cajas_de_texto">
             <CheckBox
+                android:id="@+id/mod6_p3_ckOficiales"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
@@ -361,6 +426,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/mod5_p1_sp7_desc"/>
             <LinearLayout
+                android:id="@+id/mod6_p3_lytCk_7"
                 android:layout_marginTop="@dimen/margin15dp"
                 android:layout_marginLeft="30dp"
                 android:orientation="horizontal"
@@ -376,6 +442,7 @@
                     android:gravity="center_vertical"
                     android:text="N°  de Competentes"/>
                 <EditText
+                    android:id="@+id/mod6_p3_edtNroDeComponentes7"
                     android:inputType="number"
                     android:layout_width="100dp"
                     android:layout_height="30dp"
@@ -388,6 +455,7 @@
                     android:layout_marginRight="@dimen/margin10dp"
                     android:text="Porcentaje de competentes"/>
                 <EditText
+                    android:id="@+id/mod6_p3_edtPorcentajeDeComponentes7"
                     android:inputType="number"
                     android:layout_width="100dp"
                     android:layout_height="30dp"
@@ -403,6 +471,7 @@
             android:layout_marginTop="1dp"
             android:background="@drawable/cajas_de_texto">
             <CheckBox
+                android:id="@+id/mod6_p3_ckOperadores"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
@@ -414,6 +483,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/mod5_p1_sp8_desc"/>
             <LinearLayout
+                android:id="@+id/mod6_p3_lytCk_8"
                 android:layout_marginTop="@dimen/margin15dp"
                 android:layout_marginLeft="30dp"
                 android:orientation="horizontal"
@@ -429,6 +499,7 @@
                     android:gravity="center_vertical"
                     android:text="N°  de Competentes"/>
                 <EditText
+                    android:id="@+id/mod6_p3_edtNroDeComponentes8"
                     android:inputType="number"
                     android:layout_width="100dp"
                     android:layout_height="30dp"
@@ -441,6 +512,7 @@
                     android:layout_marginRight="@dimen/margin10dp"
                     android:text="Porcentaje de competentes"/>
                 <EditText
+                    android:id="@+id/mod6_p3_edtPorcentajeDeComponentes8"
                     android:inputType="number"
                     android:layout_width="100dp"
                     android:layout_height="30dp"
@@ -456,6 +528,7 @@
             android:layout_marginTop="1dp"
             android:background="@drawable/cajas_de_texto">
             <CheckBox
+                android:id="@+id/mod6_p3_ckOcupaciones"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
@@ -467,6 +540,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/mod5_p1_sp9_desc"/>
             <LinearLayout
+                android:id="@+id/mod6_p3_lytCk_9"
                 android:layout_marginTop="@dimen/margin15dp"
                 android:layout_marginLeft="30dp"
                 android:orientation="horizontal"
@@ -482,6 +556,7 @@
                     android:gravity="center_vertical"
                     android:text="N°  de Competentes"/>
                 <EditText
+                    android:id="@+id/mod6_p3_edtNroDeComponentes9"
                     android:inputType="number"
                     android:layout_width="100dp"
                     android:layout_height="30dp"
@@ -494,6 +569,7 @@
                     android:layout_marginRight="@dimen/margin10dp"
                     android:text="Porcentaje de competentes"/>
                 <EditText
+                    android:id="@+id/mod6_p3_edtPorcentajeDeComponentes9"
                     android:inputType="number"
                     android:layout_width="100dp"
                     android:layout_height="30dp"
@@ -518,6 +594,7 @@
             android:textStyle="bold"
             android:background="@color/accent"/>
         <EditText
+            android:id="@+id/mod6_p3_edtTotalPersonasOcupadas"
             android:background="@drawable/cajas_de_texto"
             android:layout_weight="3"
             android:layout_width="0dp"
@@ -533,6 +610,7 @@
             android:textStyle="bold"
             android:background="@color/accent"/>
         <EditText
+            android:id="@+id/mod6_p3_edtTotalPorcentajeComponentes"
             android:background="@drawable/cajas_de_texto"
             android:layout_width="0dp"
             android:layout_weight="3"

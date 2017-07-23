@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical"
+    android:id="@+id/mod6_p2_lytPregunta2"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/fab_margin"
@@ -12,19 +13,24 @@
         android:text="@string/mod6_p2"
         android:layout_marginBottom="@dimen/fab_margin"/>
     <RadioGroup
+        android:id="@+id/mod6_p2_rgbp2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
         android:layout_margin="@dimen/margin10dp">
         <RadioButton
+            android:id="@+id/mod6_p2_rgp2b1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="SI"/>
         <RadioButton
+            android:id="@+id/mod6_p2_rgp2b2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="NO"/>
     </RadioGroup>
     <LinearLayout
+        android:id="@+id/mod6_p2_lytSpUno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/margin10dp"
@@ -41,6 +47,7 @@
             android:textColor="@color/primary_text" />
 
         <EditText
+            android:id="@+id/mod6_p2_edtEspecificarNroTrabajadores"
             android:layout_width="100dp"
             android:layout_height="30dp"
             android:background="@drawable/cajas_de_texto"
@@ -55,9 +62,11 @@
             android:textColor="@color/primary_text" />
 
         <EditText
+            android:id="@+id/mod6_p2_edtEspecificarPorcentajeTrabajadores"
             android:layout_width="100dp"
             android:layout_height="30dp"
             android:background="@drawable/cajas_de_texto"
-            android:inputType="number" />
+            android:inputType="number"
+            android:layout_marginRight="30dp"/>
     </LinearLayout>
 </LinearLayout>
