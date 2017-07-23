@@ -75,7 +75,7 @@ public class Modulo8Fragment1 extends Fragment {
         edtEspecifiqueCargo1 = (EditText) rootView.findViewById(R.id.cab_edtEspecifiqueCargo);
         lytFondoSpinner1 = (LinearLayout) rootView.findViewById(R.id.cab_lytFondoSpinner);
 
-        //AMARRE DE VARIABLES DE fragment_modulo8_fragment1.xml
+        //AMARRE DE VARIABLES DE modulo8_pregunta1.xml
 
         mod8_p1_rgb1 = (RadioGroup) rootView.findViewById(R.id.mod8_p1_rgb1);
         mod8_p1_rgb2 = (RadioGroup) rootView.findViewById(R.id.mod8_p1_rgb2);
