@@ -12,15 +12,19 @@
         android:text="@string/mod7_p2"
         android:layout_marginBottom="@dimen/fab_margin" />
     <RadioGroup
+        android:id="@+id/mod7_p2_rgb"
+        android:focusableInTouchMode="true"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <RadioButton
+            android:id="@+id/mod7_p2_rb_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="SI"
             android:layout_marginRight="@dimen/margin15dp"/>
         <RadioButton
+            android:id="@+id/mod7_p2_rb_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="NO"/>

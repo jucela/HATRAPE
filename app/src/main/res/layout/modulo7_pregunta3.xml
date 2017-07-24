@@ -20,6 +20,7 @@
         android:layout_marginBottom="@dimen/margin10dp"
         android:padding="@dimen/margin10dp">
         <EditText
+            android:id="@+id/mod7_p3_edt"
             android:inputType="text"
             android:layout_width="match_parent"
             android:layout_height="30dp"
