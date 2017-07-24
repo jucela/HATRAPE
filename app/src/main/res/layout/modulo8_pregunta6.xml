@@ -12,6 +12,7 @@
         android:text="@string/mod8_p6"
         android:layout_marginBottom="@dimen/fab_margin" />
 
+
     <LinearLayout
         android:layout_marginTop="@dimen/margin10dp"
         android:orientation="vertical"
@@ -26,36 +27,38 @@
             android:textStyle="bold"
             android:text="@string/mod8_p6_sp1"
             android:layout_marginBottom="@dimen/margin5dp"/>
-        <RadioGroup
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin10dp">
-            <RadioButton
+       
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb1_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op1"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb1_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op2"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb1_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op3"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb1_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op4"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb1_e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op5"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb1_f"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op6"/>
-        </RadioGroup>
+        
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="@dimen/margin10dp"
@@ -71,36 +74,38 @@
             android:textStyle="bold"
             android:text="@string/mod8_p6_sp2"
             android:layout_marginBottom="@dimen/margin5dp"/>
-        <RadioGroup
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin10dp">
-            <RadioButton
+       
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb2_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op1"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb2_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op2"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb2_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op3"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb2_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op4"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb2_e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op5"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb2_f"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op6"/>
-        </RadioGroup>
+        
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="@dimen/margin10dp"
@@ -116,36 +121,38 @@
             android:textStyle="bold"
             android:text="@string/mod8_p6_sp3"
             android:layout_marginBottom="@dimen/margin5dp"/>
-        <RadioGroup
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin10dp">
-            <RadioButton
+       
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb3_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op1"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb3_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op2"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb3_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op3"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb3_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op4"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb3_e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op5"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb3_f"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op6"/>
-        </RadioGroup>
+        
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="@dimen/margin10dp"
@@ -161,36 +168,38 @@
             android:textStyle="bold"
             android:text="@string/mod8_p6_sp4"
             android:layout_marginBottom="@dimen/margin5dp"/>
-        <RadioGroup
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin10dp">
-            <RadioButton
+        
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb4_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op1"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb4_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op2"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb4_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op3"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb4_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op4"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb4_e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op5"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb4_f"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op6"/>
-        </RadioGroup>
+        
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="@dimen/margin10dp"
@@ -206,36 +215,38 @@
             android:textStyle="bold"
             android:text="@string/mod8_p6_sp5"
             android:layout_marginBottom="@dimen/margin5dp"/>
-        <RadioGroup
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin10dp">
-            <RadioButton
+        
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb5_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op1"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb5_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op2"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb5_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op3"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb5_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op4"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb5_e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op5"/>
-            <RadioButton
+            <CheckBox
+                android:id="@+id/mod8_p6_ckb5_f"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mod8_p6_op6"/>
-        </RadioGroup>
+        
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="@dimen/margin10dp"
@@ -246,41 +257,44 @@
         android:padding="@dimen/margin5dp"
         >
         <TextView
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:text="@string/mod8_p6_sp6"
             android:layout_marginBottom="@dimen/margin5dp"/>
-        <RadioGroup
-            android:orientation="vertical"
+
+        <CheckBox
+            android:id="@+id/mod8_p6_ckb6_a"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin10dp">
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/mod8_p6_op1"/>
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/mod8_p6_op2"/>
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/mod8_p6_op3"/>
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/mod8_p6_op4"/>
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/mod8_p6_op5"/>
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/mod8_p6_op6"/>
-        </RadioGroup>
+            android:text="@string/mod8_p6_op1"/>
+        <CheckBox
+            android:id="@+id/mod8_p6_ckb6_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mod8_p6_op2"/>
+        <CheckBox
+            android:id="@+id/mod8_p6_ckb6_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mod8_p6_op3"/>
+        <CheckBox
+            android:id="@+id/mod8_p6_ckb6_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mod8_p6_op4"/>
+        <CheckBox
+            android:id="@+id/mod8_p6_ckb6_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mod8_p6_op5"/>
+        <CheckBox
+            android:id="@+id/mod8_p6_ckb6_f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mod8_p6_op6"/>
+
     </LinearLayout>
 
 
