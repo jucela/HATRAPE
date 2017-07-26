@@ -36,9 +36,11 @@ public class Modulo7Fragment1 extends Fragment {
     private Spinner spCargo1;
 
     //VARIABLES PREGUNTA 1
+    private LinearLayout mod7_p3_ly;
     private RadioGroup mod7_p1_rgb;
     private RadioGroup mod7_p2_rgb;
     private EditText   mod7_p3_edt;
+    private RadioGroup mod7_p4_rgb;
 
 
     public Modulo7Fragment1() {
@@ -60,9 +62,12 @@ public class Modulo7Fragment1 extends Fragment {
         edtEspecifiqueCargo1 = (EditText) rootView.findViewById(R.id.cab_edtEspecifiqueCargo);
         lytFondoSpinner1 = (LinearLayout) rootView.findViewById(R.id.cab_lytFondoSpinner);
 
+        mod7_p3_ly = (LinearLayout) rootView.findViewById(R.id.mod7_p3_ly);
         mod7_p1_rgb = (RadioGroup) rootView.findViewById(R.id.mod7_p1_rgb);
         mod7_p2_rgb = (RadioGroup) rootView.findViewById(R.id.mod7_p2_rgb);
-        mod7_p3_edt = (EditText)rootView.findViewById(R.id.mod7_p3_edt);;
+        mod7_p3_edt = (EditText)rootView.findViewById(R.id.mod7_p3_edt);
+        mod7_p4_rgb = (RadioGroup) rootView.findViewById(R.id.mod7_p4_rgb);
+
         
         return  rootView;
 
@@ -173,7 +178,7 @@ public class Modulo7Fragment1 extends Fragment {
 
         //PREGUNTA 1-
         RadioGroup[] radioGroups = {
-                mod7_p1_rgb,mod7_p2_rgb
+                mod7_p1_rgb,mod7_p2_rgb,mod7_p4_rgb
         };
         for (int i = 0; i < radioGroups.length; i++) {
             final RadioGroup radioGroup = radioGroups[i];
@@ -190,6 +195,25 @@ public class Modulo7Fragment1 extends Fragment {
                 }
             });
         }
+
+        EditText[] cajasDeTexto = {mod7_p3_edt};
+        for (int i = 0; i < cajasDeTexto.length; i++) {
+            final EditText editText = cajasDeTexto[i];
+            editText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+                @Override
+                public void onFocusChange(View view, boolean conFocus) {
+                    if(conFocus) {
+                        editText.setBackgroundResource(R.drawable.caja_texto_enabled);
+                        mostrarTeclado();
+                    }
+                    else if(view.isEnabled()){
+                        editText.setBackgroundResource(R.drawable.cajas_de_texto);
+                    }
+                }
+            });
+        }
+
+
         //PREGUNTA 1.1
         mod7_p1_rgb.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
@@ -207,22 +231,56 @@ public class Modulo7Fragment1 extends Fragment {
                 mod7_p2_rgb.requestFocus();
             }
         });
+        //PREGUNTA 1.2
         mod7_p2_rgb.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, @IdRes int i) {
                 switch (i){
                     case R.id.mod7_p2_rb_1:
+                        mod7_p3_ly.setVisibility(View.VISIBLE);
+                        mod7_p3_edt.requestFocus();
+                        mod7_p3_edt.setBackgroundResource(R.drawable.caja_texto_enabled);
+
                         break;
                     case R.id.mod7_p2_rb_2:
+                        mod7_p3_ly.setVisibility(View.GONE);
+                        mod7_p4_rgb.requestFocus();
+                        mod7_p3_edt.setText("");
+
                         break;
 
 
                 }
-                mod7_p3_edt.requestFocus();
-                mod7_p3_edt.setBackgroundResource(R.drawable.caja_texto_enabled);
+                //mod7_p3_edt.requestFocus();
+                //mod7_p3_edt.setBackgroundResource(R.drawable.caja_texto_enabled);
             }
         });
-
+        //PREGUNTA 1.3
+        mod7_p3_edt.setFilters(new InputFilter[]{new InputFilter.AllCaps()});
+        mod7_p3_edt.setOnKeyListener(new View.OnKeyListener() {
+            @Override
+            public boolean onKey(View view, int keyCode, KeyEvent keyEvent) {
+                if ((keyEvent.getAction() == KeyEvent.ACTION_DOWN) &&
+                        (keyCode == KeyEvent.KEYCODE_ENTER)) {
+                    //ocultarTeclado(mod7_p4_rgb);
+                    mod7_p4_rgb.requestFocus();
+                    return true;
+                }
+                return false;
+            }
+        });
+//        mod7_p3_edt.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+//            @Override
+//            public void onFocusChange(View view, boolean conFocus) {
+//                if(conFocus) {
+//                    mod7_p3_edt.setBackgroundResource(R.drawable.caja_texto_enabled);
+//                    mostrarTeclado();
+//                }
+//                else if(view.isEnabled()){
+//                    mod7_p3_edt.setBackgroundResource(R.drawable.cajas_de_texto);
+//                }
+//            }
+//        });
        
 
 

@@ -1,4 +1,4 @@
-<resources>
+ <resources>
     <string name="app_name">ENHATRAPE</string>
     <string name="titulo_encuesta">ENCUESTA “HABILIDADES AL TRABAJO EN EL PERÚ”</string>
     <!--CARATULA-->
@@ -1582,6 +1582,12 @@
 
     <string name="title_activity_enhatrape">HABILIDADES AL TRABAJO EN EL PERÚ</string>
 
+     <string-array name="importancia">
+         <item>Seleccione orden </item>
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+     </string-array>
     <string-array name="importancia1">
         <item>Seleccione orden </item>
         <item>1</item>
